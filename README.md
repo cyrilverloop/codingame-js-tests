@@ -1,4 +1,4 @@
-# CodinGame
+# CodinGame PHP tests
 
 A project to test your [CodinGame](https://www.codingame.com/) JavaScript code. It is not intended to have solutions.
 It only contains Mocha tests to let you code in your favorite IDE, outside of the CodinGame web site.
