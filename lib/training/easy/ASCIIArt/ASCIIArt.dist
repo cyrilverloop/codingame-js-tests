@@ -14,5 +14,5 @@ function execute(readline) {
 
     console.log('answer');
 }
- 
+
 export { execute };
