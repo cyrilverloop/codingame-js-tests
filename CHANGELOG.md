@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Defibrillators".
 - Tests for "Horse-racing duals".
 - Tests for "MIME type".
+- Tests for "Temperatures".
 
 ## [1.0.0] - 2022-02-26
 ### Added
