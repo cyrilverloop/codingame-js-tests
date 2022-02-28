@@ -18,7 +18,7 @@ suite('Unary', function() {
     });
 
 
-    test('can execute "Character C"', function() {
+    test('Character C', function() {
         let inputFile = new File('./test/training/easy/unary/input/01 - character C.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -29,7 +29,7 @@ suite('Unary', function() {
         );
     });
 
-    test('can execute "Message CC"', function() {
+    test('Message CC', function() {
         let inputFile = new File('./test/training/easy/unary/input/02 - message CC.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -40,7 +40,7 @@ suite('Unary', function() {
         );
     });
 
-    test('can execute "Character %"', function() {
+    test('Character %', function() {
         let inputFile = new File('./test/training/easy/unary/input/03 - character %.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -51,7 +51,7 @@ suite('Unary', function() {
         );
     });
 
-    test('can execute "Message from Chuck Norris"', function() {
+    test('Message from Chuck Norris', function() {
         let inputFile = new File('./test/training/easy/unary/input/04 - message from Chuck Norris.txt');
         let outputFile = new File('./test/training/easy/unary/output/04 - message from Chuck Norris.txt');
 

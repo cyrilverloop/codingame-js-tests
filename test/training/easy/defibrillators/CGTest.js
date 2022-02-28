@@ -18,7 +18,7 @@ suite('Defibrillators', function() {
     });
 
 
-    test('can execute "Example"', function() {
+    test('Example', function() {
         let inputFile = new File('./test/training/easy/defibrillators/input/01 - example.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -29,7 +29,7 @@ suite('Defibrillators', function() {
         );
     });
 
-    test('can execute "Exact position"', function() {
+    test('Exact position', function() {
         let inputFile = new File('./test/training/easy/defibrillators/input/02 - exact position.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -40,7 +40,7 @@ suite('Defibrillators', function() {
         );
     });
 
-    test('can execute "Complete file"', function() {
+    test('Complete file', function() {
         let inputFile = new File('./test/training/easy/defibrillators/input/03 - complete file.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -51,7 +51,7 @@ suite('Defibrillators', function() {
         );
     });
 
-    test('can execute "Complete file 2"', function() {
+    test('Complete file 2', function() {
         let inputFile = new File('./test/training/easy/defibrillators/input/04 - complete file 2.txt');
 
         execute(inputFile.readline.bind(inputFile));
