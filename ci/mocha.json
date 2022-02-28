@@ -1,5 +1,4 @@
 {
-    "spec": ["./test/**/*.js"],
     "ui": "tdd",
     "timeout": 6000
 }

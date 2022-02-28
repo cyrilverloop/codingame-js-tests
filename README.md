@@ -35,9 +35,14 @@ Then, add your code to solve the puzzle.
 
 ## Test your solution
 
+Executing tests for a specific puzzle :
+```shellsession
+user@host codingame-js-tests$ docker compose run --rm app npm test ./test/training/easy/unary/
+```
+
 Executing all the tests :
 ```shellsession
-user@host codingame-js-tests$ docker compose run --rm app npm test
+user@host codingame-js-tests$ docker compose run --rm app npm test ./test/**/*.js
 ```
 
 
