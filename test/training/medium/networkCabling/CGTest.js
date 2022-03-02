@@ -1,7 +1,6 @@
 import { assert } from 'chai';
 import sinon from 'sinon';
 import File from '../../../File.js';
-import { assertOutputAnswer } from '../../../assertOutputAnswer.js';
 import { execute } from '../../../../lib/training/medium/networkCabling/networkCabling.js';
 
 /**
