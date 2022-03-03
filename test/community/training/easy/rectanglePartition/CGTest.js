@@ -1,7 +1,6 @@
 import { assert } from 'chai';
 import sinon from 'sinon';
 import File from '../../../../File.js';
-import { assertOutputAnswer } from '../../../../assertOutputAnswer.js';
 import { execute } from '../../../../../lib/community/training/easy/rectanglePartition/rectanglePartition.js';
 
 /**
