@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Tests for "Blunder - episode 2".
 - Tests for "Blunder - episode 3".
+- Tests for "CGX formatter".
 
 ## [1.3.0] - 2022-03-02
 ### Added
