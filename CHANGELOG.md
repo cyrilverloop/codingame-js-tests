@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Super computer".
 - Tests for "TAN network".
 - Tests for "Winamax".
+- Tests for "Music scores".
 
 ## [1.3.0] - 2022-03-02
 ### Added
