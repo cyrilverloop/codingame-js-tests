@@ -1,0 +1,14 @@
+/**
+ * The "1000000000D world" puzzle.
+ */
+function execute(readline) {
+    const a = readline();
+    const b = readline();
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('a DOT b');
+}
+
+export { execute };

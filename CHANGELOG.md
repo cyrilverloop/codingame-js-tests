@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Fax machine".
 - Tests for "Jack Silver: the casino".
 - Tests for "NGR basic radar".
+- Tests for "1000000000D world".
 
 ## [1.4.0] - 2022-03-03
 ### Added
