@@ -34,17 +34,4 @@ function removeTraillingNewLine(answer) {
     return answer.slice(0, (index + 2));
 }
 
-function removeTraillingNewLineBAK(answer) {
-
-    if(
-        answer.charAt(answer.length - 1) === "\n"
-        && answer.charAt(answer.length - 2) === "\n"
-    ) {
-        return removeTraillingNewLine(answer.slice(0, answer.length - 1));
-    }
-    else {
-        return answer;
-    }
-}
-
 export { assertOutputAnswer };
