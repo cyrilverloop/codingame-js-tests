@@ -4,6 +4,8 @@ import File from '../../../File.js';
 import { assertOutputAnswer } from '../../../assertOutputAnswer.js';
 import { execute } from '../../../../lib/training/expert/musicScores/musicScores.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "Music scores" puzzle.
  */
@@ -20,7 +22,7 @@ suite('Music scores', function() {
 
 
     test('One quarter note between lines', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/01 - one quarter note between lines.txt');
+        let inputFile = new File(__dirname + 'input/01 - one quarter note between lines.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -31,7 +33,7 @@ suite('Music scores', function() {
     });
 
     test('One quarter note on a line', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/02 - one quarter note on a line.txt');
+        let inputFile = new File(__dirname + 'input/02 - one quarter note on a line.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -42,7 +44,7 @@ suite('Music scores', function() {
     });
 
     test('One half note between lines', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/03 - one half note between lines.txt');
+        let inputFile = new File(__dirname + 'input/03 - one half note between lines.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -53,7 +55,7 @@ suite('Music scores', function() {
     });
 
     test('One half note on a line', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/04 - one half note on a line.txt');
+        let inputFile = new File(__dirname + 'input/04 - one half note on a line.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -64,7 +66,7 @@ suite('Music scores', function() {
     });
 
     test('Only quarter notes without lower C', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/05 - only quarter notes without lower C.txt');
+        let inputFile = new File(__dirname + 'input/05 - only quarter notes without lower C.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -75,7 +77,7 @@ suite('Music scores', function() {
     });
 
     test('Only half notes without lower C', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/06 - only half notes without lower C.txt');
+        let inputFile = new File(__dirname + 'input/06 - only half notes without lower C.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -86,7 +88,7 @@ suite('Music scores', function() {
     });
 
     test('Scale half and quarter notes', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/07 - scale half and quarter notes.txt');
+        let inputFile = new File(__dirname + 'input/07 - scale half and quarter notes.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -97,7 +99,7 @@ suite('Music scores', function() {
     });
 
     test('Lower C', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/08 - lower C.txt');
+        let inputFile = new File(__dirname + 'input/08 - lower C.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -108,7 +110,7 @@ suite('Music scores', function() {
     });
 
     test('Very close', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/09 - very close.txt');
+        let inputFile = new File(__dirname + 'input/09 - very close.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -119,7 +121,7 @@ suite('Music scores', function() {
     });
 
     test('Only 1 pixel wide', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/10 - Only 1 pixel wide.txt');
+        let inputFile = new File(__dirname + 'input/10 - Only 1 pixel wide.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -130,18 +132,18 @@ suite('Music scores', function() {
     });
 
     test('Doctor Who theme', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/11 - doctor Who theme.txt');
+        let inputFile = new File(__dirname + 'input/11 - doctor Who theme.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/expert/musicScores/output/11 - doctor Who theme.txt');
+        assertOutputAnswer(__dirname + 'output/11 - doctor Who theme.txt');
     });
 
     test('Random', function() {
-        let inputFile = new File('./test/training/expert/musicScores/input/12 - random.txt');
+        let inputFile = new File(__dirname + 'input/12 - random.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/expert/musicScores/output/12 - random.txt');
+        assertOutputAnswer(__dirname + 'output/12 - random.txt');
     });
 });

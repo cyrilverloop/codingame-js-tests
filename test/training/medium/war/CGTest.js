@@ -3,6 +3,8 @@ import sinon from 'sinon';
 import File from '../../../File.js';
 import { execute } from '../../../../lib/training/medium/war/war.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "War" puzzle.
  */
@@ -19,7 +21,7 @@ suite('War', function() {
 
 
     test('3 cards', function() {
-        let inputFile = new File('./test/training/medium/war/input/01 - 3 cards.txt');
+        let inputFile = new File(__dirname + 'input/01 - 3 cards.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -30,7 +32,7 @@ suite('War', function() {
     });
 
     test('26 cards', function() {
-        let inputFile = new File('./test/training/medium/war/input/02 - 26 cards.txt');
+        let inputFile = new File(__dirname + 'input/02 - 26 cards.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -41,7 +43,7 @@ suite('War', function() {
     });
 
     test('26 cards, medium length', function() {
-        let inputFile = new File('./test/training/medium/war/input/03 - 26 cards medium length.txt');
+        let inputFile = new File(__dirname + 'input/03 - 26 cards medium length.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -52,7 +54,7 @@ suite('War', function() {
     });
 
     test('Battle', function() {
-        let inputFile = new File('./test/training/medium/war/input/04 - battle.txt');
+        let inputFile = new File(__dirname + 'input/04 - battle.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -63,7 +65,7 @@ suite('War', function() {
     });
 
     test('One game, one battle', function() {
-        let inputFile = new File('./test/training/medium/war/input/05 - one game one battle.txt');
+        let inputFile = new File(__dirname + 'input/05 - one game one battle.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -74,7 +76,7 @@ suite('War', function() {
     });
 
     test('2 chained battles', function() {
-        let inputFile = new File('./test/training/medium/war/input/06 - 2 chained battles.txt');
+        let inputFile = new File(__dirname + 'input/06 - 2 chained battles.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -85,7 +87,7 @@ suite('War', function() {
     });
 
     test('Long game', function() {
-        let inputFile = new File('./test/training/medium/war/input/07 - long game.txt');
+        let inputFile = new File(__dirname + 'input/07 - long game.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -96,7 +98,7 @@ suite('War', function() {
     });
 
     test('PAT', function() {
-        let inputFile = new File('./test/training/medium/war/input/08 - PAT.txt');
+        let inputFile = new File(__dirname + 'input/08 - PAT.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -107,7 +109,7 @@ suite('War', function() {
     });
 
     test('Another PAT', function() {
-        let inputFile = new File('./test/training/medium/war/input/09 - another PAT.txt');
+        let inputFile = new File(__dirname + 'input/09 - another PAT.txt');
 
         execute(inputFile.readline.bind(inputFile));
 

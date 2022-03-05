@@ -3,6 +3,8 @@ import sinon from 'sinon';
 import File from '../../../File.js';
 import { execute } from '../../../../lib/training/expert/theResistance/theResistance.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "The resistance" puzzle.
  */
@@ -19,7 +21,7 @@ suite('The resistance', function() {
 
 
     test('Correct detection of a letter', function() {
-        let inputFile = new File('./test/training/expert/theResistance/input/01 - correct detection of a letter.txt');
+        let inputFile = new File(__dirname + 'input/01 - correct detection of a letter.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -30,7 +32,7 @@ suite('The resistance', function() {
     });
 
     test('Correct detection of a word', function() {
-        let inputFile = new File('./test/training/expert/theResistance/input/02 - correct detection of a word.txt');
+        let inputFile = new File(__dirname + 'input/02 - correct detection of a word.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -41,7 +43,7 @@ suite('The resistance', function() {
     });
 
     test('Simple messages', function() {
-        let inputFile = new File('./test/training/expert/theResistance/input/03 - simple messages.txt');
+        let inputFile = new File(__dirname + 'input/03 - simple messages.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -52,7 +54,7 @@ suite('The resistance', function() {
     });
 
     test('Long sequence, large dictionary', function() {
-        let inputFile = new File('./test/training/expert/theResistance/input/04 - long sequence, large dictionary.txt');
+        let inputFile = new File(__dirname + 'input/04 - long sequence, large dictionary.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -63,7 +65,7 @@ suite('The resistance', function() {
     });
 
     test('Same encoding for different words', function() {
-        let inputFile = new File('./test/training/expert/theResistance/input/05 - same encoding for different words.txt');
+        let inputFile = new File(__dirname + 'input/05 - same encoding for different words.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -74,7 +76,7 @@ suite('The resistance', function() {
     });
 
     test('Many possibilities', function() {
-        let inputFile = new File('./test/training/expert/theResistance/input/06 - many possibilities.txt');
+        let inputFile = new File(__dirname + 'input/06 - many possibilities.txt');
 
         execute(inputFile.readline.bind(inputFile));
 

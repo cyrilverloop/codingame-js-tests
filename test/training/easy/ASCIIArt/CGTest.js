@@ -4,6 +4,8 @@ import File from '../../../File.js';
 import { assertOutputAnswer } from '../../../assertOutputAnswer.js';
 import { execute } from '../../../../lib/training/easy/ASCIIArt/ASCIIArt.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "ASCII Art" puzzle.
  */
@@ -20,50 +22,50 @@ suite('ASCII art', function() {
 
 
     test('Test only one letter E', function() {
-        let inputFile = new File('./test/training/easy/ASCIIArt/input/01 - test only one letter E.txt');
+        let inputFile = new File(__dirname + 'input/01 - test only one letter E.txt');
 
         execute(inputFile.readline.bind(inputFile));
-        
-        assertOutputAnswer('./test/training/easy/ASCIIArt/output/01 - test only one letter E.txt');
+
+        assertOutputAnswer(__dirname + 'output/01 - test only one letter E.txt');
     });
 
     test('Test MANHATTAN', function() {
-        let inputFile = new File('./test/training/easy/ASCIIArt/input/02 - test MANHATTAN.txt');
+        let inputFile = new File(__dirname + 'input/02 - test MANHATTAN.txt');
 
         execute(inputFile.readline.bind(inputFile));
-        
-        assertOutputAnswer('./test/training/easy/ASCIIArt/output/02 - test MANHATTAN.txt');
+
+        assertOutputAnswer(__dirname + 'output/02 - test MANHATTAN.txt');
     });
 
     test('Test ManhAtTan', function() {
-        let inputFile = new File('./test/training/easy/ASCIIArt/input/03 - test ManhAtTan.txt');
+        let inputFile = new File(__dirname + 'input/03 - test ManhAtTan.txt');
 
         execute(inputFile.readline.bind(inputFile));
-        
-        assertOutputAnswer('./test/training/easy/ASCIIArt/output/03 - test ManhAtTan.txt');
+
+        assertOutputAnswer(__dirname + 'output/03 - test ManhAtTan.txt');
     });
 
     test('Test M@NH@TT@N', function() {
-        let inputFile = new File('./test/training/easy/ASCIIArt/input/04 - test M@NH@TT@N.txt');
+        let inputFile = new File(__dirname + 'input/04 - test M@NH@TT@N.txt');
 
         execute(inputFile.readline.bind(inputFile));
-        
-        assertOutputAnswer('./test/training/easy/ASCIIArt/output/04 - test M@NH@TT@N.txt');
+
+        assertOutputAnswer(__dirname + 'output/04 - test M@NH@TT@N.txt');
     });
 
     test('MANHATTAN with another ASCII representation', function() {
-        let inputFile = new File('./test/training/easy/ASCIIArt/input/05 - MANHATTAN with another ASCII representation.txt');
+        let inputFile = new File(__dirname + 'input/05 - MANHATTAN with another ASCII representation.txt');
 
         execute(inputFile.readline.bind(inputFile));
-        
-        assertOutputAnswer('./test/training/easy/ASCIIArt/output/05 - MANHATTAN with another ASCII representation.txt');
+
+        assertOutputAnswer(__dirname + 'output/05 - MANHATTAN with another ASCII representation.txt');
     });
 
     test('Test MAN HAT TAN', function() {
-        let inputFile = new File('./test/training/easy/ASCIIArt/input/06 - test MAN HAT TAN.txt');
+        let inputFile = new File(__dirname + 'input/06 - test MAN HAT TAN.txt');
 
         execute(inputFile.readline.bind(inputFile));
-        
-        assertOutputAnswer('./test/training/easy/ASCIIArt/output/06 - test MAN HAT TAN.txt');
+
+        assertOutputAnswer(__dirname + 'output/06 - test MAN HAT TAN.txt');
     });
 });

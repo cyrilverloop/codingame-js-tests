@@ -3,6 +3,8 @@ import sinon from 'sinon';
 import File from '../../../File.js';
 import { execute } from '../../../../lib/training/easy/unary/unary.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "Unary" puzzle.
  */
@@ -19,7 +21,7 @@ suite('Unary', function() {
 
 
     test('Character C', function() {
-        let inputFile = new File('./test/training/easy/unary/input/01 - character C.txt');
+        let inputFile = new File(__dirname + 'input/01 - character C.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -30,7 +32,7 @@ suite('Unary', function() {
     });
 
     test('Message CC', function() {
-        let inputFile = new File('./test/training/easy/unary/input/02 - message CC.txt');
+        let inputFile = new File(__dirname + 'input/02 - message CC.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -41,7 +43,7 @@ suite('Unary', function() {
     });
 
     test('Character %', function() {
-        let inputFile = new File('./test/training/easy/unary/input/03 - character %.txt');
+        let inputFile = new File(__dirname + 'input/03 - character %.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -52,8 +54,8 @@ suite('Unary', function() {
     });
 
     test('Message from Chuck Norris', function() {
-        let inputFile = new File('./test/training/easy/unary/input/04 - message from Chuck Norris.txt');
-        let outputFile = new File('./test/training/easy/unary/output/04 - message from Chuck Norris.txt');
+        let inputFile = new File(__dirname + 'input/04 - message from Chuck Norris.txt');
+        let outputFile = new File(__dirname + 'output/04 - message from Chuck Norris.txt');
 
         execute(inputFile.readline.bind(inputFile));
 

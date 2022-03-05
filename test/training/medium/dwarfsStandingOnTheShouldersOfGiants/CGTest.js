@@ -3,6 +3,8 @@ import sinon from 'sinon';
 import File from '../../../File.js';
 import { execute } from '../../../../lib/training/medium/dwarfsStandingOnTheShouldersOfGiants/dwarfsStandingOnTheShouldersOfGiants.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "Dwarfs standing on the shoulders of giants" puzzle.
  */
@@ -19,7 +21,7 @@ suite('Dwarfs standing on the shoulders of giants', function() {
 
 
     test('Simple example', function() {
-        let inputFile = new File('./test/training/medium/dwarfsStandingOnTheShouldersOfGiants/input/01 - simple example.txt');
+        let inputFile = new File(__dirname + 'input/01 - simple example.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -30,7 +32,7 @@ suite('Dwarfs standing on the shoulders of giants', function() {
     });
 
     test('Complete example', function() {
-        let inputFile = new File('./test/training/medium/dwarfsStandingOnTheShouldersOfGiants/input/02 - complete example.txt');
+        let inputFile = new File(__dirname + 'input/02 - complete example.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -41,7 +43,7 @@ suite('Dwarfs standing on the shoulders of giants', function() {
     });
 
     test('Several mentors', function() {
-        let inputFile = new File('./test/training/medium/dwarfsStandingOnTheShouldersOfGiants/input/03 - several mentors.txt');
+        let inputFile = new File(__dirname + 'input/03 - several mentors.txt');
 
         execute(inputFile.readline.bind(inputFile));
 

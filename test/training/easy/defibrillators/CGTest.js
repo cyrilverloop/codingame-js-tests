@@ -3,6 +3,8 @@ import sinon from 'sinon';
 import File from '../../../File.js';
 import { execute } from '../../../../lib/training/easy/defibrillators/defibrillators.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "Defibrillators" puzzle.
  */
@@ -19,7 +21,7 @@ suite('Defibrillators', function() {
 
 
     test('Example', function() {
-        let inputFile = new File('./test/training/easy/defibrillators/input/01 - example.txt');
+        let inputFile = new File(__dirname + 'input/01 - example.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -30,7 +32,7 @@ suite('Defibrillators', function() {
     });
 
     test('Exact position', function() {
-        let inputFile = new File('./test/training/easy/defibrillators/input/02 - exact position.txt');
+        let inputFile = new File(__dirname + 'input/02 - exact position.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -41,7 +43,7 @@ suite('Defibrillators', function() {
     });
 
     test('Complete file', function() {
-        let inputFile = new File('./test/training/easy/defibrillators/input/03 - complete file.txt');
+        let inputFile = new File(__dirname + 'input/03 - complete file.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -52,7 +54,7 @@ suite('Defibrillators', function() {
     });
 
     test('Complete file 2', function() {
-        let inputFile = new File('./test/training/easy/defibrillators/input/04 - complete file 2.txt');
+        let inputFile = new File(__dirname + 'input/04 - complete file 2.txt');
 
         execute(inputFile.readline.bind(inputFile));
 

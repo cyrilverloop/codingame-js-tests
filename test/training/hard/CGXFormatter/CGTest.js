@@ -4,6 +4,8 @@ import File from '../../../File.js';
 import { assertOutputAnswer } from '../../../assertOutputAnswer.js';
 import { execute } from '../../../../lib/training/hard/CGXFormatter/CGXFormatter.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "CGX formatter" puzzle.
  */
@@ -20,7 +22,7 @@ suite('CGX formatter', function() {
 
 
     test('Boolean value with spaces and tabs', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/01 - boolean value with spaces and tabs.txt');
+        let inputFile = new File(__dirname + 'input/01 - boolean value with spaces and tabs.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -31,7 +33,7 @@ suite('CGX formatter', function() {
     });
 
     test('Simple string of characters which must not be modified', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/02 - simple string of characters which must not be modified.txt');
+        let inputFile = new File(__dirname + 'input/02 - simple string of characters which must not be modified.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -42,82 +44,82 @@ suite('CGX formatter', function() {
     });
 
     test('Block containing a single value', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/03 - block containing a single value.txt');
+        let inputFile = new File(__dirname + 'input/03 - block containing a single value.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/hard/CGXFormatter/output/03 - block containing a single value.txt');
+        assertOutputAnswer(__dirname + 'output/03 - block containing a single value.txt');
     });
 
     test('Block containing multiple values', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/04 - block containing a multiple values.txt');
+        let inputFile = new File(__dirname + 'input/04 - block containing a multiple values.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/hard/CGXFormatter/output/04 - block containing a multiple values.txt');
+        assertOutputAnswer(__dirname + 'output/04 - block containing a multiple values.txt');
     });
 
     test('Nested blocks', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/05 - nested blocks.txt');
+        let inputFile = new File(__dirname + 'input/05 - nested blocks.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/hard/CGXFormatter/output/05 - nested blocks.txt');
+        assertOutputAnswer(__dirname + 'output/05 - nested blocks.txt');
     });
 
     test('Empty block', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/06 - empty block.txt');
+        let inputFile = new File(__dirname + 'input/06 - empty block.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/hard/CGXFormatter/output/06 - empty block.txt');
+        assertOutputAnswer(__dirname + 'output/06 - empty block.txt');
     });
 
     test('Block containing several blocks', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/07 - block containing several blocks.txt');
+        let inputFile = new File(__dirname + 'input/07 - block containing several blocks.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/hard/CGXFormatter/output/07 - block containing several blocks.txt');
+        assertOutputAnswer(__dirname + 'output/07 - block containing several blocks.txt');
     });
 
     test('Key/value without blanks', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/08 - key value without blanks.txt');
+        let inputFile = new File(__dirname + 'input/08 - key value without blanks.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/hard/CGXFormatter/output/08 - key value without blanks.txt');
+        assertOutputAnswer(__dirname + 'output/08 - key value without blanks.txt');
     });
 
     test('Block with several key/value', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/09 - block with several key value.txt');
+        let inputFile = new File(__dirname + 'input/09 - block with several key value.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/hard/CGXFormatter/output/09 - block with several key value.txt');
+        assertOutputAnswer(__dirname + 'output/09 - block with several key value.txt');
     });
 
     test('Example provided', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/10 - example provided.txt');
+        let inputFile = new File(__dirname + 'input/10 - example provided.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/hard/CGXFormatter/output/10 - example provided.txt');
+        assertOutputAnswer(__dirname + 'output/10 - example provided.txt');
     });
 
     test('Full example', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/11 - full example.txt');
+        let inputFile = new File(__dirname + 'input/11 - full example.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/hard/CGXFormatter/output/11 - full example.txt');
+        assertOutputAnswer(__dirname + 'output/11 - full example.txt');
     });
 
     test('Numerous overlaps', function() {
-        let inputFile = new File('./test/training/hard/CGXFormatter/input/12 - numerous overlaps.txt');
+        let inputFile = new File(__dirname + 'input/12 - numerous overlaps.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/hard/CGXFormatter/output/12 - numerous overlaps.txt');
+        assertOutputAnswer(__dirname + 'output/12 - numerous overlaps.txt');
     });
 });

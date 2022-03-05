@@ -4,6 +4,8 @@ import File from '../../../../File.js';
 import { assertOutputAnswer } from '../../../../assertOutputAnswer.js';
 import { execute } from '../../../../../lib/community/training/easy/dolbearsLaw/dolbearsLaw.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "Dolbear's Law" puzzle.
  */
@@ -20,15 +22,15 @@ suite("Dolbear's Law", function() {
 
 
     test('The random is in the spring', function() {
-        let inputFile = new File('./test/community/training/easy/dolbearsLaw/input/01 - the random is in the spring.txt');
+        let inputFile = new File(__dirname + 'input/01 - the random is in the spring.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/dolbearsLaw/output/01 - the random is in the spring.txt');
+        assertOutputAnswer(__dirname + 'output/01 - the random is in the spring.txt');
     });
 
     test('Winter is coming', function() {
-        let inputFile = new File('./test/community/training/easy/dolbearsLaw/input/02 - winter is coming.txt');
+        let inputFile = new File(__dirname + 'input/02 - winter is coming.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -39,15 +41,15 @@ suite("Dolbear's Law", function() {
     });
 
     test('Jiminy beats the measure', function() {
-        let inputFile = new File('./test/community/training/easy/dolbearsLaw/input/03 - jiminy beats the measure.txt');
+        let inputFile = new File(__dirname + 'input/03 - jiminy beats the measure.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/dolbearsLaw/output/03 - jiminy beats the measure.txt');
+        assertOutputAnswer(__dirname + 'output/03 - jiminy beats the measure.txt');
     });
 
     test('Jiminy nearly died of cold...', function() {
-        let inputFile = new File('./test/community/training/easy/dolbearsLaw/input/04 - jiminy nearly died of cold.txt');
+        let inputFile = new File(__dirname + 'input/04 - jiminy nearly died of cold.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -58,15 +60,15 @@ suite("Dolbear's Law", function() {
     });
 
     test('An hour in summer', function() {
-        let inputFile = new File('./test/community/training/easy/dolbearsLaw/input/05 - an hour in summer.txt');
+        let inputFile = new File(__dirname + 'input/05 - an hour in summer.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/dolbearsLaw/output/05 - an hour in summer.txt');
+        assertOutputAnswer(__dirname + 'output/05 - an hour in summer.txt');
     });
 
     test('30MinutesOfHeatWave', function() {
-        let inputFile = new File('./test/community/training/easy/dolbearsLaw/input/06 - 30 minutes of heat wave.txt');
+        let inputFile = new File(__dirname + 'input/06 - 30 minutes of heat wave.txt');
 
         execute(inputFile.readline.bind(inputFile));
 

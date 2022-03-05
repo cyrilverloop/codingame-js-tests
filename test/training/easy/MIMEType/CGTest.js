@@ -4,6 +4,8 @@ import File from '../../../File.js';
 import { assertOutputAnswer } from '../../../assertOutputAnswer.js';
 import { execute } from '../../../../lib/training/easy/MIMEType/MIMEType.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "MIME type" puzzle.
  */
@@ -20,42 +22,42 @@ suite('MIME type', function() {
 
 
     test('Simple example', function() {
-        let inputFile = new File('./test/training/easy/MIMEType/input/01 - simple example.txt');
+        let inputFile = new File(__dirname + 'input/01 - simple example.txt');
 
         execute(inputFile.readline.bind(inputFile));
-        
-        assertOutputAnswer('./test/training/easy/MIMEType/output/01 - simple example.txt');
+
+        assertOutputAnswer(__dirname + 'output/01 - simple example.txt');
     });
 
     test('Unknown MIME types', function() {
-        let inputFile = new File('./test/training/easy/MIMEType/input/02 - unknown MIME types.txt');
+        let inputFile = new File(__dirname + 'input/02 - unknown MIME types.txt');
 
         execute(inputFile.readline.bind(inputFile));
-        
-        assertOutputAnswer('./test/training/easy/MIMEType/output/02 - unknown MIME types.txt');
+
+        assertOutputAnswer(__dirname + 'output/02 - unknown MIME types.txt');
     });
 
     test('Correct division of the extension', function() {
-        let inputFile = new File('./test/training/easy/MIMEType/input/03 - correct division of the extension.txt');
+        let inputFile = new File(__dirname + 'input/03 - correct division of the extension.txt');
 
         execute(inputFile.readline.bind(inputFile));
-        
-        assertOutputAnswer('./test/training/easy/MIMEType/output/03 - correct division of the extension.txt');
+
+        assertOutputAnswer(__dirname + 'output/03 - correct division of the extension.txt');
     });
 
     test('Consideration of the case (upper or lower)', function() {
-        let inputFile = new File('./test/training/easy/MIMEType/input/04 - consideration of the case (upper or lower).txt');
+        let inputFile = new File(__dirname + 'input/04 - consideration of the case (upper or lower).txt');
 
         execute(inputFile.readline.bind(inputFile));
-        
-        assertOutputAnswer('./test/training/easy/MIMEType/output/04 - consideration of the case (upper or lower).txt');
+
+        assertOutputAnswer(__dirname + 'output/04 - consideration of the case (upper or lower).txt');
     });
 
     test('Large dataset', function() {
-        let inputFile = new File('./test/training/easy/MIMEType/input/05 - large dataset.txt');
+        let inputFile = new File(__dirname + 'input/05 - large dataset.txt');
 
         execute(inputFile.readline.bind(inputFile));
-        
-        assertOutputAnswer('./test/training/easy/MIMEType/output/05 - large dataset.txt');
+
+        assertOutputAnswer(__dirname + 'output/05 - large dataset.txt');
     });
 });

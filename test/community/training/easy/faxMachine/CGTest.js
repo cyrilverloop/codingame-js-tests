@@ -4,6 +4,8 @@ import File from '../../../../File.js';
 import { assertOutputAnswer } from '../../../../assertOutputAnswer.js';
 import { execute } from '../../../../../lib/community/training/easy/faxMachine/faxMachine.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "Fax machine" puzzle.
  */
@@ -20,42 +22,42 @@ suite('Fax machine', function() {
 
 
     test('The Example', function() {
-        let inputFile = new File('./test/community/training/easy/faxMachine/input/01 - the example.txt');
+        let inputFile = new File(__dirname + 'input/01 - the example.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/faxMachine/output/01 - the example.txt');
+        assertOutputAnswer(__dirname + 'output/01 - the example.txt');
     });
 
     test('Half Black half white', function() {
-        let inputFile = new File('./test/community/training/easy/faxMachine/input/02 - half black half white.txt');
+        let inputFile = new File(__dirname + 'input/02 - half black half white.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/faxMachine/output/02 - half black half white.txt');
+        assertOutputAnswer(__dirname + 'output/02 - half black half white.txt');
     });
 
     test('Hello', function() {
-        let inputFile = new File('./test/community/training/easy/faxMachine/input/03 - hello.txt');
+        let inputFile = new File(__dirname + 'input/03 - hello.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/faxMachine/output/03 - hello.txt');
+        assertOutputAnswer(__dirname + 'output/03 - hello.txt');
     });
 
     test('Heart', function() {
-        let inputFile = new File('./test/community/training/easy/faxMachine/input/04 - heart.txt');
+        let inputFile = new File(__dirname + 'input/04 - heart.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/faxMachine/output/04 - heart.txt');
+        assertOutputAnswer(__dirname + 'output/04 - heart.txt');
     });
 
     test('Inverse', function() {
-        let inputFile = new File('./test/community/training/easy/faxMachine/input/05 - inverse.txt');
+        let inputFile = new File(__dirname + 'input/05 - inverse.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/faxMachine/output/05 - inverse.txt');
+        assertOutputAnswer(__dirname + 'output/05 - inverse.txt');
     });
 });

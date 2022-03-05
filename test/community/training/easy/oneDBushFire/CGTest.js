@@ -4,6 +4,8 @@ import File from '../../../../File.js';
 import { assertOutputAnswer } from '../../../../assertOutputAnswer.js';
 import { execute } from '../../../../../lib/community/training/easy/oneDBushFire/oneDBushFire.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "1D bush fire" puzzle.
  */
@@ -20,42 +22,42 @@ suite('1D bush fire', function() {
 
 
     test('Example', function() {
-        let inputFile = new File('./test/community/training/easy/oneDBushFire/input/01 - example.txt');
+        let inputFile = new File(__dirname + 'input/01 - example.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/oneDBushFire/output/01 - example.txt');
+        assertOutputAnswer(__dirname + 'output/01 - example.txt');
     });
 
     test('Basic operations', function() {
-        let inputFile = new File('./test/community/training/easy/oneDBushFire/input/02 - basic operations.txt');
+        let inputFile = new File(__dirname + 'input/02 - basic operations.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/oneDBushFire/output/02 - basic operations.txt');
+        assertOutputAnswer(__dirname + 'output/02 - basic operations.txt');
     });
 
     test('Smoky trail', function() {
-        let inputFile = new File('./test/community/training/easy/oneDBushFire/input/03 - smoky trail.txt');
+        let inputFile = new File(__dirname + 'input/03 - smoky trail.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/oneDBushFire/output/03 - smoky trail.txt');
+        assertOutputAnswer(__dirname + 'output/03 - smoky trail.txt');
     });
 
     test('Traps in fames', function() {
-        let inputFile = new File('./test/community/training/easy/oneDBushFire/input/04 - traps in fames.txt');
+        let inputFile = new File(__dirname + 'input/04 - traps in fames.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/oneDBushFire/output/04 - traps in fames.txt');
+        assertOutputAnswer(__dirname + 'output/04 - traps in fames.txt');
     });
 
     test('Ambushes', function() {
-        let inputFile = new File('./test/community/training/easy/oneDBushFire/input/05 - ambushes.txt');
+        let inputFile = new File(__dirname + 'input/05 - ambushes.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/oneDBushFire/output/05 - ambushes.txt');
+        assertOutputAnswer(__dirname + 'output/05 - ambushes.txt');
     });
 });

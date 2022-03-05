@@ -3,6 +3,8 @@ import sinon from 'sinon';
 import File from '../../../File.js';
 import { execute } from '../../../../lib/training/medium/telephoneNumbers/telephoneNumbers.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "Telephone numbers" puzzle.
  */
@@ -19,7 +21,7 @@ suite('Telephone numbers', function() {
 
 
     test('A telephone number', function() {
-        let inputFile = new File('./test/training/medium/telephoneNumbers/input/01 - a telephone number.txt');
+        let inputFile = new File(__dirname + 'input/01 - a telephone number.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -30,7 +32,7 @@ suite('Telephone numbers', function() {
     });
 
     test('Numbers with a different base', function() {
-        let inputFile = new File('./test/training/medium/telephoneNumbers/input/02 - numbers with a different base.txt');
+        let inputFile = new File(__dirname + 'input/02 - numbers with a different base.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -41,7 +43,7 @@ suite('Telephone numbers', function() {
     });
 
     test('Number included in another', function() {
-        let inputFile = new File('./test/training/medium/telephoneNumbers/input/03 - number included in another.txt');
+        let inputFile = new File(__dirname + 'input/03 - number included in another.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -52,7 +54,7 @@ suite('Telephone numbers', function() {
     });
 
     test('Numbers with a common part', function() {
-        let inputFile = new File('./test/training/medium/telephoneNumbers/input/04 - numbers with a common part.txt');
+        let inputFile = new File(__dirname + 'input/04 - numbers with a common part.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -63,7 +65,7 @@ suite('Telephone numbers', function() {
     });
 
     test('Long list of numbers', function() {
-        let inputFile = new File('./test/training/medium/telephoneNumbers/input/05 - long list of numbers.txt');
+        let inputFile = new File(__dirname + 'input/05 - long list of numbers.txt');
 
         execute(inputFile.readline.bind(inputFile));
 

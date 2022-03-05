@@ -4,6 +4,8 @@ import File from '../../../../File.js';
 import { assertOutputAnswer } from '../../../../assertOutputAnswer.js';
 import { execute } from '../../../../../lib/community/training/easy/NGRBasicRadar/NGRBasicRadar.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "NGR basic radar" puzzle.
  */
@@ -20,7 +22,7 @@ suite('NGR basic radar', function() {
 
 
     test('Low Density, 1 Ticket', function() {
-        let inputFile = new File('./test/community/training/easy/NGRBasicRadar/input/01 - low density 1 ticket.txt');
+        let inputFile = new File(__dirname + 'input/01 - low density 1 ticket.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -31,26 +33,26 @@ suite('NGR basic radar', function() {
     });
 
     test('Low Density, Many Ticket', function() {
-        let inputFile = new File('./test/community/training/easy/NGRBasicRadar/input/02 - low density many ticket.txt');
+        let inputFile = new File(__dirname + 'input/02 - low density many ticket.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/NGRBasicRadar/output/02 - low density many ticket.txt');
+        assertOutputAnswer(__dirname + 'output/02 - low density many ticket.txt');
     });
 
     test('Medium Density', function() {
-        let inputFile = new File('./test/community/training/easy/NGRBasicRadar/input/03 - medium density.txt');
+        let inputFile = new File(__dirname + 'input/03 - medium density.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/NGRBasicRadar/output/03 - medium density.txt');
+        assertOutputAnswer(__dirname + 'output/03 - medium density.txt');
     });
 
     test('Test 4', function() {
-        let inputFile = new File('./test/community/training/easy/NGRBasicRadar/input/04 - test 4.txt');
+        let inputFile = new File(__dirname + 'input/04 - test 4.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/community/training/easy/NGRBasicRadar/output/04 - test 4.txt');
+        assertOutputAnswer(__dirname + 'output/04 - test 4.txt');
     });
 });

@@ -4,6 +4,8 @@ import File from '../../../File.js';
 import { assertOutputAnswer } from '../../../assertOutputAnswer.js';
 import { execute } from '../../../../lib/training/medium/mayanCalculation/mayanCalculation.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "Mayan calculation" puzzle.
  */
@@ -20,98 +22,98 @@ suite('Mayan calculation', function() {
 
 
     test('Simple addition', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/01 - simple addition.txt');
+        let inputFile = new File(__dirname + 'input/01 - simple addition.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/01 - simple addition.txt');
+        assertOutputAnswer(__dirname + 'output/01 - simple addition.txt');
     });
 
     test('Addition with carry', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/02 - addition with carry.txt');
+        let inputFile = new File(__dirname + 'input/02 - addition with carry.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/02 - addition with carry.txt');
+        assertOutputAnswer(__dirname + 'output/02 - addition with carry.txt');
     });
 
     test('Multiplication', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/03 - multiplication.txt');
+        let inputFile = new File(__dirname + 'input/03 - multiplication.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/03 - multiplication.txt');
+        assertOutputAnswer(__dirname + 'output/03 - multiplication.txt');
     });
 
     test('Simple subtraction', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/04 - simple subtraction.txt');
+        let inputFile = new File(__dirname + 'input/04 - simple subtraction.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/04 - simple subtraction.txt');
+        assertOutputAnswer(__dirname + 'output/04 - simple subtraction.txt');
     });
 
     test('Subtraction', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/05 - subtraction.txt');
+        let inputFile = new File(__dirname + 'input/05 - subtraction.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/05 - subtraction.txt');
+        assertOutputAnswer(__dirname + 'output/05 - subtraction.txt');
     });
 
     test('Simple division', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/06 - simple division.txt');
+        let inputFile = new File(__dirname + 'input/06 - simple division.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/06 - simple division.txt');
+        assertOutputAnswer(__dirname + 'output/06 - simple division.txt');
     });
 
     test('Division', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/07 - division.txt');
+        let inputFile = new File(__dirname + 'input/07 - division.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/07 - division.txt');
+        assertOutputAnswer(__dirname + 'output/07 - division.txt');
     });
 
     test('Great multiplication', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/08 - great multiplication.txt');
+        let inputFile = new File(__dirname + 'input/08 - great multiplication.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/08 - great multiplication.txt');
+        assertOutputAnswer(__dirname + 'output/08 - great multiplication.txt');
     });
 
     test('Zero', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/09 - zero.txt');
+        let inputFile = new File(__dirname + 'input/09 - zero.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/09 - zero.txt');
+        assertOutputAnswer(__dirname + 'output/09 - zero.txt');
     });
 
     test('Missing power', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/10 - missing power.txt');
+        let inputFile = new File(__dirname + 'input/10 - missing power.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/10 - missing power.txt');
+        assertOutputAnswer(__dirname + 'output/10 - missing power.txt');
     });
 
     test('Base 20', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/11 - base 20.txt');
+        let inputFile = new File(__dirname + 'input/11 - base 20.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/11 - base 20.txt');
+        assertOutputAnswer(__dirname + 'output/11 - base 20.txt');
     });
 
     test('Other symbols', function() {
-        let inputFile = new File('./test/training/medium/mayanCalculation/input/12 - other symbols.txt');
+        let inputFile = new File(__dirname + 'input/12 - other symbols.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
-        assertOutputAnswer('./test/training/medium/mayanCalculation/output/12 - other symbols.txt');
+        assertOutputAnswer(__dirname + 'output/12 - other symbols.txt');
     });
 });

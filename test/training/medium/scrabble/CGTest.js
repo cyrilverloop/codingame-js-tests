@@ -3,6 +3,8 @@ import sinon from 'sinon';
 import File from '../../../File.js';
 import { execute } from '../../../../lib/training/medium/scrabble/scrabble.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "Scrabble" puzzle.
  */
@@ -19,7 +21,7 @@ suite('Scrabble', function() {
 
 
     test('Only one word', function() {
-        let inputFile = new File('./test/training/medium/scrabble/input/01 - only one word.txt');
+        let inputFile = new File(__dirname + 'input/01 - only one word.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -30,7 +32,7 @@ suite('Scrabble', function() {
     });
 
     test('2 words with the same value', function() {
-        let inputFile = new File('./test/training/medium/scrabble/input/02 - 2 words with the same value.txt');
+        let inputFile = new File(__dirname + 'input/02 - 2 words with the same value.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -41,7 +43,7 @@ suite('Scrabble', function() {
     });
 
     test('2 words with different values', function() {
-        let inputFile = new File('./test/training/medium/scrabble/input/03 - 2 words with different values.txt');
+        let inputFile = new File(__dirname + 'input/03 - 2 words with different values.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -52,7 +54,7 @@ suite('Scrabble', function() {
     });
 
     test('Many possibilities', function() {
-        let inputFile = new File('./test/training/medium/scrabble/input/04 - many possibilities.txt');
+        let inputFile = new File(__dirname + 'input/04 - many possibilities.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -63,7 +65,7 @@ suite('Scrabble', function() {
     });
 
     test('Value better than size', function() {
-        let inputFile = new File('./test/training/medium/scrabble/input/05 - value better than size.txt');
+        let inputFile = new File(__dirname + 'input/05 - value better than size.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -74,7 +76,7 @@ suite('Scrabble', function() {
     });
 
     test('Valid word', function() {
-        let inputFile = new File('./test/training/medium/scrabble/input/06 - valid word.txt');
+        let inputFile = new File(__dirname + 'input/06 - valid word.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -85,7 +87,7 @@ suite('Scrabble', function() {
     });
 
     test('Large dictionary 1', function() {
-        let inputFile = new File('./test/training/medium/scrabble/input/07 - large dictionary 1.txt');
+        let inputFile = new File(__dirname + 'input/07 - large dictionary 1.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -96,7 +98,7 @@ suite('Scrabble', function() {
     });
 
     test('Large dictionary 2', function() {
-        let inputFile = new File('./test/training/medium/scrabble/input/08 - large dictionary 2.txt');
+        let inputFile = new File(__dirname + 'input/08 - large dictionary 2.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -107,7 +109,7 @@ suite('Scrabble', function() {
     });
 
     test('Cannot use letter twice', function() {
-        let inputFile = new File('./test/training/medium/scrabble/input/09 - cannot use letter twice.txt');
+        let inputFile = new File(__dirname + 'input/09 - cannot use letter twice.txt');
 
         execute(inputFile.readline.bind(inputFile));
 

@@ -3,6 +3,8 @@ import sinon from 'sinon';
 import File from '../../../File.js';
 import { execute } from '../../../../lib/training/hard/blunderEpisode2/blunderEpisode2.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "Blunder - episode 2" puzzle.
  */
@@ -19,7 +21,7 @@ suite('Blunder - episode 2', function() {
 
 
     test('One room', function() {
-        let inputFile = new File('./test/training/hard/blunderEpisode2/input/01 - one room.txt');
+        let inputFile = new File(__dirname + 'input/01 - one room.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -30,7 +32,7 @@ suite('Blunder - episode 2', function() {
     });
 
     test('3 rooms', function() {
-        let inputFile = new File('./test/training/hard/blunderEpisode2/input/02 - 3 rooms.txt');
+        let inputFile = new File(__dirname + 'input/02 - 3 rooms.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -41,7 +43,7 @@ suite('Blunder - episode 2', function() {
     });
 
     test('15 rooms, small range', function() {
-        let inputFile = new File('./test/training/hard/blunderEpisode2/input/03 - 15 rooms small range.txt');
+        let inputFile = new File(__dirname + 'input/03 - 15 rooms small range.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -52,7 +54,7 @@ suite('Blunder - episode 2', function() {
     });
 
     test('55 rooms', function() {
-        let inputFile = new File('./test/training/hard/blunderEpisode2/input/04 - 55 rooms.txt');
+        let inputFile = new File(__dirname + 'input/04 - 55 rooms.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -63,7 +65,7 @@ suite('Blunder - episode 2', function() {
     });
 
     test('1275 rooms', function() {
-        let inputFile = new File('./test/training/hard/blunderEpisode2/input/05 - 1275 rooms.txt');
+        let inputFile = new File(__dirname + 'input/05 - 1275 rooms.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -74,7 +76,7 @@ suite('Blunder - episode 2', function() {
     });
 
     test('5050 rooms', function() {
-        let inputFile = new File('./test/training/hard/blunderEpisode2/input/06 - 5050 rooms.txt');
+        let inputFile = new File(__dirname + 'input/06 - 5050 rooms.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -85,7 +87,7 @@ suite('Blunder - episode 2', function() {
     });
 
     test('9870 rooms', function() {
-        let inputFile = new File('./test/training/hard/blunderEpisode2/input/07 - 9870 rooms.txt');
+        let inputFile = new File(__dirname + 'input/07 - 9870 rooms.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -96,7 +98,7 @@ suite('Blunder - episode 2', function() {
     });
 
     test('Square building', function() {
-        let inputFile = new File('./test/training/hard/blunderEpisode2/input/08 - square building.txt');
+        let inputFile = new File(__dirname + 'input/08 - square building.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -107,7 +109,7 @@ suite('Blunder - episode 2', function() {
     });
 
     test('Multiple entries', function() {
-        let inputFile = new File('./test/training/hard/blunderEpisode2/input/09 - multiple entries.txt');
+        let inputFile = new File(__dirname + 'input/09 - multiple entries.txt');
 
         execute(inputFile.readline.bind(inputFile));
 

@@ -3,6 +3,8 @@ import sinon from 'sinon';
 import File from '../../../File.js';
 import { execute } from '../../../../lib/training/hard/genomeSequencing/genomeSequencing.js';
 
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /**
  * Tests for the "Genome sequencing" puzzle.
  */
@@ -19,7 +21,7 @@ suite('Genome sequencing', function() {
 
 
     test('AACCTT', function() {
-        let inputFile = new File('./test/training/hard/genomeSequencing/input/01 - AACCTT.txt');
+        let inputFile = new File(__dirname + 'input/01 - AACCTT.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -30,7 +32,7 @@ suite('Genome sequencing', function() {
     });
 
     test('AGATTACAGA', function() {
-        let inputFile = new File('./test/training/hard/genomeSequencing/input/02 - AGATTACAGA.txt');
+        let inputFile = new File(__dirname + 'input/02 - AGATTACAGA.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -41,7 +43,7 @@ suite('Genome sequencing', function() {
     });
 
     test('AACTT', function() {
-        let inputFile = new File('./test/training/hard/genomeSequencing/input/03 - AACTT.txt');
+        let inputFile = new File(__dirname + 'input/03 - AACTT.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -52,7 +54,7 @@ suite('Genome sequencing', function() {
     });
 
     test('AGATTA', function() {
-        let inputFile = new File('./test/training/hard/genomeSequencing/input/04 - AGATTA.txt');
+        let inputFile = new File(__dirname + 'input/04 - AGATTA.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -63,7 +65,7 @@ suite('Genome sequencing', function() {
     });
 
     test('reversed AGATTA', function() {
-        let inputFile = new File('./test/training/hard/genomeSequencing/input/05 - reversed AGATTA.txt');
+        let inputFile = new File(__dirname + 'input/05 - reversed AGATTA.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -74,7 +76,7 @@ suite('Genome sequencing', function() {
     });
 
     test('ATCG', function() {
-        let inputFile = new File('./test/training/hard/genomeSequencing/input/06 - ATCG.txt');
+        let inputFile = new File(__dirname + 'input/06 - ATCG.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
@@ -85,7 +87,7 @@ suite('Genome sequencing', function() {
     });
 
     test('CCCTGACATGA', function() {
-        let inputFile = new File('./test/training/hard/genomeSequencing/input/07 - CCCTGACATGA.txt');
+        let inputFile = new File(__dirname + 'input/07 - CCCTGACATGA.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
