@@ -1,7 +1,6 @@
 import { assert } from 'chai';
 import sinon from 'sinon';
 import File from '../../../../File.js';
-import { assertOutputAnswer } from '../../../../assertOutputAnswer.js';
 import { execute } from '../../../../../lib/community/training/easy/jackSilverTheCasino/jackSilverTheCasino.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
