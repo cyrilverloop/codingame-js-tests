@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "ISBN check digit".
 - Tests for "Equivalent resistance, circuit building".
 - Tests for "1D spreadsheet".
+- Tests for "Ghost legs".
 
 ### Changed
 - Using "__dirname" for input / output paths.
