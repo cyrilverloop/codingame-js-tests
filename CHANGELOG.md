@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Equivalent resistance, circuit building".
 - Tests for "1D spreadsheet".
 - Tests for "Ghost legs".
+- Tests for "Binary image".
 
 ### Changed
 - Using "__dirname" for input / output paths.
