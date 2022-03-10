@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "1D spreadsheet".
 - Tests for "Ghost legs".
 - Tests for "Binary image".
+- Tests for "May the Triforce be with you!".
 
 ### Changed
 - Using "__dirname" for input / output paths.
