@@ -6,9 +6,6 @@ import { execute } from '../../../../lib/training/easy/MIMEType/MIMEType.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "MIME type" puzzle.
- */
 suite('MIME type', function() {
     const sandbox = sinon.createSandbox();
 

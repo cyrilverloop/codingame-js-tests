@@ -6,9 +6,6 @@ import { execute } from '../../../../lib/training/medium/conwaySequence/conwaySe
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Conway sequence" puzzle.
- */
 suite('Conway sequence', function() {
     const sandbox = sinon.createSandbox();
 

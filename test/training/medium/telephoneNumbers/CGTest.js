@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/medium/telephoneNumbers/teleph
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Telephone numbers" puzzle.
- */
 suite('Telephone numbers', function() {
     const sandbox = sinon.createSandbox();
 

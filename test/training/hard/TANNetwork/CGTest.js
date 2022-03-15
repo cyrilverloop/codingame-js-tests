@@ -6,9 +6,6 @@ import { execute } from '../../../../lib/training/hard/TANNetwork/TANNetwork.js'
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "TAN network" puzzle.
- */
 suite('TAN network', function() {
     const sandbox = sinon.createSandbox();
 

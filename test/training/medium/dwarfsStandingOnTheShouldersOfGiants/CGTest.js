@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/medium/dwarfsStandingOnTheShou
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Dwarfs standing on the shoulders of giants" puzzle.
- */
 suite('Dwarfs standing on the shoulders of giants', function() {
     const sandbox = sinon.createSandbox();
 

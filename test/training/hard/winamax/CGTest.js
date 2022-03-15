@@ -6,9 +6,6 @@ import { execute } from '../../../../lib/training/hard/winamax/winamax.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Winamax" puzzle.
- */
 suite('Winamax', function() {
     const sandbox = sinon.createSandbox();
 

@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/dolbearsLaw/
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Dolbear's Law" puzzle.
- */
 suite("Dolbear's Law", function() {
     const sandbox = sinon.createSandbox();
 

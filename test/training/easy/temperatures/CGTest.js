@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/easy/temperatures/temperatures
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Temperatures" puzzle.
- */
 suite('Temperatures', function() {
     const sandbox = sinon.createSandbox();
 

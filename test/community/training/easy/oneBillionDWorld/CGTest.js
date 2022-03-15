@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/oneBillionDW
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "1000000000D world" puzzle.
- */
 suite('1000000000D world', function() {
     const sandbox = sinon.createSandbox();
 

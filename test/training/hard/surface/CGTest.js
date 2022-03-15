@@ -6,9 +6,6 @@ import { execute } from '../../../../lib/training/hard/surface/surface.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Surface" puzzle.
- */
 suite('Surface', function() {
     const sandbox = sinon.createSandbox();
 

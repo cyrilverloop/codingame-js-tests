@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/medium/war/war.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "War" puzzle.
- */
 suite('War', function() {
     const sandbox = sinon.createSandbox();
 

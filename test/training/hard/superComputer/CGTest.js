@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/hard/superComputer/superComput
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Super computer" puzzle.
- */
 suite('Super computer', function() {
     const sandbox = sinon.createSandbox();
 

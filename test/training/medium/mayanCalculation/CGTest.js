@@ -6,9 +6,6 @@ import { execute } from '../../../../lib/training/medium/mayanCalculation/mayanC
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Mayan calculation" puzzle.
- */
 suite('Mayan calculation', function() {
     const sandbox = sinon.createSandbox();
 

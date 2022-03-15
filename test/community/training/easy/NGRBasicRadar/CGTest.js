@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/NGRBasicRada
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "NGR basic radar" puzzle.
- */
 suite('NGR basic radar', function() {
     const sandbox = sinon.createSandbox();
 

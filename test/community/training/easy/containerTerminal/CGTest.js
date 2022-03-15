@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/containerTer
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Container terminal" puzzle.
- */
 suite('Container terminal', function() {
     const sandbox = sinon.createSandbox();
 

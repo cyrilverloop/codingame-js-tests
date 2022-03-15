@@ -5,9 +5,6 @@ import { execute } from '../../../../../lib/community/training/easy/equivalentRe
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Equivalent resistance, circuit building" puzzle.
- */
 suite('Equivalent resistance, circuit building', function() {
     const sandbox = sinon.createSandbox();
 

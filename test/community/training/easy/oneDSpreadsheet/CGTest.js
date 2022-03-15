@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/oneDSpreadsh
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "1D spreadsheet" puzzle.
- */
 suite('1D spreadsheet', function() {
     const sandbox = sinon.createSandbox();
 

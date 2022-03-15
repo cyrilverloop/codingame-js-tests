@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/rooksMovemen
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Rooks movements" puzzle.
- */
 suite('Rooks movements', function() {
     const sandbox = sinon.createSandbox();
 

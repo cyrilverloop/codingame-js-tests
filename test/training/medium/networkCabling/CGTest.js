@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/medium/networkCabling/networkC
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Network cabling" puzzle.
- */
 suite('Network cabling', function() {
     const sandbox = sinon.createSandbox();
 

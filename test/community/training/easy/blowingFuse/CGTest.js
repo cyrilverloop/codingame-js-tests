@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/blowingFuse/
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Blowing fuse" puzzle.
- */
 suite('Blowing fuse', function() {
     const sandbox = sinon.createSandbox();
 

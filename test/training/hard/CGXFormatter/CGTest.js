@@ -6,9 +6,6 @@ import { execute } from '../../../../lib/training/hard/CGXFormatter/CGXFormatter
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "CGX formatter" puzzle.
- */
 suite('CGX formatter', function() {
     const sandbox = sinon.createSandbox();
 

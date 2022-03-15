@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/faxMachine/f
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Fax machine" puzzle.
- */
 suite('Fax machine', function() {
     const sandbox = sinon.createSandbox();
 

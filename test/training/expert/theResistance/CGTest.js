@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/expert/theResistance/theResist
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "The resistance" puzzle.
- */
 suite('The resistance', function() {
     const sandbox = sinon.createSandbox();
 

@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/mayTheTrifor
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "May the Triforce be with you!" puzzle.
- */
 suite('May the Triforce be with you!', function() {
     const sandbox = sinon.createSandbox();
 

@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/ghostLegs/gh
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Ghost legs" puzzle.
- */
 suite("Ghost legs", function() {
     const sandbox = sinon.createSandbox();
 

@@ -6,9 +6,6 @@ import { execute } from '../../../../lib/training/expert/musicScores/musicScores
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Music scores" puzzle.
- */
 suite('Music scores', function() {
     const sandbox = sinon.createSandbox();
 

@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/easy/unary/unary.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Unary" puzzle.
- */
 suite('Unary', function() {
     const sandbox = sinon.createSandbox();
 

@@ -5,9 +5,6 @@ import { execute } from '../../../../../lib/community/training/easy/vanEcksSeque
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Van Eck's sequence" puzzle.
- */
 suite("Van Eck's sequence", function() {
     const sandbox = sinon.createSandbox();
 

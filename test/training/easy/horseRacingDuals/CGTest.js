@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/easy/horseRacingDuals/horseRac
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Horse-racing duals" puzzle.
- */
 suite('Horse-racing duals', function() {
     const sandbox = sinon.createSandbox();
 

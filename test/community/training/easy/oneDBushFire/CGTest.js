@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/oneDBushFire
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "1D bush fire" puzzle.
- */
 suite('1D bush fire', function() {
     const sandbox = sinon.createSandbox();
 

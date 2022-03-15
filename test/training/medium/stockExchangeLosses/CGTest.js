@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/medium/stockExchangeLosses/sto
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Stock exchange losses" puzzle.
- */
 suite('Stock exchange losses', function() {
     const sandbox = sinon.createSandbox();
 

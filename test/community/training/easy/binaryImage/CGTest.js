@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/binaryImage/
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Binary image" puzzle.
- */
 suite('Binary image', function() {
     const sandbox = sinon.createSandbox();
 

@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/rockPaperSci
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Rock paper scissors lizard Spock" puzzle.
- */
 suite('Rock paper scissors lizard Spock', function() {
     const sandbox = sinon.createSandbox();
 

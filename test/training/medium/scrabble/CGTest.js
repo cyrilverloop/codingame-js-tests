@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/medium/scrabble/scrabble.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Scrabble" puzzle.
- */
 suite('Scrabble', function() {
     const sandbox = sinon.createSandbox();
 

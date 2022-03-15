@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/easy/defibrillators/defibrilla
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Defibrillators" puzzle.
- */
 suite('Defibrillators', function() {
     const sandbox = sinon.createSandbox();
 

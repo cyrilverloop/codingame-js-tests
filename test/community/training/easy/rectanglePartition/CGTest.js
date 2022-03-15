@@ -5,9 +5,6 @@ import { execute } from '../../../../../lib/community/training/easy/rectanglePar
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Rectangle partition" puzzle.
- */
 suite('Rectangle partition', function() {
     const sandbox = sinon.createSandbox();
 

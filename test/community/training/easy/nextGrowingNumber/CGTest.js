@@ -5,9 +5,6 @@ import { execute } from '../../../../../lib/community/training/easy/nextGrowingN
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Next growing number" puzzle.
- */
 suite('Next growing number', function() {
     const sandbox = sinon.createSandbox();
 

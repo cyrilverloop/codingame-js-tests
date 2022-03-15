@@ -6,9 +6,6 @@ import { execute } from '../../../../lib/training/medium/blunderEpisode1/blunder
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Blunder - episode 1" puzzle.
- */
 suite('Blunder - episode 1', function() {
     const sandbox = sinon.createSandbox();
 

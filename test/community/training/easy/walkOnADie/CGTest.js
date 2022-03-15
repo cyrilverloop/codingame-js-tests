@@ -5,9 +5,6 @@ import { execute } from '../../../../../lib/community/training/easy/walkOnADie/w
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Walk on a die" puzzle.
- */
 suite('Walk on a die', function() {
     const sandbox = sinon.createSandbox();
 

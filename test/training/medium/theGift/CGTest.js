@@ -6,9 +6,6 @@ import { execute } from '../../../../lib/training/medium/theGift/theGift.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "The gift" puzzle.
- */
 suite('The gift', function() {
     const sandbox = sinon.createSandbox();
 

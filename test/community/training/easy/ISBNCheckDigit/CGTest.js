@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/ISBNCheckDig
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "ISBN check digit" puzzle.
- */
 suite('ISBN check digit', function() {
     const sandbox = sinon.createSandbox();
 

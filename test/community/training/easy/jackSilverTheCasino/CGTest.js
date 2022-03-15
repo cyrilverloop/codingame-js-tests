@@ -5,9 +5,6 @@ import { execute } from '../../../../../lib/community/training/easy/jackSilverTh
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Jack Silver: the casino" puzzle.
- */
 suite('Jack Silver: the casino', function() {
     const sandbox = sinon.createSandbox();
 

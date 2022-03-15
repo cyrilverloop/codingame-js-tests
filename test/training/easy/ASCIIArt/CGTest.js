@@ -6,9 +6,6 @@ import { execute } from '../../../../lib/training/easy/ASCIIArt/ASCIIArt.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "ASCII Art" puzzle.
- */
 suite('ASCII art', function() {
     const sandbox = sinon.createSandbox();
 

@@ -6,9 +6,6 @@ import { execute } from '../../../../../lib/community/training/easy/robotShow/ro
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Robot show" puzzle.
- */
 suite('Robot show', function() {
     const sandbox = sinon.createSandbox();
 

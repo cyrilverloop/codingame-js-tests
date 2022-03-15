@@ -5,9 +5,6 @@ import { execute } from '../../../../lib/training/hard/genomeSequencing/genomeSe
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-/**
- * Tests for the "Genome sequencing" puzzle.
- */
 suite('Genome sequencing', function() {
     const sandbox = sinon.createSandbox();
 
