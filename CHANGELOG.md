@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Benford's law".
 - Tests for "7-segment scanner".
 - Tests for "Lumen".
+- Tests for "A child's play".
 
 ## [1.6.0] - 2022-03-11
 ### Added
