@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Tests for "Asteroids".
 - Tests for "Dungeons and maps".
+- Tests for "Encryption/decryption of Enigma machine".
 
 ## [1.7.0] - 2022-03-31
 ### Added
