@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Dungeons and maps".
 - Tests for "Encryption/decryption of Enigma machine".
 - Tests for "Object insertion".
+- Tests for "Bank robbers".
 
 ## [1.7.0] - 2022-03-31
 ### Added
