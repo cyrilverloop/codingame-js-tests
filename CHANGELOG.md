@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Bank robbers".
 - Tests for "Retaining water".
 - Tests for "Graffiti on the fence".
+- Tests for "Prefix code".
 
 ## [1.7.0] - 2022-03-31
 ### Added
