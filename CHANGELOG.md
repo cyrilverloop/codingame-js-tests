@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "orDer oF succeSsion".
 - Tests for "Happy numbers".
 - Tests for "Hidden messages in images".
+- Tests for "Count as i count".
 
 ## [1.7.0] - 2022-03-31
 ### Added
