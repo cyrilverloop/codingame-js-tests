@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Logically reasonable inequalities".
 - Tests for "Is that a possible word? Ep1".
 - Tests for "Unique prefixes".
+- Tests for "The mystic rectangle".
 
 ## [1.7.0] - 2022-03-31
 ### Added
