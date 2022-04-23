@@ -30,6 +30,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Darts".
 - Tests for "Add'em up".
 
+### Fixed
+- File import for "A child's play".
+
 ## [1.7.0] - 2022-03-31
 ### Added
 - Tests for "Credit card verifier (Luhn’s algorithm)".
