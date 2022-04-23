@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Murder in the village!".
 - Tests for "Dead men's shot".
 - Tests for "Darts".
+- Tests for "Add'em up".
 
 ## [1.7.0] - 2022-03-31
 ### Added
