@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Add'em up".
 - Tests for "Rotating arrows".
 - Tests for "10 pin bowling scores".
+- Tests for "Is the king in check? (part 1)".
 
 ### Fixed
 - File import for "A child's play".
