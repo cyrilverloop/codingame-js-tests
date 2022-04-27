@@ -1,0 +1,15 @@
+/**
+ * The "A mountain of a mole hill" puzzle.
+ */
+function execute(readline) {
+    for (let i = 0; i < 16; i++) {
+        const line = readline();
+    }
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('answer');
+}
+
+export { execute };

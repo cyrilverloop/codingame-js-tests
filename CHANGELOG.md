@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Rotating arrows".
 - Tests for "10 pin bowling scores".
 - Tests for "Is the king in check? (part 1)".
+- Tests for "A mountain of a mole hill".
 
 ### Fixed
 - File import for "A child's play".
