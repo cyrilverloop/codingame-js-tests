@@ -6,7 +6,7 @@ import { execute } from '../../../../../lib/community/training/easy/creditCardVe
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite("Container terminal", function() {
+suite("Credit card verifier (Luhn’s algorithm)", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {

@@ -38,6 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - File import for "A child's play".
+- Suite name for "Credit card verifier (Luhn’s algorithm)".
 
 ## [1.7.0] - 2022-03-31
 ### Added
