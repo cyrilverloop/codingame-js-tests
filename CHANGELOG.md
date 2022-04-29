@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "A mountain of a mole hill".
 - Tests for "Where's Wally".
 - Tests for "Feature extraction".
+- Tests for "Distributing candy".
 
 ### Fixed
 - File import for "A child's play".
