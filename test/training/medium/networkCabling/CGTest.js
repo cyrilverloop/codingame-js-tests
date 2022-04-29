@@ -5,7 +5,7 @@ import { execute } from '../../../../lib/training/medium/networkCabling/networkC
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Network cabling', function() {
+suite("Network cabling", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,7 +17,7 @@ suite('Network cabling', function() {
     });
 
 
-    test('Example 1', function() {
+    test("Example 1", function() {
         let inputFile = new File(__dirname + 'input/01 - example 1.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite('Network cabling', function() {
         );
     });
 
-    test('Example 2', function() {
+    test("Example 2", function() {
         let inputFile = new File(__dirname + 'input/02 - example 2.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite('Network cabling', function() {
         );
     });
 
-    test('Example 3', function() {
+    test("Example 3", function() {
         let inputFile = new File(__dirname + 'input/03 - example 3.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Network cabling', function() {
         );
     });
 
-    test('Example 4', function() {
+    test("Example 4", function() {
         let inputFile = new File(__dirname + 'input/04 - example 4.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite('Network cabling', function() {
         );
     });
 
-    test('Example 5', function() {
+    test("Example 5", function() {
         let inputFile = new File(__dirname + 'input/05 - example 5.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -72,7 +72,7 @@ suite('Network cabling', function() {
         );
     });
 
-    test('Example 6', function() {
+    test("Example 6", function() {
         let inputFile = new File(__dirname + 'input/06 - example 6.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -83,7 +83,7 @@ suite('Network cabling', function() {
         );
     });
 
-    test('Example 7', function() {
+    test("Example 7", function() {
         let inputFile = new File(__dirname + 'input/07 - example 7.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -94,7 +94,7 @@ suite('Network cabling', function() {
         );
     });
 
-    test('Example 8', function() {
+    test("Example 8", function() {
         let inputFile = new File(__dirname + 'input/08 - example 8.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -105,7 +105,7 @@ suite('Network cabling', function() {
         );
     });
 
-    test('Example 9', function() {
+    test("Example 9", function() {
         let inputFile = new File(__dirname + 'input/09 - example 9.txt');
 
         execute(inputFile.readline.bind(inputFile));

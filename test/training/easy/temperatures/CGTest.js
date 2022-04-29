@@ -5,7 +5,7 @@ import { execute } from '../../../../lib/training/easy/temperatures/temperatures
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Temperatures', function() {
+suite("Temperatures", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,7 +17,7 @@ suite('Temperatures', function() {
     });
 
 
-    test('Simple test case', function() {
+    test("Simple test case", function() {
         let inputFile = new File(__dirname + 'input/01 - simple test case.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite('Temperatures', function() {
         );
     });
 
-    test('Only negative numbers', function() {
+    test("Only negative numbers", function() {
         let inputFile = new File(__dirname + 'input/02 - only negative numbers.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite('Temperatures', function() {
         );
     });
 
-    test('Choose the right temperature', function() {
+    test("Choose the right temperature", function() {
         let inputFile = new File(__dirname + 'input/03 - choose the right temperature.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Temperatures', function() {
         );
     });
 
-    test('Choose the right temperature 2', function() {
+    test("Choose the right temperature 2", function() {
         let inputFile = new File(__dirname + 'input/04 - choose the right temperature 2.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite('Temperatures', function() {
         );
     });
 
-    test('Complex test case', function() {
+    test("Complex test case", function() {
         let inputFile = new File(__dirname + 'input/05 - complex test case.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -72,7 +72,7 @@ suite('Temperatures', function() {
         );
     });
 
-    test('No temperature', function() {
+    test("No temperature", function() {
         let inputFile = new File(__dirname + 'input/06 - no temperature.txt');
 
         execute(inputFile.readline.bind(inputFile));

@@ -6,7 +6,7 @@ import { execute } from '../../../../../lib/community/training/easy/robotShow/ro
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Robot show', function() {
+suite("Robot show", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('Robot show', function() {
     });
 
 
-    test('Example', function() {
+    test("Example", function() {
         let inputFile = new File(__dirname + 'input/01 - example.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -29,7 +29,7 @@ suite('Robot show', function() {
         );
     });
 
-    test('Simple', function() {
+    test("Simple", function() {
         let inputFile = new File(__dirname + 'input/02 - simple.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -40,7 +40,7 @@ suite('Robot show', function() {
         );
     });
 
-    test('More Bots', function() {
+    test("More Bots", function() {
         let inputFile = new File(__dirname + 'input/03 - more bots.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -51,7 +51,7 @@ suite('Robot show', function() {
         );
     });
 
-    test('Ping Pong', function() {
+    test("Ping Pong", function() {
         let inputFile = new File(__dirname + 'input/04 - ping pong.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -62,7 +62,7 @@ suite('Robot show', function() {
         );
     });
 
-    test('Traffic Jam', function() {
+    test("Traffic Jam", function() {
         let inputFile = new File(__dirname + 'input/05 - traffic jam.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -73,7 +73,7 @@ suite('Robot show', function() {
         );
     });
 
-    test('Singular', function() {
+    test("Singular", function() {
         let inputFile = new File(__dirname + 'input/06 - singular.txt');
 
         execute(inputFile.readline.bind(inputFile));

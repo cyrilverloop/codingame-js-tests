@@ -5,7 +5,7 @@ import { execute } from '../../../../lib/training/easy/horseRacingDuals/horseRac
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Horse-racing duals', function() {
+suite("Horse-racing duals", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,7 +17,7 @@ suite('Horse-racing duals', function() {
     });
 
 
-    test('Simple case', function() {
+    test("Simple case", function() {
         let inputFile = new File(__dirname + 'input/01 - simple case.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite('Horse-racing duals', function() {
         );
     });
 
-    test('Horses in any order', function() {
+    test("Horses in any order", function() {
         let inputFile = new File(__dirname + 'input/02 - horses in any order.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite('Horse-racing duals', function() {
         );
     });
 
-    test('Many horses', function() {
+    test("Many horses", function() {
         let inputFile = new File(__dirname + 'input/03 - many horses.txt');
 
         execute(inputFile.readline.bind(inputFile));

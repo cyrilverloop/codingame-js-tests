@@ -5,7 +5,7 @@ import { execute } from '../../../../lib/training/easy/defibrillators/defibrilla
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Defibrillators', function() {
+suite("Defibrillators", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,29 +17,29 @@ suite('Defibrillators', function() {
     });
 
 
-    test('Example', function() {
+    test("Example", function() {
         let inputFile = new File(__dirname + 'input/01 - example.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
         assert.strictEqual(
             console.log.getCall(0).args[0],
-            'Maison de la Prevention Sante'
+            "Maison de la Prevention Sante"
         );
     });
 
-    test('Exact position', function() {
+    test("Exact position", function() {
         let inputFile = new File(__dirname + 'input/02 - exact position.txt');
 
         execute(inputFile.readline.bind(inputFile));
 
         assert.strictEqual(
             console.log.getCall(0).args[0],
-            'Cimetiere Saint-Etienne'
+            "Cimetiere Saint-Etienne"
         );
     });
 
-    test('Complete file', function() {
+    test("Complete file", function() {
         let inputFile = new File(__dirname + 'input/03 - complete file.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Defibrillators', function() {
         );
     });
 
-    test('Complete file 2', function() {
+    test("Complete file 2", function() {
         let inputFile = new File(__dirname + 'input/04 - complete file 2.txt');
 
         execute(inputFile.readline.bind(inputFile));

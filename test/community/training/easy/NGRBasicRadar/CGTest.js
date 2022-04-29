@@ -6,7 +6,7 @@ import { execute } from '../../../../../lib/community/training/easy/NGRBasicRada
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('NGR basic radar', function() {
+suite("NGR basic radar", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('NGR basic radar', function() {
     });
 
 
-    test('Low Density, 1 Ticket', function() {
+    test("Low Density, 1 Ticket", function() {
         let inputFile = new File(__dirname + 'input/01 - low density 1 ticket.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -29,7 +29,7 @@ suite('NGR basic radar', function() {
         );
     });
 
-    test('Low Density, Many Ticket', function() {
+    test("Low Density, Many Ticket", function() {
         let inputFile = new File(__dirname + 'input/02 - low density many ticket.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -37,7 +37,7 @@ suite('NGR basic radar', function() {
         assertOutputAnswer(__dirname + 'output/02 - low density many ticket.txt');
     });
 
-    test('Medium Density', function() {
+    test("Medium Density", function() {
         let inputFile = new File(__dirname + 'input/03 - medium density.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -45,7 +45,7 @@ suite('NGR basic radar', function() {
         assertOutputAnswer(__dirname + 'output/03 - medium density.txt');
     });
 
-    test('Test 4', function() {
+    test("Test 4", function() {
         let inputFile = new File(__dirname + 'input/04 - test 4.txt');
 
         execute(inputFile.readline.bind(inputFile));

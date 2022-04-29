@@ -5,7 +5,7 @@ import { execute } from '../../../../../lib/community/training/easy/equivalentRe
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Equivalent resistance, circuit building', function() {
+suite("Equivalent resistance, circuit building", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,7 +17,7 @@ suite('Equivalent resistance, circuit building', function() {
     });
 
 
-    test('Series', function() {
+    test("Series", function() {
         let inputFile = new File(__dirname + 'input/01 - series.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite('Equivalent resistance, circuit building', function() {
         );
     });
 
-    test('Parallel', function() {
+    test("Parallel", function() {
         let inputFile = new File(__dirname + 'input/02 - parallel.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite('Equivalent resistance, circuit building', function() {
         );
     });
 
-    test('Combined (example diagram)', function() {
+    test("Combined (example diagram)", function() {
         let inputFile = new File(__dirname + 'input/03 - combined (example diagram).txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Equivalent resistance, circuit building', function() {
         );
     });
 
-    test('Complex', function() {
+    test("Complex", function() {
         let inputFile = new File(__dirname + 'input/04 - complex.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite('Equivalent resistance, circuit building', function() {
         );
     });
 
-    test('More complex', function() {
+    test("More complex", function() {
         let inputFile = new File(__dirname + 'input/05 - more complex.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -72,7 +72,7 @@ suite('Equivalent resistance, circuit building', function() {
         );
     });
 
-    test('5-pointed star', function() {
+    test("5-pointed star", function() {
         let inputFile = new File(__dirname + 'input/06 - 5-pointed star.txt');
 
         execute(inputFile.readline.bind(inputFile));

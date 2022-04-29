@@ -17,7 +17,7 @@ suite("Van Eck's sequence", function() {
     });
 
 
-    test('Not Seen', function() {
+    test("Not Seen", function() {
         let inputFile = new File(__dirname + 'input/01 - not seen.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite("Van Eck's sequence", function() {
         );
     });
 
-    test('Seen Before', function() {
+    test("Seen Before", function() {
         let inputFile = new File(__dirname + 'input/02 - seen before.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite("Van Eck's sequence", function() {
         );
     });
 
-    test('A little long', function() {
+    test("A little long", function() {
         let inputFile = new File(__dirname + 'input/03 - a little long.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite("Van Eck's sequence", function() {
         );
     });
 
-    test('Longer', function() {
+    test("Longer", function() {
         let inputFile = new File(__dirname + 'input/04 - longer.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite("Van Eck's sequence", function() {
         );
     });
 
-    test('A little stress', function() {
+    test("A little stress", function() {
         let inputFile = new File(__dirname + 'input/05 - a little stress.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -72,7 +72,7 @@ suite("Van Eck's sequence", function() {
         );
     });
 
-    test('Stress Check', function() {
+    test("Stress Check", function() {
         let inputFile = new File(__dirname + 'input/06 - stress check.txt');
 
         execute(inputFile.readline.bind(inputFile));

@@ -18,7 +18,7 @@ suite("Ghost legs", function() {
     });
 
 
-    test('Simple sample', function() {
+    test("Simple sample", function() {
         let inputFile = new File(__dirname + 'input/01 - simple sample.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -26,7 +26,7 @@ suite("Ghost legs", function() {
         assertOutputAnswer(__dirname + 'output/01 - simple sample.txt');
     });
 
-    test('Small sample', function() {
+    test("Small sample", function() {
         let inputFile = new File(__dirname + 'input/02 - small sample.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -34,7 +34,7 @@ suite("Ghost legs", function() {
         assertOutputAnswer(__dirname + 'output/02 - small sample.txt');
     });
 
-    test('6 lanes', function() {
+    test("6 lanes", function() {
         let inputFile = new File(__dirname + 'input/03 - 6 lanes.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -42,7 +42,7 @@ suite("Ghost legs", function() {
         assertOutputAnswer(__dirname + 'output/03 - 6 lanes.txt');
     });
 
-    test('8 lanes', function() {
+    test("8 lanes", function() {
         let inputFile = new File(__dirname + 'input/04 - 8 lanes.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite("Ghost legs", function() {
         assertOutputAnswer(__dirname + 'output/04 - 8 lanes.txt');
     });
 
-    test('10 lanes', function() {
+    test("10 lanes", function() {
         let inputFile = new File(__dirname + 'input/05 - 10 lanes.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -58,7 +58,7 @@ suite("Ghost legs", function() {
         assertOutputAnswer(__dirname + 'output/05 - 10 lanes.txt');
     });
 
-    test('Wide and wild', function() {
+    test("Wide and wild", function() {
         let inputFile = new File(__dirname + 'input/06 - wide and wild.txt');
 
         execute(inputFile.readline.bind(inputFile));

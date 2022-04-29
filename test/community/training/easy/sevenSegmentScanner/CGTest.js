@@ -18,7 +18,7 @@ suite("7-segment scanner", function() {
     });
 
 
-    test('Example', function() {
+    test("Example", function() {
         let inputFile = new File(__dirname + 'input/01 - example.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -29,7 +29,7 @@ suite("7-segment scanner", function() {
         );
     });
 
-    test('Zeroes', function() {
+    test("Zeroes", function() {
         let inputFile = new File(__dirname + 'input/02 - zeroes.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -40,7 +40,7 @@ suite("7-segment scanner", function() {
         );
     });
 
-    test('Short number', function() {
+    test("Short number", function() {
         let inputFile = new File(__dirname + 'input/03 - short number.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -51,7 +51,7 @@ suite("7-segment scanner", function() {
         );
     });
 
-    test('Long number', function() {
+    test("Long number", function() {
         let inputFile = new File(__dirname + 'input/04 - long number.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -62,7 +62,7 @@ suite("7-segment scanner", function() {
         );
     });
 
-    test('Super long number', function() {
+    test("Super long number", function() {
         let inputFile = new File(__dirname + 'input/05 - super long number.txt');
 
         execute(inputFile.readline.bind(inputFile));

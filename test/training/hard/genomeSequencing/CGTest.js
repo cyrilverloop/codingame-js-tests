@@ -5,7 +5,7 @@ import { execute } from '../../../../lib/training/hard/genomeSequencing/genomeSe
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Genome sequencing', function() {
+suite("Genome sequencing", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,7 +17,7 @@ suite('Genome sequencing', function() {
     });
 
 
-    test('AACCTT', function() {
+    test("AACCTT", function() {
         let inputFile = new File(__dirname + 'input/01 - AACCTT.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite('Genome sequencing', function() {
         );
     });
 
-    test('AGATTACAGA', function() {
+    test("AGATTACAGA", function() {
         let inputFile = new File(__dirname + 'input/02 - AGATTACAGA.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite('Genome sequencing', function() {
         );
     });
 
-    test('AACTT', function() {
+    test("AACTT", function() {
         let inputFile = new File(__dirname + 'input/03 - AACTT.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Genome sequencing', function() {
         );
     });
 
-    test('AGATTA', function() {
+    test("AGATTA", function() {
         let inputFile = new File(__dirname + 'input/04 - AGATTA.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite('Genome sequencing', function() {
         );
     });
 
-    test('reversed AGATTA', function() {
+    test("reversed AGATTA", function() {
         let inputFile = new File(__dirname + 'input/05 - reversed AGATTA.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -72,7 +72,7 @@ suite('Genome sequencing', function() {
         );
     });
 
-    test('ATCG', function() {
+    test("ATCG", function() {
         let inputFile = new File(__dirname + 'input/06 - ATCG.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -83,7 +83,7 @@ suite('Genome sequencing', function() {
         );
     });
 
-    test('CCCTGACATGA', function() {
+    test("CCCTGACATGA", function() {
         let inputFile = new File(__dirname + 'input/07 - CCCTGACATGA.txt');
 
         execute(inputFile.readline.bind(inputFile));

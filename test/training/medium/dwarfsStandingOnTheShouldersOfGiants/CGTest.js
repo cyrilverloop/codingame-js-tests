@@ -5,7 +5,7 @@ import { execute } from '../../../../lib/training/medium/dwarfsStandingOnTheShou
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Dwarfs standing on the shoulders of giants', function() {
+suite("Dwarfs standing on the shoulders of giants", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,7 +17,7 @@ suite('Dwarfs standing on the shoulders of giants', function() {
     });
 
 
-    test('Simple example', function() {
+    test("Simple example", function() {
         let inputFile = new File(__dirname + 'input/01 - simple example.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite('Dwarfs standing on the shoulders of giants', function() {
         );
     });
 
-    test('Complete example', function() {
+    test("Complete example", function() {
         let inputFile = new File(__dirname + 'input/02 - complete example.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite('Dwarfs standing on the shoulders of giants', function() {
         );
     });
 
-    test('Several mentors', function() {
+    test("Several mentors", function() {
         let inputFile = new File(__dirname + 'input/03 - several mentors.txt');
 
         execute(inputFile.readline.bind(inputFile));

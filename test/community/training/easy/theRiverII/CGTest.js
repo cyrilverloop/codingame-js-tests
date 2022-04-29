@@ -17,7 +17,7 @@ suite("The River II.", function() {
     });
 
 
-    test('Test 20', function() {
+    test("Test 20", function() {
         let inputFile = new File(__dirname + 'input/01 - test 20.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite("The River II.", function() {
         );
     });
 
-    test('The lucky 13', function() {
+    test("The lucky 13", function() {
         let inputFile = new File(__dirname + 'input/02 - the lucky 13.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite("The River II.", function() {
         );
     });
 
-    test('yyy', function() {
+    test("yyy", function() {
         let inputFile = new File(__dirname + 'input/03 - yyy.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite("The River II.", function() {
         );
     });
 
-    test('zzzz', function() {
+    test("zzzz", function() {
         let inputFile = new File(__dirname + 'input/04 - zzzz.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite("The River II.", function() {
         );
     });
 
-    test('Yes, please', function() {
+    test("Yes, please", function() {
         let inputFile = new File(__dirname + 'input/05 - yes, please.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -72,7 +72,7 @@ suite("The River II.", function() {
         );
     });
 
-    test('4aaaa', function() {
+    test("4aaaa", function() {
         let inputFile = new File(__dirname + 'input/06 - 4aaaa.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -83,7 +83,7 @@ suite("The River II.", function() {
         );
     });
 
-    test('BIG', function() {
+    test("BIG", function() {
         let inputFile = new File(__dirname + 'input/07 - BIG.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -94,7 +94,7 @@ suite("The River II.", function() {
         );
     });
 
-    test('Maybe yes this time', function() {
+    test("Maybe yes this time", function() {
         let inputFile = new File(__dirname + 'input/08 - maybe yes this time.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -105,7 +105,7 @@ suite("The River II.", function() {
         );
     });
 
-    test('Random #1', function() {
+    test("Random #1", function() {
         let inputFile = new File(__dirname + 'input/09 - random #1.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -116,7 +116,7 @@ suite("The River II.", function() {
         );
     });
 
-    test('Random #2', function() {
+    test("Random #2", function() {
         let inputFile = new File(__dirname + 'input/10 - random #2.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -127,7 +127,7 @@ suite("The River II.", function() {
         );
     });
 
-    test('Random Large', function() {
+    test("Random Large", function() {
         let inputFile = new File(__dirname + 'input/11 - random large.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -138,7 +138,7 @@ suite("The River II.", function() {
         );
     });
 
-    test('Random Small', function() {
+    test("Random Small", function() {
         let inputFile = new File(__dirname + 'input/12 - random small.txt');
 
         execute(inputFile.readline.bind(inputFile));

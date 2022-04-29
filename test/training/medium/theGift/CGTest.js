@@ -6,7 +6,7 @@ import { execute } from '../../../../lib/training/medium/theGift/theGift.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('The gift', function() {
+suite("The gift", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('The gift', function() {
     });
 
 
-    test('Example 1', function() {
+    test("Example 1", function() {
         let inputFile = new File(__dirname + 'input/01 - example 1.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -29,7 +29,7 @@ suite('The gift', function() {
         );
     });
 
-    test('Example 2', function() {
+    test("Example 2", function() {
         let inputFile = new File(__dirname + 'input/02 - example 2.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -37,7 +37,7 @@ suite('The gift', function() {
         assertOutputAnswer(__dirname + 'output/02 - example 2.txt');
     });
 
-    test('Example 3', function() {
+    test("Example 3", function() {
         let inputFile = new File(__dirname + 'input/03 - example 3.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -45,7 +45,7 @@ suite('The gift', function() {
         assertOutputAnswer(__dirname + 'output/03 - example 3.txt');
     });
 
-    test('Impossible', function() {
+    test("Impossible", function() {
         let inputFile = new File(__dirname + 'input/04 - impossible.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -56,7 +56,7 @@ suite('The gift', function() {
         );
     });
 
-    test('Sort', function() {
+    test("Sort", function() {
         let inputFile = new File(__dirname + 'input/05 - sort.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -64,7 +64,7 @@ suite('The gift', function() {
         assertOutputAnswer(__dirname + 'output/05 - sort.txt');
     });
 
-    test('Budget limit', function() {
+    test("Budget limit", function() {
         let inputFile = new File(__dirname + 'input/06 - budget Limit.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -72,7 +72,7 @@ suite('The gift', function() {
         assertOutputAnswer(__dirname + 'output/06 - budget Limit.txt');
     });
 
-    test('Several solutions budget', function() {
+    test("Several solutions budget", function() {
         let inputFile = new File(__dirname + 'input/07 - several solutions budget.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -80,7 +80,7 @@ suite('The gift', function() {
         assertOutputAnswer(__dirname + 'output/07 - several solutions budget.txt');
     });
 
-    test('Several solution fast', function() {
+    test("Several solution fast", function() {
         let inputFile = new File(__dirname + 'input/08 - several solution fast.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -88,7 +88,7 @@ suite('The gift', function() {
         assertOutputAnswer(__dirname + 'output/08 - several solution fast.txt');
     });
 
-    test('Big random', function() {
+    test("Big random", function() {
         let inputFile = new File(__dirname + 'input/09 - big random.txt');
 
         execute(inputFile.readline.bind(inputFile));

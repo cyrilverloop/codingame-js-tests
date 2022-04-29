@@ -6,7 +6,7 @@ import { execute } from '../../../../../lib/community/training/easy/faxMachine/f
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Fax machine', function() {
+suite("Fax machine", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('Fax machine', function() {
     });
 
 
-    test('The Example', function() {
+    test("The Example", function() {
         let inputFile = new File(__dirname + 'input/01 - the example.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -26,7 +26,7 @@ suite('Fax machine', function() {
         assertOutputAnswer(__dirname + 'output/01 - the example.txt');
     });
 
-    test('Half Black half white', function() {
+    test("Half Black half white", function() {
         let inputFile = new File(__dirname + 'input/02 - half black half white.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -34,7 +34,7 @@ suite('Fax machine', function() {
         assertOutputAnswer(__dirname + 'output/02 - half black half white.txt');
     });
 
-    test('Hello', function() {
+    test("Hello", function() {
         let inputFile = new File(__dirname + 'input/03 - hello.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -42,7 +42,7 @@ suite('Fax machine', function() {
         assertOutputAnswer(__dirname + 'output/03 - hello.txt');
     });
 
-    test('Heart', function() {
+    test("Heart", function() {
         let inputFile = new File(__dirname + 'input/04 - heart.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Fax machine', function() {
         assertOutputAnswer(__dirname + 'output/04 - heart.txt');
     });
 
-    test('Inverse', function() {
+    test("Inverse", function() {
         let inputFile = new File(__dirname + 'input/05 - inverse.txt');
 
         execute(inputFile.readline.bind(inputFile));

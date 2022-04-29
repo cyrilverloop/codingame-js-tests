@@ -6,7 +6,7 @@ import { execute } from '../../../../lib/training/easy/MIMEType/MIMEType.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('MIME type', function() {
+suite("MIME type", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('MIME type', function() {
     });
 
 
-    test('Simple example', function() {
+    test("Simple example", function() {
         let inputFile = new File(__dirname + 'input/01 - simple example.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -26,7 +26,7 @@ suite('MIME type', function() {
         assertOutputAnswer(__dirname + 'output/01 - simple example.txt');
     });
 
-    test('Unknown MIME types', function() {
+    test("Unknown MIME types", function() {
         let inputFile = new File(__dirname + 'input/02 - unknown MIME types.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -34,7 +34,7 @@ suite('MIME type', function() {
         assertOutputAnswer(__dirname + 'output/02 - unknown MIME types.txt');
     });
 
-    test('Correct division of the extension', function() {
+    test("Correct division of the extension", function() {
         let inputFile = new File(__dirname + 'input/03 - correct division of the extension.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -42,7 +42,7 @@ suite('MIME type', function() {
         assertOutputAnswer(__dirname + 'output/03 - correct division of the extension.txt');
     });
 
-    test('Consideration of the case (upper or lower)', function() {
+    test("Consideration of the case (upper or lower)", function() {
         let inputFile = new File(__dirname + 'input/04 - consideration of the case (upper or lower).txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('MIME type', function() {
         assertOutputAnswer(__dirname + 'output/04 - consideration of the case (upper or lower).txt');
     });
 
-    test('Large dataset', function() {
+    test("Large dataset", function() {
         let inputFile = new File(__dirname + 'input/05 - large dataset.txt');
 
         execute(inputFile.readline.bind(inputFile));

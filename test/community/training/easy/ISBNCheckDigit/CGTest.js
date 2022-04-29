@@ -6,7 +6,7 @@ import { execute } from '../../../../../lib/community/training/easy/ISBNCheckDig
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('ISBN check digit', function() {
+suite("ISBN check digit", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('ISBN check digit', function() {
     });
 
 
-    test('Example', function() {
+    test("Example", function() {
         let inputFile = new File(__dirname + 'input/01 - example.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -26,7 +26,7 @@ suite('ISBN check digit', function() {
         assertOutputAnswer(__dirname + 'output/01 - example.txt');
     });
 
-    test('Short', function() {
+    test("Short", function() {
         let inputFile = new File(__dirname + 'input/02 - short.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -34,7 +34,7 @@ suite('ISBN check digit', function() {
         assertOutputAnswer(__dirname + 'output/02 - short.txt');
     });
 
-    test('Longer', function() {
+    test("Longer", function() {
         let inputFile = new File(__dirname + 'input/03 - longer.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -42,7 +42,7 @@ suite('ISBN check digit', function() {
         assertOutputAnswer(__dirname + 'output/03 - longer.txt');
     });
 
-    test('Much longer', function() {
+    test("Much longer", function() {
         let inputFile = new File(__dirname + 'input/04 - much longer.txt');
 
         execute(inputFile.readline.bind(inputFile));

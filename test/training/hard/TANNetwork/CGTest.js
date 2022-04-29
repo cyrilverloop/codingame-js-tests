@@ -6,7 +6,7 @@ import { execute } from '../../../../lib/training/hard/TANNetwork/TANNetwork.js'
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('TAN network', function() {
+suite("TAN network", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('TAN network', function() {
     });
 
 
-    test('Example', function() {
+    test("Example", function() {
         let inputFile = new File(__dirname + 'input/01 - example.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -26,7 +26,7 @@ suite('TAN network', function() {
         assertOutputAnswer(__dirname + 'output/01 - example.txt');
     });
 
-    test('One single stop', function() {
+    test("One single stop", function() {
         let inputFile = new File(__dirname + 'input/02 - one single stop.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -34,7 +34,7 @@ suite('TAN network', function() {
         assertOutputAnswer(__dirname + 'output/02 - one single stop.txt');
     });
 
-    test('Same starting and end points', function() {
+    test("Same starting and end points", function() {
         let inputFile = new File(__dirname + 'input/03 - same starting and end points.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -45,7 +45,7 @@ suite('TAN network', function() {
         );
     });
 
-    test('Several stages', function() {
+    test("Several stages", function() {
         let inputFile = new File(__dirname + 'input/04 - several stages.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -53,7 +53,7 @@ suite('TAN network', function() {
         assertOutputAnswer(__dirname + 'output/04 - several stages.txt');
     });
 
-    test('Large number of stages', function() {
+    test("Large number of stages", function() {
         let inputFile = new File(__dirname + 'input/05 - large number of stages.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite('TAN network', function() {
         assertOutputAnswer(__dirname + 'output/05 - large number of stages.txt');
     });
 
-    test('Route impossible', function() {
+    test("Route impossible", function() {
         let inputFile = new File(__dirname + 'input/06 - route impossible.txt');
 
         execute(inputFile.readline.bind(inputFile));

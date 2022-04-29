@@ -18,7 +18,7 @@ suite("Sum of spiral's diagonals", function() {
     });
 
 
-    test('Odd spiral', function() {
+    test("Odd spiral", function() {
         let inputFile = new File(__dirname + 'input/01 - odd spiral.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -29,7 +29,7 @@ suite("Sum of spiral's diagonals", function() {
         );
     });
 
-    test('Even spiral', function() {
+    test("Even spiral", function() {
         let inputFile = new File(__dirname + 'input/02 - even spiral.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -40,7 +40,7 @@ suite("Sum of spiral's diagonals", function() {
         );
     });
 
-    test('Bigger spiral', function() {
+    test("Bigger spiral", function() {
         let inputFile = new File(__dirname + 'input/03 - bigger spiral.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -51,7 +51,7 @@ suite("Sum of spiral's diagonals", function() {
         );
     });
 
-    test('Milky spiral', function() {
+    test("Milky spiral", function() {
         let inputFile = new File(__dirname + 'input/04 - milky spiral.txt');
 
         execute(inputFile.readline.bind(inputFile));

@@ -7,6 +7,6 @@ export default class File {
     }
 
     readline() {
-        return this._liner.next().toString('utf8');
+        return this._liner.next().toString("utf8");
     }
 }

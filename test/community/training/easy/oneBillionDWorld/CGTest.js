@@ -6,7 +6,7 @@ import { execute } from '../../../../../lib/community/training/easy/oneBillionDW
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('1000000000D world', function() {
+suite("1000000000D world", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('1000000000D world', function() {
     });
 
 
-    test('Test 1', function() {
+    test("Test 1", function() {
         let inputFile = new File(__dirname + 'input/01 - test 1.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -29,7 +29,7 @@ suite('1000000000D world', function() {
         );
     });
 
-    test('Test 2', function() {
+    test("Test 2", function() {
         let inputFile = new File(__dirname + 'input/02 - test 2.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -40,7 +40,7 @@ suite('1000000000D world', function() {
         );
     });
 
-    test('Test 3', function() {
+    test("Test 3", function() {
         let inputFile = new File(__dirname + 'input/03 - test 3.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -51,7 +51,7 @@ suite('1000000000D world', function() {
         );
     });
 
-    test('Test 4', function() {
+    test("Test 4", function() {
         let inputFile = new File(__dirname + 'input/04 - test 4.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -62,7 +62,7 @@ suite('1000000000D world', function() {
         );
     });
 
-    test('Test 5', function() {
+    test("Test 5", function() {
         let inputFile = new File(__dirname + 'input/05 - test 5.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -73,7 +73,7 @@ suite('1000000000D world', function() {
         );
     });
 
-    test('Test 6', function() {
+    test("Test 6", function() {
         let inputFile = new File(__dirname + 'input/06 - test 6.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -84,7 +84,7 @@ suite('1000000000D world', function() {
         );
     });
 
-    test('Test 7', function() {
+    test("Test 7", function() {
         let inputFile = new File(__dirname + 'input/07 - test 7.txt');
 
         execute(inputFile.readline.bind(inputFile));

@@ -5,7 +5,7 @@ import { execute } from '../../../../../lib/community/training/easy/lumen/lumen.
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Lumen', function() {
+suite("Lumen", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,7 +17,7 @@ suite('Lumen', function() {
     });
 
 
-    test('THEY only have one candle', function() {
+    test("THEY only have one candle", function() {
         let inputFile = new File(__dirname + 'input/01 - THEY only have one candle.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite('Lumen', function() {
         );
     });
 
-    test('THEY are doing a ritual', function() {
+    test("THEY are doing a ritual", function() {
         let inputFile = new File(__dirname + 'input/02 - THEY are doing a ritual.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite('Lumen', function() {
         );
     });
 
-    test('THEY have a large pit', function() {
+    test("THEY have a large pit", function() {
         let inputFile = new File(__dirname + 'input/03 - THEY have a large pit.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Lumen', function() {
         );
     });
 
-    test('THEY have a small cellar', function() {
+    test("THEY have a small cellar", function() {
         let inputFile = new File(__dirname + 'input/04 - THEY have a small cellar.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite('Lumen', function() {
         );
     });
 
-    test('THEY have a medium cellar', function() {
+    test("THEY have a medium cellar", function() {
         let inputFile = new File(__dirname + 'input/05 - THEY have a medium cellar.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -72,7 +72,7 @@ suite('Lumen', function() {
         );
     });
 
-    test('THEY have a large cellar', function() {
+    test("THEY have a large cellar", function() {
         let inputFile = new File(__dirname + 'input/06 - THEY have a large cellar.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -83,7 +83,7 @@ suite('Lumen', function() {
         );
     });
 
-    test('THEY are not very smart', function() {
+    test("THEY are not very smart", function() {
         let inputFile = new File(__dirname + 'input/07 - THEY are not very smart.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -94,7 +94,7 @@ suite('Lumen', function() {
         );
     });
 
-    test('THEY have a great hall', function() {
+    test("THEY have a great hall", function() {
         let inputFile = new File(__dirname + 'input/08 - THEY have a great hall.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -105,7 +105,7 @@ suite('Lumen', function() {
         );
     });
 
-    test('Not Euclidean', function() {
+    test("Not Euclidean", function() {
         let inputFile = new File(__dirname + 'input/09 - Not Euclidean.txt');
 
         execute(inputFile.readline.bind(inputFile));

@@ -6,7 +6,7 @@ import { execute } from '../../../../../lib/community/training/easy/rooksMovemen
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Rooks movements', function() {
+suite("Rooks movements", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('Rooks movements', function() {
     });
 
 
-    test('MOVING FREELY', function() {
+    test("MOVING FREELY", function() {
         let inputFile = new File(__dirname + 'input/01 - MOVING FREELY.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -26,7 +26,7 @@ suite('Rooks movements', function() {
         assertOutputAnswer(__dirname + 'output/01 - MOVING FREELY.txt');
     });
 
-    test('CLOSE TO THE EDGE', function() {
+    test("CLOSE TO THE EDGE", function() {
         let inputFile = new File(__dirname + 'input/02 - CLOSE TO THE EDGE.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -34,7 +34,7 @@ suite('Rooks movements', function() {
         assertOutputAnswer(__dirname + 'output/02 - CLOSE TO THE EDGE.txt');
     });
 
-    test('ONLY ALLIES', function() {
+    test("ONLY ALLIES", function() {
         let inputFile = new File(__dirname + 'input/03 - ONLY ALLIES.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -42,7 +42,7 @@ suite('Rooks movements', function() {
         assertOutputAnswer(__dirname + 'output/03 - ONLY ALLIES.txt');
     });
 
-    test('FOR FRODOOO', function() {
+    test("FOR FRODOOO", function() {
         let inputFile = new File(__dirname + 'input/04 - FOR FRODOOO.txt');
 
         execute(inputFile.readline.bind(inputFile));

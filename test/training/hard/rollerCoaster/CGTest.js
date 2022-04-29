@@ -5,7 +5,7 @@ import { execute } from '../../../../lib/training/hard/rollerCoaster/rollerCoast
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Roller coaster', function() {
+suite("Roller coaster", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,7 +17,7 @@ suite('Roller coaster', function() {
     });
 
 
-    test('Simple case', function() {
+    test("Simple case", function() {
         let inputFile = new File(__dirname + 'input/01 - simple case.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite('Roller coaster', function() {
         );
     });
 
-    test('1000 groups of a few people', function() {
+    test("1000 groups of a few people", function() {
         let inputFile = new File(__dirname + 'input/02 - 1000 groups of a few people.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite('Roller coaster', function() {
         );
     });
 
-    test('The same groups go on the ride several times during the day', function() {
+    test("The same groups go on the ride several times during the day", function() {
         let inputFile = new File(__dirname + 'input/03 - the same groups go on the ride several times during the day.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Roller coaster', function() {
         );
     });
 
-    test('All the people get on the roller coaster at least once', function() {
+    test("All the people get on the roller coaster at least once", function() {
         let inputFile = new File(__dirname + 'input/04 - all the people get on the roller coaster at least once.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite('Roller coaster', function() {
         );
     });
 
-    test('High earnings during the day (> 2^32)', function() {
+    test("High earnings during the day (> 2^32)", function() {
         let inputFile = new File(__dirname + 'input/05 - high earnings during the day.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -72,7 +72,7 @@ suite('Roller coaster', function() {
         );
     });
 
-    test('Works with a large dataset', function() {
+    test("Works with a large dataset", function() {
         let inputFile = new File(__dirname + 'input/06 - works with a large dataset.txt');
 
         execute(inputFile.readline.bind(inputFile));

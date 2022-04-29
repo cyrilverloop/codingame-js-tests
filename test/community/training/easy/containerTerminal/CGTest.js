@@ -6,7 +6,7 @@ import { execute } from '../../../../../lib/community/training/easy/containerTer
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Container terminal', function() {
+suite("Container terminal", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('Container terminal', function() {
     });
 
 
-    test('Easy', function() {
+    test("Easy", function() {
         let inputFile = new File(__dirname + 'input/01 - easy.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -26,7 +26,7 @@ suite('Container terminal', function() {
         assertOutputAnswer(__dirname + 'output/01 - easy.txt');
     });
 
-    test('15', function() {
+    test("15", function() {
         let inputFile = new File(__dirname + 'input/02 - 15.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -34,7 +34,7 @@ suite('Container terminal', function() {
         assertOutputAnswer(__dirname + 'output/02 - 15.txt');
     });
 
-    test('30', function() {
+    test("30", function() {
         let inputFile = new File(__dirname + 'input/03 - 30.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -42,7 +42,7 @@ suite('Container terminal', function() {
         assertOutputAnswer(__dirname + 'output/03 - 30.txt');
     });
 
-    test('60', function() {
+    test("60", function() {
         let inputFile = new File(__dirname + 'input/04 - 60.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Container terminal', function() {
         assertOutputAnswer(__dirname + 'output/04 - 60.txt');
     });
 
-    test('Long Queue', function() {
+    test("Long Queue", function() {
         let inputFile = new File(__dirname + 'input/05 - long queue.txt');
 
         execute(inputFile.readline.bind(inputFile));

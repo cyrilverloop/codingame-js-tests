@@ -17,7 +17,7 @@ suite("Tree paths", function() {
     });
 
 
-    test('Test 1', function() {
+    test("Test 1", function() {
         let inputFile = new File(__dirname + 'input/01 - test 1.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite("Tree paths", function() {
         );
     });
 
-    test('Test 2', function() {
+    test("Test 2", function() {
         let inputFile = new File(__dirname + 'input/02 - test 2.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite("Tree paths", function() {
         );
     });
 
-    test('Test 3', function() {
+    test("Test 3", function() {
         let inputFile = new File(__dirname + 'input/03 - test 3.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite("Tree paths", function() {
         );
     });
 
-    test('Test 4', function() {
+    test("Test 4", function() {
         let inputFile = new File(__dirname + 'input/04 - test 4.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite("Tree paths", function() {
         );
     });
 
-    test('Test 5', function() {
+    test("Test 5", function() {
         let inputFile = new File(__dirname + 'input/05 - test 5.txt');
 
         execute(inputFile.readline.bind(inputFile));

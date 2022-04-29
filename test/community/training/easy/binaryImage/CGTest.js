@@ -6,7 +6,7 @@ import { execute } from '../../../../../lib/community/training/easy/binaryImage/
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Binary image', function() {
+suite("Binary image", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('Binary image', function() {
     });
 
 
-    test('Vertical stripes', function() {
+    test("Vertical stripes", function() {
         let inputFile = new File(__dirname + 'input/01 - vertical stripes.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -26,7 +26,7 @@ suite('Binary image', function() {
         assertOutputAnswer(__dirname + 'output/01 - vertical stripes.txt');
     });
 
-    test('Starting by 0', function() {
+    test("Starting by 0", function() {
         let inputFile = new File(__dirname + 'input/02 - starting by 0.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -34,7 +34,7 @@ suite('Binary image', function() {
         assertOutputAnswer(__dirname + 'output/02 - starting by 0.txt');
     });
 
-    test('Chess board', function() {
+    test("Chess board", function() {
         let inputFile = new File(__dirname + 'input/03 - chess board.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -42,7 +42,7 @@ suite('Binary image', function() {
         assertOutputAnswer(__dirname + 'output/03 - chess board.txt');
     });
 
-    test('Horizontal stripes', function() {
+    test("Horizontal stripes", function() {
         let inputFile = new File(__dirname + 'input/04 - horizontal stripes.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Binary image', function() {
         assertOutputAnswer(__dirname + 'output/04 - horizontal stripes.txt');
     });
 
-    test('Codingame', function() {
+    test("Codingame", function() {
         let inputFile = new File(__dirname + 'input/05 - codingame.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -58,7 +58,7 @@ suite('Binary image', function() {
         assertOutputAnswer(__dirname + 'output/05 - codingame.txt');
     });
 
-    test('Invalid', function() {
+    test("Invalid", function() {
         let inputFile = new File(__dirname + 'input/06 - invalid.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -69,7 +69,7 @@ suite('Binary image', function() {
         );
     });
 
-    test('Random', function() {
+    test("Random", function() {
         let inputFile = new File(__dirname + 'input/07 - random.txt');
 
         execute(inputFile.readline.bind(inputFile));

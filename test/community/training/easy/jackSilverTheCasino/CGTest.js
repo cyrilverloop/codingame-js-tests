@@ -5,7 +5,7 @@ import { execute } from '../../../../../lib/community/training/easy/jackSilverTh
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Jack Silver: the casino', function() {
+suite("Jack Silver: the casino", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,7 +17,7 @@ suite('Jack Silver: the casino', function() {
     });
 
 
-    test('Target #1', function() {
+    test("Target #1", function() {
         let inputFile = new File(__dirname + 'input/01 - target 1.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite('Jack Silver: the casino', function() {
         );
     });
 
-    test('Target #3', function() {
+    test("Target #3", function() {
         let inputFile = new File(__dirname + 'input/02 - target 3.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite('Jack Silver: the casino', function() {
         );
     });
 
-    test('Target #5', function() {
+    test("Target #5", function() {
         let inputFile = new File(__dirname + 'input/03 - target 5.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Jack Silver: the casino', function() {
         );
     });
 
-    test('0 is not EVEN', function() {
+    test("0 is not EVEN", function() {
         let inputFile = new File(__dirname + 'input/04 - 0 is not EVEN.txt');
 
         execute(inputFile.readline.bind(inputFile));

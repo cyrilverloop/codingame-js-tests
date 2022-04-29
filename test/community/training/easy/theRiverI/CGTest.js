@@ -17,7 +17,7 @@ suite("The River I.", function() {
     });
 
 
-    test('We will meet at 47', function() {
+    test("We will meet at 47", function() {
         let inputFile = new File(__dirname + 'input/01 - we will meet at 47.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite("The River I.", function() {
         );
     });
 
-    test('r1 < r2', function() {
+    test("r1 < r2", function() {
         let inputFile = new File(__dirname + 'input/02 - r1 < r2.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite("The River I.", function() {
         );
     });
 
-    test('r1 > r2', function() {
+    test("r1 > r2", function() {
         let inputFile = new File(__dirname + 'input/03 - r1 > r2.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite("The River I.", function() {
         );
     });
 
-    test('More than... I.', function() {
+    test("More than... I.", function() {
         let inputFile = new File(__dirname + 'input/04 - more than I.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite("The River I.", function() {
         );
     });
 
-    test('More than... II.', function() {
+    test("More than... II.", function() {
         let inputFile = new File(__dirname + 'input/05 - more than II.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -72,7 +72,7 @@ suite("The River I.", function() {
         );
     });
 
-    test('River 2489', function() {
+    test("River 2489", function() {
         let inputFile = new File(__dirname + 'input/06 - river 2489.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -83,7 +83,7 @@ suite("The River I.", function() {
         );
     });
 
-    test('River 13', function() {
+    test("River 13", function() {
         let inputFile = new File(__dirname + 'input/07 - river 13.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -94,7 +94,7 @@ suite("The River I.", function() {
         );
     });
 
-    test('Primes', function() {
+    test("Primes", function() {
         let inputFile = new File(__dirname + 'input/08 - primes.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -105,7 +105,7 @@ suite("The River I.", function() {
         );
     });
 
-    test('Even bigger', function() {
+    test("Even bigger", function() {
         let inputFile = new File(__dirname + 'input/09 - even bigger.txt');
 
         execute(inputFile.readline.bind(inputFile));

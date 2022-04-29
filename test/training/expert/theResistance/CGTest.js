@@ -5,7 +5,7 @@ import { execute } from '../../../../lib/training/expert/theResistance/theResist
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('The resistance', function() {
+suite("The resistance", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,7 +17,7 @@ suite('The resistance', function() {
     });
 
 
-    test('Correct detection of a letter', function() {
+    test("Correct detection of a letter", function() {
         let inputFile = new File(__dirname + 'input/01 - correct detection of a letter.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite('The resistance', function() {
         );
     });
 
-    test('Correct detection of a word', function() {
+    test("Correct detection of a word", function() {
         let inputFile = new File(__dirname + 'input/02 - correct detection of a word.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite('The resistance', function() {
         );
     });
 
-    test('Simple messages', function() {
+    test("Simple messages", function() {
         let inputFile = new File(__dirname + 'input/03 - simple messages.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('The resistance', function() {
         );
     });
 
-    test('Long sequence, large dictionary', function() {
+    test("Long sequence, large dictionary", function() {
         let inputFile = new File(__dirname + 'input/04 - long sequence, large dictionary.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -61,7 +61,7 @@ suite('The resistance', function() {
         );
     });
 
-    test('Same encoding for different words', function() {
+    test("Same encoding for different words", function() {
         let inputFile = new File(__dirname + 'input/05 - same encoding for different words.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -72,7 +72,7 @@ suite('The resistance', function() {
         );
     });
 
-    test('Many possibilities', function() {
+    test("Many possibilities", function() {
         let inputFile = new File(__dirname + 'input/06 - many possibilities.txt');
 
         execute(inputFile.readline.bind(inputFile));

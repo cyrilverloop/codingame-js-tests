@@ -6,7 +6,7 @@ import { execute } from '../../../../../lib/community/training/easy/creditCardVe
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Container terminal', function() {
+suite("Container terminal", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('Container terminal', function() {
     });
 
 
-    test('Tests', function() {
+    test("Tests", function() {
         let inputFile = new File(__dirname + 'input/01 - tests.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -26,7 +26,7 @@ suite('Container terminal', function() {
         assertOutputAnswer(__dirname + 'output/01 - tests.txt');
     });
 
-    test('MasterCard', function() {
+    test("MasterCard", function() {
         let inputFile = new File(__dirname + 'input/02 - MasterCard.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -34,7 +34,7 @@ suite('Container terminal', function() {
         assertOutputAnswer(__dirname + 'output/02 - MasterCard.txt');
     });
 
-    test('Discover', function() {
+    test("Discover", function() {
         let inputFile = new File(__dirname + 'input/03 - Discover.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -42,7 +42,7 @@ suite('Container terminal', function() {
         assertOutputAnswer(__dirname + 'output/03 - Discover.txt');
     });
 
-    test('VISA', function() {
+    test("VISA", function() {
         let inputFile = new File(__dirname + 'input/04 - VISA.txt');
 
         execute(inputFile.readline.bind(inputFile));

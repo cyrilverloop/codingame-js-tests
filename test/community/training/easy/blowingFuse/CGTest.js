@@ -6,7 +6,7 @@ import { execute } from '../../../../../lib/community/training/easy/blowingFuse/
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Blowing fuse', function() {
+suite("Blowing fuse", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('Blowing fuse', function() {
     });
 
 
-    test('Blown', function() {
+    test("Blown", function() {
         let inputFile = new File(__dirname + 'input/01 - blown.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -29,7 +29,7 @@ suite('Blowing fuse', function() {
         );
     });
 
-    test('Not blown', function() {
+    test("Not blown", function() {
         let inputFile = new File(__dirname + 'input/02 - not blown.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -37,7 +37,7 @@ suite('Blowing fuse', function() {
         assertOutputAnswer(__dirname + 'output/02 - not blown.txt');
     });
 
-    test('Single device', function() {
+    test("Single device", function() {
         let inputFile = new File(__dirname + 'input/03 - single device.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -48,7 +48,7 @@ suite('Blowing fuse', function() {
         );
     });
 
-    test('More devices', function() {
+    test("More devices", function() {
         let inputFile = new File(__dirname + 'input/04 - more device.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -56,7 +56,7 @@ suite('Blowing fuse', function() {
         assertOutputAnswer(__dirname + 'output/04 - more device.txt');
     });
 
-    test('More clicks, more devices', function() {
+    test("More clicks, more devices", function() {
         let inputFile = new File(__dirname + 'input/05 - more clicks, more devices.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -64,7 +64,7 @@ suite('Blowing fuse', function() {
         assertOutputAnswer(__dirname + 'output/05 - more clicks, more devices.txt');
     });
 
-    test('Power hungry', function() {
+    test("Power hungry", function() {
         let inputFile = new File(__dirname + 'input/06 - power hungry.txt');
 
         execute(inputFile.readline.bind(inputFile));

@@ -6,7 +6,7 @@ import { execute } from '../../../../lib/training/medium/blunderEpisode1/blunder
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Blunder - episode 1', function() {
+suite("Blunder - episode 1", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -18,7 +18,7 @@ suite('Blunder - episode 1', function() {
     });
 
 
-    test('Simple moves', function() {
+    test("Simple moves", function() {
         let inputFile = new File(__dirname + 'input/01 - simple moves.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -26,7 +26,7 @@ suite('Blunder - episode 1', function() {
         assertOutputAnswer(__dirname + 'output/01 - simple moves.txt');
     });
 
-    test('Obstacles', function() {
+    test("Obstacles", function() {
         let inputFile = new File(__dirname + 'input/02 - obstacles.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -34,7 +34,7 @@ suite('Blunder - episode 1', function() {
         assertOutputAnswer(__dirname + 'output/02 - obstacles.txt');
     });
 
-    test('Priorities', function() {
+    test("Priorities", function() {
         let inputFile = new File(__dirname + 'input/03 - priorities.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -42,7 +42,7 @@ suite('Blunder - episode 1', function() {
         assertOutputAnswer(__dirname + 'output/03 - priorities.txt');
     });
 
-    test('Straight line', function() {
+    test("Straight line", function() {
         let inputFile = new File(__dirname + 'input/04 - straight line.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -50,7 +50,7 @@ suite('Blunder - episode 1', function() {
         assertOutputAnswer(__dirname + 'output/04 - straight line.txt');
     });
 
-    test('Path modifier', function() {
+    test("Path modifier", function() {
         let inputFile = new File(__dirname + 'input/05 - path modifier.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -58,7 +58,7 @@ suite('Blunder - episode 1', function() {
         assertOutputAnswer(__dirname + 'output/05 - path modifier.txt');
     });
 
-    test('Breaker mode', function() {
+    test("Breaker mode", function() {
         let inputFile = new File(__dirname + 'input/06 - breaker mode.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -66,7 +66,7 @@ suite('Blunder - episode 1', function() {
         assertOutputAnswer(__dirname + 'output/06 - breaker mode.txt');
     });
 
-    test('Inverter', function() {
+    test("Inverter", function() {
         let inputFile = new File(__dirname + 'input/07 - inverter.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -74,7 +74,7 @@ suite('Blunder - episode 1', function() {
         assertOutputAnswer(__dirname + 'output/07 - inverter.txt');
     });
 
-    test('Teleport', function() {
+    test("Teleport", function() {
         let inputFile = new File(__dirname + 'input/08 - teleport.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -82,7 +82,7 @@ suite('Blunder - episode 1', function() {
         assertOutputAnswer(__dirname + 'output/08 - teleport.txt');
     });
 
-    test('Broken wall?', function() {
+    test("Broken wall?", function() {
         let inputFile = new File(__dirname + 'input/09 - broken wall.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -90,7 +90,7 @@ suite('Blunder - episode 1', function() {
         assertOutputAnswer(__dirname + 'output/09 - broken wall.txt');
     });
 
-    test('All together', function() {
+    test("All together", function() {
         let inputFile = new File(__dirname + 'input/10 - all together.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -98,7 +98,7 @@ suite('Blunder - episode 1', function() {
         assertOutputAnswer(__dirname + 'output/10 - all together.txt');
     });
 
-    test('LOOP', function() {
+    test("LOOP", function() {
         let inputFile = new File(__dirname + 'input/11 - LOOP.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -106,7 +106,7 @@ suite('Blunder - episode 1', function() {
         assertOutputAnswer(__dirname + 'output/11 - LOOP.txt');
     });
 
-    test('Multiple loops?', function() {
+    test("Multiple loops?", function() {
         let inputFile = new File(__dirname + 'input/12 - multiple loops.txt');
 
         execute(inputFile.readline.bind(inputFile));

@@ -5,7 +5,7 @@ import { execute } from '../../../../lib/training/hard/superComputer/superComput
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite('Super computer', function() {
+suite("Super computer", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -17,7 +17,7 @@ suite('Super computer', function() {
     });
 
 
-    test('Example 1', function() {
+    test("Example 1", function() {
         let inputFile = new File(__dirname + 'input/01 - example 1.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -28,7 +28,7 @@ suite('Super computer', function() {
         );
     });
 
-    test('Example 2', function() {
+    test("Example 2", function() {
         let inputFile = new File(__dirname + 'input/02 - example 2.txt');
 
         execute(inputFile.readline.bind(inputFile));
@@ -39,7 +39,7 @@ suite('Super computer', function() {
         );
     });
 
-    test('Large number of scientists', function() {
+    test("Large number of scientists", function() {
         let inputFile = new File(__dirname + 'input/03 - large number of scientists.txt');
 
         execute(inputFile.readline.bind(inputFile));
