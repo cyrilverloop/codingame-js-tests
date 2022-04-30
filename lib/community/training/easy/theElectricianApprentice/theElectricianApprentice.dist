@@ -1,5 +1,6 @@
 /**
  * The "The electrician apprentice" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/the-electrician-apprentice}
  */
 function execute(readline) {
     const C = parseInt(readline());

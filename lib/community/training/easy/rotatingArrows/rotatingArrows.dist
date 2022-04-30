@@ -1,5 +1,6 @@
 /**
  * The "Rotating arrows" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/rotating-arrows}
  */
 function execute(readline) {
     var inputs = readline().split(' ');

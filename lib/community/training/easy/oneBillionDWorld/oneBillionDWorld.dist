@@ -1,5 +1,6 @@
 /**
  * The "1000000000D world" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/1000000000d-world}
  */
 function execute(readline) {
     const a = readline();

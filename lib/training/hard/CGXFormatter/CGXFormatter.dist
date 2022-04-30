@@ -1,5 +1,6 @@
 /**
  * The "CGX formatter" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/cgx-formatter}
  */
 function execute(readline) {
     const N = parseInt(readline());

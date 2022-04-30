@@ -1,5 +1,6 @@
 /**
  * The "The river I" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/the-river-i-}
  */
 function execute(readline) {
     const r1 = parseInt(readline());

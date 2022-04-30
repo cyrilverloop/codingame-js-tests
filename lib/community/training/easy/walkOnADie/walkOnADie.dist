@@ -1,5 +1,6 @@
 /**
  * The "Walk on a die" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/walk-on-a-die}
  */
 function execute(readline) {
     for (let i = 0; i < 3; i++) {

@@ -1,5 +1,6 @@
 /**
  * The "Conway sequence" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/conway-sequence}
  */
 function execute(readline) {
     const R = parseInt(readline());

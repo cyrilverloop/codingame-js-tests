@@ -1,5 +1,6 @@
 /**
  * The "War" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/winamax-battle}
  */
 function execute(readline) {
     const n = parseInt(readline()); // the number of cards for player 1

@@ -1,5 +1,6 @@
 /**
  * The "Credit card verifier (Luhn’s algorithm)" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/credit-card-verifier-luhns-algorithm}
  */
 function execute(readline) {
     const n = parseInt(readline());

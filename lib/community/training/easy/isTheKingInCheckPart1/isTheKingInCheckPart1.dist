@@ -1,5 +1,6 @@
 /**
  * The "Is the king in check? (part 1)" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/is-the-king-in-check-part-1}
  */
 function execute(readline) {
     for (let i = 0; i < 8; i++) {

@@ -1,5 +1,6 @@
 /**
  * The "Asteroids" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/asteroids}
  */
 function execute(readline) {
     var inputs = readline().split(' ');

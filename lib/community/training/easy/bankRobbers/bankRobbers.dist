@@ -1,5 +1,6 @@
 /**
  * The "Bank robbers" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/bank-robbers}
  */
 function execute(readline) {
     const R = parseInt(readline());

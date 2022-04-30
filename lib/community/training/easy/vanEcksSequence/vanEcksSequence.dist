@@ -1,5 +1,6 @@
 /**
  * The "Van Eck's sequence" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/van-ecks-sequence}
  */
 function execute(readline) {
     const A1 = parseInt(readline());

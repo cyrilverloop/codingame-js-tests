@@ -1,5 +1,6 @@
 /**
  * The "Equivalent resistance, circuit building" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/equivalent-resistance-circuit-building}
  */
 function execute(readline) {
     const N = parseInt(readline());

@@ -1,5 +1,6 @@
 /**
  * The "Super computer" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/super-computer}
  */
 function execute(readline) {
     const N = parseInt(readline());

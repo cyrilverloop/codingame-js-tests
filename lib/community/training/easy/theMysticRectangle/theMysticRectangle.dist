@@ -1,5 +1,6 @@
 /**
  * The "The mystic rectangle" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/the-mystic-rectangle}
  */
 function execute(readline) {
     var inputs = readline().split(' ');

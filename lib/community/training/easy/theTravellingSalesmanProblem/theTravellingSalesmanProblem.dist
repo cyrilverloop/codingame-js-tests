@@ -1,5 +1,6 @@
 /**
  * The "The travelling salesman problem" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/the-travelling-salesman-problem}
  */
 function execute(readline) {
     const N = parseInt(readline());

@@ -1,5 +1,6 @@
 /**
  * The "A mountain of a mole hill" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/a-mountain-of-a-mole-hill}
  */
 function execute(readline) {
     for (let i = 0; i < 16; i++) {

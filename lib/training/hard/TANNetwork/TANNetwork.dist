@@ -1,5 +1,6 @@
 /**
  * The "TAN network" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/tan-network}
  */
 function execute(readline) {
     const startPoint = readline();

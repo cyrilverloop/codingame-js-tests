@@ -1,5 +1,6 @@
 /**
  * The "Unique prefixes" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/unique-prefixes}
  */
 function execute(readline) {
     const N = parseInt(readline());

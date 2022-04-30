@@ -1,5 +1,6 @@
 /**
  * The "Object insertion" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/object-insertion}
  */
 function execute(readline) {
     var inputs = readline().split(' ');

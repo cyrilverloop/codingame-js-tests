@@ -1,5 +1,6 @@
 /**
  * The "Robot show" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/robot-show}
  */
 function execute(readline) {
     const L = parseInt(readline());

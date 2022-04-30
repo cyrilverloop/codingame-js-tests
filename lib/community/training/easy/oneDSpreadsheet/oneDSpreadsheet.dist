@@ -1,5 +1,6 @@
 /**
  * The "1D spreadsheet" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/1d-spreadsheet}
  */
 function execute(readline) {
     const N = parseInt(readline());

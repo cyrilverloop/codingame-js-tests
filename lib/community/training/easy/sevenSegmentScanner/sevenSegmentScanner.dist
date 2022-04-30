@@ -1,5 +1,6 @@
 /**
  * The "7-segment scanner" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/7-segment-scanner}
  */
 function execute(readline) {
     const line1 = readline();

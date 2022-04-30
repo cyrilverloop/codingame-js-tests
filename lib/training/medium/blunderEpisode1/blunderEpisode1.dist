@@ -1,5 +1,6 @@
 /**
  * The "Blunder - episode 1" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/blunder-episode-1}
  */
 function execute(readline) {
     var inputs = readline().split(' ');

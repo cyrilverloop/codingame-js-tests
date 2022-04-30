@@ -1,5 +1,6 @@
 /**
  * The "ISBN check digit" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/isbn-check-digit}
  */
 function execute(readline) {
     const N = parseInt(readline());

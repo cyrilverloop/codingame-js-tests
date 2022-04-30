@@ -1,5 +1,6 @@
 /**
  * The "Blowing fuse" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/blowing-fuse}
  */
 function execute(readline) {
     var inputs = readline().split(' ');

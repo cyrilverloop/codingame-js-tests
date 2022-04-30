@@ -1,5 +1,6 @@
 /**
  * The "Dwarfs standing on the shoulders of giants" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/dwarfs-standing-on-the-shoulders-of-giants}
  */
 function execute(readline) {
     const n = parseInt(readline()); // the number of relationships of influence

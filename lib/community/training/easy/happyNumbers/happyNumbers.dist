@@ -1,5 +1,6 @@
 /**
  * The "Happy numbers" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/happy-numbers}
  */
 function execute(readline) {
     const N = parseInt(readline());

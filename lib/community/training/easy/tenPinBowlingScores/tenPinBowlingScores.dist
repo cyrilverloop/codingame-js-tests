@@ -1,5 +1,6 @@
 /**
  * The "10 pin bowling scores" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/10-pin-bowling-scores}
  */
 function execute(readline) {
     const N = parseInt(readline());

@@ -1,5 +1,6 @@
 /**
  * The "orDer oF succeSsion" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/order-of-succession}
  */
 function execute(readline) {
     const n = parseInt(readline());

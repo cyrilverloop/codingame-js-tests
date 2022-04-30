@@ -1,5 +1,6 @@
 /**
  * The "Murder in the village!" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/murder-in-the-village}
  */
 function execute(readline) {
     const N = parseInt(readline());

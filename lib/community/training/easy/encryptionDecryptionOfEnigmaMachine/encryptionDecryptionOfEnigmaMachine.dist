@@ -1,5 +1,6 @@
 /**
  * The "Encryption/decryption of Enigma machine" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/encryptiondecryption-of-enigma-machine}
  */
 function execute(readline) {
     const operation = readline();

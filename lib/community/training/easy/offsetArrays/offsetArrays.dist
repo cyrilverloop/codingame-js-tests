@@ -1,5 +1,6 @@
 /**
  * The "Offset Arrays" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/offset-arrays}
  */
 function execute(readline) {
     const n = parseInt(readline());

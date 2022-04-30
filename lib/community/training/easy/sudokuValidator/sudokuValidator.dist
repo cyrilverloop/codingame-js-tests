@@ -1,5 +1,6 @@
 /**
  * The "Sudoku validator" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/sudoku-validator}
  */
 function execute(readline) {
     for (let i = 0; i < 9; i++) {

@@ -1,5 +1,6 @@
 /**
  * The "Binary image" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/binary-image}
  */
 function execute(readline) {
     const h = parseInt(readline());

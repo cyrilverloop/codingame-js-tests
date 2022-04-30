@@ -1,5 +1,6 @@
 /**
  * The "Lumen" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/lumen}
  */
 function execute(readline) {
     const N = parseInt(readline());

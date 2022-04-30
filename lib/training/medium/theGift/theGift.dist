@@ -1,5 +1,6 @@
 /**
  * The "The gift" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/the-gift}
  */
 function execute(readline) {
     const N = parseInt(readline());

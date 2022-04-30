@@ -1,5 +1,6 @@
 /**
  * The "MIME type" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/mime-type}
  */
 function execute(readline) {
     const N = parseInt(readline()); // Number of elements which make up the association table.

@@ -1,5 +1,6 @@
 /**
  * The "Add'em up" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/addem-up}
  */
 function execute(readline) {
     const N = parseInt(readline());

@@ -1,5 +1,6 @@
 /**
  * The "NGR basic radar" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/1--ngr---basic-radar}
  */
 function execute(readline) {
     const N = parseInt(readline());

@@ -1,5 +1,6 @@
 /**
  * The "Surface" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/surface}
  */
 function execute(readline) {
     const L = parseInt(readline());

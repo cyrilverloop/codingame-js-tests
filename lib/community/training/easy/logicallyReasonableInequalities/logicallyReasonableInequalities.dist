@@ -1,5 +1,6 @@
 /**
  * The "Logically reasonable inequalities" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/logically-reasonable-inequalities}
  */
 function execute(readline) {
     const n = parseInt(readline());

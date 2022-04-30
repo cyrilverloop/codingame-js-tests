@@ -1,5 +1,6 @@
 /**
  * The "Reverse Minesweeper" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/reverse-minesweeper}
  */
 function execute(readline) {
     const w = parseInt(readline());

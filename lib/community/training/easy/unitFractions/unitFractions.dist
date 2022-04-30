@@ -1,5 +1,6 @@
 /**
  * The "Unit fractions" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/unit-fractions}
  */
 function execute(readline) {
     const n = parseInt(readline());

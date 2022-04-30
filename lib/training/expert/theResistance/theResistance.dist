@@ -1,5 +1,6 @@
 /**
  * The "The resistance" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/the-resistance}
  */
 function execute(readline) {
     const L = readline();

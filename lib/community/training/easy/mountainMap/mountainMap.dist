@@ -1,5 +1,6 @@
 /**
  * The "Mountain map" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/mountain-map}
  */
 function execute(readline) {
     const n = parseInt(readline()); // the number of mountains

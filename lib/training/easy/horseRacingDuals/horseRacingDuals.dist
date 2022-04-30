@@ -1,5 +1,6 @@
 /**.
  * The "Horse-racing duals" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/horse-racing-duals}
  */
 function execute(readline) {
     const N = parseInt(readline());

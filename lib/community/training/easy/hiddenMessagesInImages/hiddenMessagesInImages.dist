@@ -1,5 +1,6 @@
 /**
  * The "Hidden messages in images" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/hidden-messages-in-images}
  */
 function execute(readline) {
     var inputs = readline().split(' ');

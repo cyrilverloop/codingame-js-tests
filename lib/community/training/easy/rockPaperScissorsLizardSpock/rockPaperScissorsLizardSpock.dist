@@ -1,5 +1,6 @@
 /**
  * The "Rock paper scissors lizard Spock" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/rock-paper-scissors-lizard-spock}
  */
 function execute(readline) {
     const N = parseInt(readline());

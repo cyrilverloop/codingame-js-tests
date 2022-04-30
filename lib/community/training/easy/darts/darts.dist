@@ -1,5 +1,6 @@
 /**
  * The "Darts" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/darts}
  */
 function execute(readline) {
     const SIZE = parseInt(readline());

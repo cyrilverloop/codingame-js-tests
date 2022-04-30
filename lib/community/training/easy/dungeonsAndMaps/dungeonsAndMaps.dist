@@ -1,5 +1,6 @@
 /**
  * The "Dungeons and maps" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/dungeons-and-maps}
  */
 function execute(readline) {
     var inputs = readline().split(' ');

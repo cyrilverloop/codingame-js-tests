@@ -1,5 +1,6 @@
 /**
  * The "Genome sequencing" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/genome-sequencing}
  */
 function execute(readline) {
     const N = parseInt(readline());

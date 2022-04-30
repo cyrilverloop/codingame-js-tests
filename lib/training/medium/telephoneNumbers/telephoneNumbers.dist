@@ -1,5 +1,6 @@
 /**
  * The "Telephone numbers" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/telephone-numbers}
  */
 function execute(readline) {
     const N = parseInt(readline());

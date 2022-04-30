@@ -1,5 +1,6 @@
 /**
  * The "Defibrillators" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/defibrillators}
  */
 function execute(readline) {
     const LON = readline();

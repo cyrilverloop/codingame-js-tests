@@ -1,5 +1,6 @@
 /**
  * The "Rectangle partition" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/rectangle-partition}
  */
 function execute(readline) {
     var inputs = readline().split(' ');

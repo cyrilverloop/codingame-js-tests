@@ -1,5 +1,6 @@
 /**
  * The "Container terminal" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/container-terminal}
  */
 function execute(readline) {
     const N = parseInt(readline());
