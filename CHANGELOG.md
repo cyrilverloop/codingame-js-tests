@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Tests for "XML MDF-2016".
 - Tests for "Brick in the wall".
+- Tests for "Frame the picture".
 
 ## [1.8.0] - 2022-04-30
 ### Added
