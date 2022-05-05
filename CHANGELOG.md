@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Brick in the wall".
 - Tests for "Frame the picture".
 - Tests for "Treasure hunt".
+- Tests for "Self-driving car testing".
 
 ## [1.8.0] - 2022-04-30
 ### Added
