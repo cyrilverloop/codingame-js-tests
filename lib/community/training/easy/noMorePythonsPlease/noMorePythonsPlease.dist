@@ -1,0 +1,20 @@
+/**
+ * The "No more pythons, please!" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/no-more-pythons-please}
+ */
+function execute(readline) {
+    var inputs = readline().split(' ');
+    const N = parseInt(inputs[0]);
+    const M = parseInt(inputs[1]);
+    for (let i = 0; i < N; i++) {
+        const T = readline();
+    }
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('Answer');
+
+}
+
+export { execute };

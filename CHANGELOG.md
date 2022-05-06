@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Frame the picture".
 - Tests for "Treasure hunt".
 - Tests for "Self-driving car testing".
+- Tests for "No More Pythons, Please!".
 
 ## [1.8.0] - 2022-04-30
 ### Added
