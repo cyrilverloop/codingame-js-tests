@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "TicTacToe".
 - Tests for "Number derivation".
 - Tests for "Simple auto-scaling".
+- Tests for "Horse-racing hyperduals".
 
 ## [1.8.0] - 2022-04-30
 ### Added
