@@ -1,0 +1,14 @@
+/**
+ * The "Balanced ternary computer: encode" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/balanced-ternary-computer-encode}
+ */
+function execute(readline) {
+    const N = parseInt(readline());
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('42');
+}
+
+export { execute };
