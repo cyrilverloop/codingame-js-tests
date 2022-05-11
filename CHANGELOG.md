@@ -18,6 +18,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Horse-racing hyperduals".
 - Tests for "Balanced ternary computer: encode".
 
+### Changed
+- Docker Node image from "14.16.1-alpine" to "node:16.14.2-alpine".
+
 ## [1.8.0] - 2022-04-30
 ### Added
 - Tests for "Asteroids".
