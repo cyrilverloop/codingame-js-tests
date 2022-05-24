@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Body weight is a girl's secret".
 - Tests for "Pirate's treasure".
 - Tests for "Simple awalé".
+- Tests for "Simple load balancing".
 
 ### Changed
 - Docker Node image from "14.16.1-alpine" to "node:16.14.2-alpine".
