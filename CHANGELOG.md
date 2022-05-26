@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Simple awalé".
 - Tests for "Simple load balancing".
 - Tests for "Are the clumps normal".
+- Tests for "Bulk email generator".
 
 ### Changed
 - Docker Node image from "14.16.1-alpine" to "node:16.14.2-alpine".
