@@ -36,6 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Sweet spot".
 - Tests for "Linear bézier curves".
 - Tests for "Disordered first contact".
+- Tests for "Cosmic love".
 
 ### Changed
 - Docker Node image from "14.16.1-alpine" to "node:16.14.2-alpine".
