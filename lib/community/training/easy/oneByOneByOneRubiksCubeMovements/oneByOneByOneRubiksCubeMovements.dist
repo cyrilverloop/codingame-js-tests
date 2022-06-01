@@ -1,0 +1,17 @@
+/**
+ * The "1×1×1 rubik’s cube movements" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/111-rubiks-cube-movements}
+ */
+function execute(readline) {
+    const rotations = readline();
+    const face1 = readline();
+    const face2 = readline();
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('face1');
+    console.log('face2');
+}
+
+export { execute };

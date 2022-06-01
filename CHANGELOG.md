@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.9.0] - 2022-06-01
 ### Added
 - Tests for "XML MDF-2016".
 - Tests for "Brick in the wall".
@@ -37,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Linear bézier curves".
 - Tests for "Disordered first contact".
 - Tests for "Cosmic love".
+- Tests for "1×1×1 rubik’s cube movements".
 
 ### Changed
 - Docker Node image from "14.16.1-alpine" to "node:16.14.2-alpine".
