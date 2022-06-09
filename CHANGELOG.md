@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Moves in maze".
 - Tests for "The dart 101".
 - Tests for "Survey prediction".
+- Tests for "Flip the sign".
 
 ## [1.9.0] - 2022-06-01
 ### Added
