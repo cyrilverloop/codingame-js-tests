@@ -1,0 +1,14 @@
+/**
+ * The "The broken editor" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/the-broken-editor}
+ */
+function execute(readline) {
+    const typedKeys = readline();
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('computed text');
+}
+
+export { execute };
