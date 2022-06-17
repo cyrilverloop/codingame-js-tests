@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Monday tuesday happy days".
 - Tests for "Magic string".
 - Tests for "Robot reach".
+- Tests for "IPv6 shortener".
 
 ## [1.9.0] - 2022-06-01
 ### Added
