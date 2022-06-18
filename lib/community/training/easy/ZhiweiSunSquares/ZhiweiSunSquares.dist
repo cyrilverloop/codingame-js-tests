@@ -1,0 +1,14 @@
+/**
+ * The "Zhiwei Sun squares" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/zhiwei-sun-squares}
+ */
+function execute(readline) {
+    const n = parseInt(readline());
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('count');
+}
+
+export { execute };
