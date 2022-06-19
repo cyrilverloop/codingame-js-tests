@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Robot reach".
 - Tests for "IPv6 shortener".
 - Tests for "Zhiwei Sun squares".
+- Tests for "Stall tilt".
 
 ## [1.9.0] - 2022-06-01
 ### Added
