@@ -1,0 +1,15 @@
+/**
+ * The "What's so complex about Mandelbrot?" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/whats-so-complex-about-mandelbrot}
+ */
+function execute(readline) {
+    const c = readline();
+    const m = parseInt(readline());
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('answer');
+}
+
+export { execute };
