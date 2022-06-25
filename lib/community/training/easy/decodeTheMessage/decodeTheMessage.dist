@@ -1,0 +1,15 @@
+/**
+ * The "Decode the message" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/decode-the-message}
+ */
+function execute(readline) {
+    const P = parseInt(readline());
+    const C = readline();
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('Good Luck :->');
+}
+
+export { execute };
