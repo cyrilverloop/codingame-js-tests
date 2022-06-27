@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Morellet’s random lines".
 - Tests for "Decode the message".
 - Tests for "Detective geek".
+- Tests for "Largest number".
 
 ## [1.9.0] - 2022-06-01
 ### Added
