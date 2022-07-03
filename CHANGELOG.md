@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Tests for "Someone's acting sus....".
 - Tests for "Personal best".
+- Tests for "Kiss the girls".
 
 ## [1.10.0] - 2022-06-30
 ### Added
