@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Kiss the girls".
 - Tests for "Random walk".
 
+### Changed
+- Renaming "Linear Bézier curves" to "Cubic Bézier curves".
+
 ## [1.10.0] - 2022-06-30
 ### Added
 - Tests for "Markov text generation".

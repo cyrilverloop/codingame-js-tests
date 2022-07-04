@@ -2,11 +2,11 @@ import { assert } from 'chai';
 import sinon from 'sinon';
 import File from '../../../../File.js';
 import { assertOutputAnswer } from '../../../../assertOutputAnswer.js';
-import { execute } from '../../../../../lib/community/training/easy/linearBezierCurves/linearBezierCurves.js';
+import { execute } from '../../../../../lib/community/training/easy/cubicBezierCurves/cubicBezierCurves.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite("Linear Bézier curves", function() {
+suite("Cubic Bézier curves", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
