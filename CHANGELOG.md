@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Personal best".
 - Tests for "Kiss the girls".
 - Tests for "Random walk".
+- Tests for "Shadow casting".
 
 ### Changed
 - Renaming "Linear Bézier curves" to "Cubic Bézier curves".
