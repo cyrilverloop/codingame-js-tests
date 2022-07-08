@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Shadow casting".
 - Tests for "Fire control".
 - Tests for "Genetics and computers - part 1".
+- Tests for "Retro typewriter art".
 
 ### Changed
 - Renaming "Linear Bézier curves" to "Cubic Bézier curves".
