@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Retro typewriter art".
 - Tests for "Parse SQL queries".
 - Tests for "By train or by car ?".
+- Tests for "Low resolution: what's the shape?".
 
 ### Changed
 - Renaming "Linear Bézier curves" to "Cubic Bézier curves".
