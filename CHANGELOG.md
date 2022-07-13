@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "By train or by car ?".
 - Tests for "Low resolution: what's the shape?".
 - Tests for "Simple AI duels".
+- Tests for "Calculator".
 
 ### Changed
 - Renaming "Linear Bézier curves" to "Cubic Bézier curves".
