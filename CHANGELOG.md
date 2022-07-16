@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Calculator".
 - Tests for "Hello, world!".
 - Tests for "Ted's compiler".
+- Tests for "Probability for dummies".
 
 ### Changed
 - Renaming "Linear Bézier curves" to "Cubic Bézier curves".
