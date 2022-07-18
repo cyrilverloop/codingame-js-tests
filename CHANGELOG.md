@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Ted's compiler".
 - Tests for "Probability for dummies".
 - Tests for "Tricky number verifier".
+- Tests for "Crop-circles".
 
 ### Changed
 - Renaming "Linear Bézier curves" to "Cubic Bézier curves".
