@@ -33,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Minesweeper level generator".
 - Tests for "In stereo".
 - Tests for "Hooch clash".
+- Tests for "Lunar lockout".
 
 ### Changed
 - Renaming "Linear Bézier curves" to "Cubic Bézier curves".
