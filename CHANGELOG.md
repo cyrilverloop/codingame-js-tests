@@ -34,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "In stereo".
 - Tests for "Hooch clash".
 - Tests for "Lunar lockout".
+- Tests for "Shikaku solver".
 
 ### Changed
 - Renaming "Linear Bézier curves" to "Cubic Bézier curves".
