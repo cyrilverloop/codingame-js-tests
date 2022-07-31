@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.11.0] - 2022-07-31
 ### Added
 - Tests for "Someone's acting sus....".
 - Tests for "Personal best".
@@ -36,6 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Lunar lockout".
 - Tests for "Shikaku solver".
 - Tests for "Hexagonal maze".
+- Tests for "Micro assembly".
 
 ### Changed
 - Renaming "Linear Bézier curves" to "Cubic Bézier curves".
