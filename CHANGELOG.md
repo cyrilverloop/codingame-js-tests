@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Rational number tree".
 - Tests for "The optimal urinal problem".
 - Tests for "Light bulbs".
+- Tests for "What the brainfuck !".
 
 ## [1.11.0] - 2022-07-31
 ### Added
