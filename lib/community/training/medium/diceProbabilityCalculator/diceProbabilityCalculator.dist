@@ -1,0 +1,14 @@
+/**
+ * The "Dice probability calculator" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/dice-probability-calculator}
+ */
+function execute(readline) {
+    const expr = readline();
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('answer');
+}
+
+export { execute };
