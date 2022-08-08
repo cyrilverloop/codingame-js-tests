@@ -24,7 +24,7 @@ suite("Light bulbs", function() {
 
         assert.strictEqual(
             console.log.getCall(0).args[0],
-            "2"
+            2
         );
     });
 
@@ -35,7 +35,7 @@ suite("Light bulbs", function() {
 
         assert.strictEqual(
             console.log.getCall(0).args[0],
-            "21"
+            21
         );
     });
 
@@ -46,7 +46,7 @@ suite("Light bulbs", function() {
 
         assert.strictEqual(
             console.log.getCall(0).args[0],
-            "26"
+            26
         );
     });
 
@@ -57,7 +57,7 @@ suite("Light bulbs", function() {
 
         assert.strictEqual(
             console.log.getCall(0).args[0],
-            "150"
+            150
         );
     });
 
@@ -68,7 +68,7 @@ suite("Light bulbs", function() {
 
         assert.strictEqual(
             console.log.getCall(0).args[0],
-            "877"
+            877
         );
     });
 
@@ -79,7 +79,7 @@ suite("Light bulbs", function() {
 
         assert.strictEqual(
             console.log.getCall(0).args[0],
-            "22561"
+            22561
         );
     });
 
@@ -90,7 +90,7 @@ suite("Light bulbs", function() {
 
         assert.strictEqual(
             console.log.getCall(0).args[0],
-            "197520"
+            197520
         );
     });
 
@@ -101,7 +101,7 @@ suite("Light bulbs", function() {
 
         assert.strictEqual(
             console.log.getCall(0).args[0],
-            "1505423"
+            1505423
         );
     });
 
@@ -112,7 +112,7 @@ suite("Light bulbs", function() {
 
         assert.strictEqual(
             console.log.getCall(0).args[0],
-            "15832091"
+            15832091
         );
     });
 });
