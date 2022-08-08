@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Bouncing barry".
 - Tests for "Dice probability calculator".
 - Tests for "Goro want chocolate".
+- Tests for "Photo booth transformation".
 
 ## [1.11.0] - 2022-07-31
 ### Added
