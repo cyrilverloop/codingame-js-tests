@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Photo booth transformation".
 - Tests for "Bulls and cows".
 - Tests for "CGFunge interpreter".
+- Tests for "Sudoku solver".
 
 ## [1.11.0] - 2022-07-31
 ### Added
