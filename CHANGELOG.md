@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Sudoku solver".
 - Tests for "MCxxxx microcontroller simulation".
 - Tests for "Entry code".
+- Tests for "L-triominoes".
 
 ## [1.11.0] - 2022-07-31
 ### Added
