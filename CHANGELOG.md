@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "MCxxxx microcontroller simulation".
 - Tests for "Entry code".
 - Tests for "L-triominoes".
+- Tests for "Paper labyrinth".
 
 ## [1.11.0] - 2022-07-31
 ### Added
