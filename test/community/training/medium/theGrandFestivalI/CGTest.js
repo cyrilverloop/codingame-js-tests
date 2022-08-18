@@ -5,7 +5,7 @@ import { execute } from '../../../../../lib/community/training/medium/theGrandFe
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
-suite("The Grand Festival - I", function() {
+suite("The grand festival - I", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {

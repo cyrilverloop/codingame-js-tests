@@ -1,5 +1,5 @@
 /**
- * The "The Grand Festival - I" puzzle.
+ * The "The grand festival - I" puzzle.
  * @see {@link https://www.codingame.com/ide/puzzle/the-grand-festival---i}
  */
 function execute(readline) {
