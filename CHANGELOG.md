@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Paper labyrinth".
 - Tests for "Minesweeper".
 - Tests for "The grand festival - I".
+- Tests for "Depot organization".
 
 ## [1.11.0] - 2022-07-31
 ### Added
