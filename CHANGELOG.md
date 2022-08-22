@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Depot organization".
 - Tests for "Knights jam".
 - Tests for "Join the dots".
+- Tests for "Circular automation, the period of chaos".
 
 ## [1.11.0] - 2022-07-31
 ### Added
