@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Circular automation, the period of chaos".
 - Tests for "Minimax exercise".
 - Tests for "Constrained latin squares".
+- Tests for "Crossword".
 
 ## [1.11.0] - 2022-07-31
 ### Added
