@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Constrained latin squares".
 - Tests for "Crossword".
 - Tests for "Futoshiki solver".
+- Tests for "Frog exchange".
 
 ## [1.11.0] - 2022-07-31
 ### Added
