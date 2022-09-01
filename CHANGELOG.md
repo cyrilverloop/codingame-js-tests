@@ -37,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "A coin guessing game".
 - Tests for "Folding a note".
 - Tests for "River crossing".
+- Tests for "Mitosis mayhem".
 
 ## [1.11.0] - 2022-07-31
 ### Added
