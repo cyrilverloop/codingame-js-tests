@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "The voucher".
 - Tests for "Connect the hyper-dots".
 - Tests for "Rock-paper-scissors war".
+- Tests for "Green valleys".
 
 ## [1.12.0] - 2022-09-01
 ### Added
