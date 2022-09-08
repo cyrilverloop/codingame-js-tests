@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Connect the hyper-dots".
 - Tests for "Rock-paper-scissors war".
 - Tests for "Green valleys".
+- Tests for "Dungeon 3D".
 
 ## [1.12.0] - 2022-09-01
 ### Added
