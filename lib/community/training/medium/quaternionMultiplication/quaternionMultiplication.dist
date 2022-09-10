@@ -1,0 +1,14 @@
+/**
+ * The "Quaternion multiplication" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/quaternion-multiplication}
+ */
+function execute(readline) {
+    const expr = readline();
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('answer');
+}
+
+export { execute };

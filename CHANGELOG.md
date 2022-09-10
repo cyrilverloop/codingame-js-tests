@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Green valleys".
 - Tests for "Dungeon 3D".
 - Tests for "The grand festival - II".
+- Tests for "Quaternion multiplication".
 
 ## [1.12.0] - 2022-09-01
 ### Added
