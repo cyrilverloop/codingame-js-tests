@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Maze /w teleporters and jumps".
 - Tests for "The lost files".
 - Tests for "Maze".
+- Tests for "Road trip".
 
 ## [1.12.0] - 2022-09-01
 ### Added
