@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "The lost files".
 - Tests for "Maze".
 - Tests for "Road trip".
+- Tests for "2-player game on a calculator".
 
 ## [1.12.0] - 2022-09-01
 ### Added
