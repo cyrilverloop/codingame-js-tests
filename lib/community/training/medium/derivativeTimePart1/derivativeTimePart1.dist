@@ -1,0 +1,16 @@
+/**
+ * The "Derivative time !!! - part1" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/derivative-time---part1}
+ */
+function execute(readline) {
+    const F = readline();
+    const vs = readline();
+    const dict = readline();
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('answer');
+}
+
+export { execute };
