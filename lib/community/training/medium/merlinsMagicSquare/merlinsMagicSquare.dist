@@ -1,0 +1,17 @@
+/**
+ * The "Merlin's magic square" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/merlins-magic-square}
+ */
+function execute(readline) {
+    const row1 = readline();
+    const row2 = readline();
+    const row3 = readline();
+    const allButtonsPressed = readline();
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('answer (a single digit)');
+}
+
+export { execute };
