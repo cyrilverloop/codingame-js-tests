@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Windmill problem".
 - Tests for "Elementary cellular automaton".
 - Tests for "Ways to make change".
+- Tests for "Brackets, extended edition".
 
 ## [1.12.0] - 2022-09-01
 ### Added
