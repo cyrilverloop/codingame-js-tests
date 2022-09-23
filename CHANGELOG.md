@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Ways to make change".
 - Tests for "Brackets, extended edition".
 - Tests for "Target firing".
+- Tests for "Chained matrix products".
 
 ## [1.12.0] - 2022-09-01
 ### Added
