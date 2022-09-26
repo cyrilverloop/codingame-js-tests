@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Chained matrix products".
 - Tests for "Fun with set theory".
 - Tests for "Huffman code".
+- Tests for "Number of paths between 2 points".
 
 ## [1.12.0] - 2022-09-01
 ### Added
