@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Fun with set theory".
 - Tests for "Huffman code".
 - Tests for "Number of paths between 2 points".
+- Tests for "The lost child.Episode-1".
 
 ## [1.12.0] - 2022-09-01
 ### Added
