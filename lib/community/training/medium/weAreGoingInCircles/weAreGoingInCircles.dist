@@ -1,0 +1,19 @@
+/**
+ * The "We're going in circles!" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/were-going-in-circles}
+ */
+function execute(readline) {
+    var inputs = readline().split(' ');
+    const w = parseInt(inputs[0]);
+    const h = parseInt(inputs[1]);
+    for (let i = 0; i < h; i++) {
+        const row = readline();
+    }
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('number_of_loops');
+}
+
+export { execute };
