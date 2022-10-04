@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "A-star exercise".
 - Tests for "Othello".
 - Tests for "We're going in circles!".
+- Tests for "Ascii graph".
 
 ## [1.13.0] - 2022-09-30
 ### Added
