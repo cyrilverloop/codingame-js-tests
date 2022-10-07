@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Ascii graph".
 - Tests for "Drug interactions".
 - Tests for "Gravity centrifuge tuning".
+- Tests for "Short accounts make long friends".
 
 ## [1.13.0] - 2022-09-30
 ### Added
