@@ -1,0 +1,19 @@
+/**
+ * The "Brackets, ultimate edition" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/brackets-ultimate-edition}
+ */
+function execute(readline) {
+    const N = parseInt(readline());
+    for (let i = 0; i < N; i++) {
+        const expression = readline();
+    }
+    for (let i = 0; i < N; i++) {
+
+        // Write an answer using console.log()
+        // To debug: console.error('Debug messages...');
+
+        console.log('-1');
+    }
+}
+
+export { execute };

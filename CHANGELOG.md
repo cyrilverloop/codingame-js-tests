@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Drug interactions".
 - Tests for "Gravity centrifuge tuning".
 - Tests for "Short accounts make long friends".
+- Tests for "Brackets, ultimate edition".
 
 ## [1.13.0] - 2022-09-30
 ### Added
