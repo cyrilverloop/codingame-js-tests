@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Number of letters in a number - Binary".
 - Tests for "Counting squares on pegs".
 - Tests for "Gravity".
+- Tests for "Hacking at RobberCity".
 
 ## [1.13.0] - 2022-09-30
 ### Added
