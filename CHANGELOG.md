@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Gravity".
 - Tests for "Hacking at RobberCity".
 - Tests for "Box of cigars".
+- Tests for "Simplified Monopoly™ turns prediction".
 
 ## [1.13.0] - 2022-09-30
 ### Added
