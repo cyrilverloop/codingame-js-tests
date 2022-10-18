@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Box of cigars".
 - Tests for "Simplified Monopoly™ turns prediction".
 - Tests for "Regular polygons".
+- Tests for "Horse-hyperracing hyperduals".
 
 ## [1.13.0] - 2022-09-30
 ### Added
