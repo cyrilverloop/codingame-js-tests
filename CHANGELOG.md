@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Find the missing plus signs in addition".
 - Tests for "Rod cutting problem".
 - Tests for "Magic stones".
+- Tests for "Game of life".
 
 ## [1.13.0] - 2022-09-30
 ### Added
