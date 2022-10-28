@@ -33,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Game of life".
 - Tests for "Maximum sub-sequence".
 - Tests for "Snake encoding".
+- Tests for "Binary search tree traversal".
 
 ## [1.13.0] - 2022-09-30
 ### Added
