@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Bulgarian solitaire".
 - Tests for "Longest road".
 - Tests for "Bruce lee".
+- Tests for "Ancestors & descendants".
 
 ## [1.14.0] - 2022-10-31
 ### Added
