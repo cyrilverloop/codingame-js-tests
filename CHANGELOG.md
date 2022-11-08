@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Paving with bricks".
 - Tests for "Playfair cipher".
 - Tests for "Barcode scanner".
+- Tests for "Length of syracuse conjecture sequence".
 
 ## [1.14.0] - 2022-10-31
 ### Added
