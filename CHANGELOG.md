@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Length of syracuse conjecture sequence".
 - Tests for "Divide the factorial".
 - Tests for "Trits (balanced ternary computing)".
+- Tests for "Dominoes path".
 
 ## [1.14.0] - 2022-10-31
 ### Added
