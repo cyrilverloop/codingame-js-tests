@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Trits (balanced ternary computing)".
 - Tests for "Dominoes path".
 - Tests for "Hidden word".
+- Tests for "Brackets, enhanced edition".
 
 ## [1.14.0] - 2022-10-31
 ### Added
