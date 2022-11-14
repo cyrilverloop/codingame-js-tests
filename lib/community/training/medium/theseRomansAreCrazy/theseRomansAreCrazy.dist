@@ -1,0 +1,10 @@
+/**
+ * The "These romans are crazy!" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/these-romans-are-crazy!}
+ */
+function execute(readline) {
+    const rom1 = readline();
+    const rom2 = readline();
+}
+
+export { execute };
