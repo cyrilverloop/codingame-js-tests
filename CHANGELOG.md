@@ -21,7 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Brackets, enhanced edition".
 - Tests for "These romans are crazy!".
 - Tests for "Virus spreading and clustering".
-- GitHub Sponsors.
 
 ## [1.14.0] - 2022-10-31
 ### Added
