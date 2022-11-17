@@ -1,0 +1,14 @@
+/**
+ * The "Digit sum successor" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/digit-sum-successor}
+ */
+function execute(readline) {
+    const N = parseInt(readline());
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('11');
+}
+
+export { execute };

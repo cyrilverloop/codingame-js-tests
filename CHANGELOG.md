@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "These romans are crazy!".
 - Tests for "Virus spreading and clustering".
 - Tests for "Suguru solver".
+- Tests for "Digit sum successor".
 
 ## [1.14.0] - 2022-10-31
 ### Added
