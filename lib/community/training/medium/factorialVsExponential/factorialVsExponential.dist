@@ -1,0 +1,18 @@
+/**
+ * The "Factorial vs exponential" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/factorial-vs-exponential}
+ */
+function execute(readline) {
+    const K = parseInt(readline());
+    var inputs = readline().split(' ');
+    for (let i = 0; i < K; i++) {
+        const A = parseFloat(inputs[i]);
+    }
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('answer');
+}
+
+export { execute };

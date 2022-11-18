@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Virus spreading and clustering".
 - Tests for "Suguru solver".
 - Tests for "Digit sum successor".
+- Tests for "Factorial vs exponential".
 
 ## [1.14.0] - 2022-10-31
 ### Added
