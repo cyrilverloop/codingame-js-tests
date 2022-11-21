@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Factorial vs exponential".
 - Tests for "Langton's ant
 - Tests for "Anagrams".
+- Tests for "The stonemason".
 
 ## [1.14.0] - 2022-10-31
 ### Added
