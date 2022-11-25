@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Continued fractions".
 - Tests for "All operations are equal!".
 - Tests for "Battle tower".
+- Tests for "OneWay city".
 
 ## [1.14.0] - 2022-10-31
 ### Added
