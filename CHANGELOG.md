@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "English length units conversion".
 - Tests for "Sandpile addition".
 - Tests for "Blood types".
+- Tests for "Divine!".
 
 ## [1.14.0] - 2022-10-31
 ### Added
