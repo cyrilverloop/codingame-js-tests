@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Sticky keyboard".
 - Tests for "Bingo!".
 - Tests for "Duck hunt".
+- Tests for "Condition overshadowing".
 
 ## [1.15.0] - 2022-11-30
 ### Added
