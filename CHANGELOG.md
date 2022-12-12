@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Train passenger".
 - Tests for "CGS minifier".
 - Tests for "Smooth factory".
+- Tests for "Sum of divisors".
 
 ## [1.15.0] - 2022-11-30
 ### Added
