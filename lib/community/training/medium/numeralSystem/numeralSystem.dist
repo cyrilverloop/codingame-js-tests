@@ -1,0 +1,14 @@
+/**
+ * The "Numeral system" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/numeral-system}
+ */
+function execute(readline) {
+    const equality = readline();
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('answer');
+}
+
+export { execute };
