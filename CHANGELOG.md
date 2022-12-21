@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Holey times".
 - Tests for "Consecutive balanced substrings".
 - Tests for "Palindromic decomposition".
+- Tests for "Battleship".
 
 ## [1.15.0] - 2022-11-30
 ### Added
