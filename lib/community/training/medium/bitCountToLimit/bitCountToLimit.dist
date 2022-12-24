@@ -1,0 +1,14 @@
+/**
+ * The "Bit count to limit" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/bit-count-to-limit}
+ */
+function execute(readline) {
+    const n = parseInt(readline());
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('Number of 1s');
+}
+
+export { execute };
