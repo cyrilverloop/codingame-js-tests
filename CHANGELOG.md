@@ -33,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Porcupine fever".
 - Tests for "Bijective numeration".
 - Tests for "Plight of the fellowship of the ring".
+- Tests for "DDCG Mapper".
 
 ## [1.15.0] - 2022-11-30
 ### Added
