@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Remainder fantasy".
 - Tests for "Bust speeding vehicles".
 - Tests for "Is the king in check? (part 2)".
+- Tests for "Kaprekar's routine".
 
 ## [1.16.0] - 2022-12-31
 ### Added
