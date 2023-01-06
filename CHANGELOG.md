@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Is the king in check? (part 2)".
 - Tests for "Kaprekar's routine".
 - Tests for "Count of primes in a number grid".
+- Tests for "Propositions in Frege’s ideography".
 
 ## [1.16.0] - 2022-12-31
 ### Added
