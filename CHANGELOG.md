@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Count of primes in a number grid".
 - Tests for "Propositions in Frege’s ideography".
 - Tests for "If then else".
+- Tests for "Valid brackets in code".
 
 ## [1.16.0] - 2022-12-31
 ### Added
