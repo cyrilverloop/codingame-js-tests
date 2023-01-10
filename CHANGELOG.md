@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "If then else".
 - Tests for "Valid brackets in code".
 - Tests for "Source code analyser".
+- Tests for "3D printer".
 
 ## [1.16.0] - 2022-12-31
 ### Added
