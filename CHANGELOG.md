@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Valid brackets in code".
 - Tests for "Source code analyser".
 - Tests for "3D printer".
+- Tests for "2048 scores".
 
 ## [1.16.0] - 2022-12-31
 ### Added
