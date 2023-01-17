@@ -1,0 +1,15 @@
+/**
+ * The "IP mask calculating" puzzle.
+ * @see {@link https://www.codingame.com/ide/puzzle/ip-mask-calculating}
+ */
+function execute(readline) {
+    const ip = readline();
+
+    // Write an answer using console.log()
+    // To debug: console.error('Debug messages...');
+
+    console.log('network address');
+    console.log('broadcast address');
+}
+
+export { execute };
