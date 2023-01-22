@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Goldbach’s conjecture".
 - Tests for "Let's go to the cinema!".
 - Tests for "ASCII ART : glass stacking".
+- Tests for "De-FizzBuzzer".
 
 ## [1.16.0] - 2022-12-31
 ### Added
