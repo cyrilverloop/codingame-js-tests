@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "ASCII ART : glass stacking".
 - Tests for "De-FizzBuzzer".
 - Tests for "Find the replacement".
+- Tests for "The urinal problem".
 
 ## [1.16.0] - 2022-12-31
 ### Added
