@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "De-FizzBuzzer".
 - Tests for "Find the replacement".
 - Tests for "The urinal problem".
+- Tests for "2×2×2 rubik’s cube movements".
 
 ## [1.16.0] - 2022-12-31
 ### Added
