@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "1010(1)".
 - Tests for "Vote counting".
 - Tests for "Maze for the champions".
+- Tests for "Longest increasing subsequence".
 
 ## [1.16.0] - 2022-12-31
 ### Added
