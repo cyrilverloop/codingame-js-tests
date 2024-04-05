@@ -1,7 +1,0 @@
-2
-3
-Albert 2
-Roger 1
-Albert Yes
-Roger No
-Albert Yes

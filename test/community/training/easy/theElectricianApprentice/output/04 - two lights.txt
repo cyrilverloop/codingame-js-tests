@@ -1,2 +1,0 @@
-LIGHT1 is ON
-LIGHT2 is ON

@@ -1,4 +1,0 @@
-3
-Jordan: I was in the greenhouse with Ryan.
-Ryan: I was in the greenhouse with Jordan.
-Charles: I was in the greenhouse with Ryan and Jordan.

@@ -1,9 +1,0 @@
-8
-v > v
-  C "
- vC GS<
-> "GC"^
-  C "
-  G C
- C" C
- >^ E

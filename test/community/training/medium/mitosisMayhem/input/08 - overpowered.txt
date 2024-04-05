@@ -1,4 +1,0 @@
-60 3
-Orange 10 1
-Green 20 0
-Time 0 0

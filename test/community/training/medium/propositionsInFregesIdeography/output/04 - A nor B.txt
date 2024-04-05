@@ -1,3 +1,0 @@
-A False B True
-A True B False
-A True B True

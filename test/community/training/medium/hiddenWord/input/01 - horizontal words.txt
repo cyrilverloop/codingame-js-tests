@@ -1,7 +1,0 @@
-2
-BAC
-BOB
-3 3
-BAC
-BOB
-RED

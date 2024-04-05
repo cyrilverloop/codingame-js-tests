@@ -1,2 +1,0 @@
-Orange: 40
-Green: 20

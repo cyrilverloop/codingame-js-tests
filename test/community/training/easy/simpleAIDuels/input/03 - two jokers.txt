@@ -1,5 +1,0 @@
-100
-1 Joker1
-* RAND
-1 Joker2
-* RAND

@@ -1,3 +1,0 @@
-atan2 1
-fscanf 2
-str_rev 1

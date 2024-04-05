@@ -1,4 +1,0 @@
-3
-// no function call
-$a=2;
-$b=($a*$a)+2;

@@ -1,8 +1,0 @@
-6
-ABCDEF
-5 3
-ABC
-AFE
-CDC
-DBC
-AAA

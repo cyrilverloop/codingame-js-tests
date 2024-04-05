@@ -1,4 +1,0 @@
-A+ A- O+ O-
-A+ AB+ B+ O+
-A+ A- AB+ AB-
-impossible

@@ -1,3 +1,0 @@
-fscanf 1
-str_rev 1
-strtolower 1

@@ -1,4 +1,0 @@
-m s f
-m f s
-s f m
-f s m

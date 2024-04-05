@@ -1,2 +1,0 @@
-Purple: 35
-Green: 45

@@ -1,8 +1,0 @@
-7
-// multi-line comment test
-fscanf(STDIN, "%s", $s);
-/*
-fscanf() reads from input stream
-strlen() gives the length of the string
-*/
-$len = strlen($s);

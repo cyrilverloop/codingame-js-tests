@@ -1,6 +1,0 @@
-SELECT * FROM cats
-3
-Name Breed
-McFur Peterbald
-Squeeky Bambino
-Greta Laperm

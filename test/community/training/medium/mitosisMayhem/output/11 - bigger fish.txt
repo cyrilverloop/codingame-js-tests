@@ -1,3 +1,0 @@
-Green: 33
-Purple: 40
-Blue: 77
