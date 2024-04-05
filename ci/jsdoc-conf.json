@@ -1,0 +1,9 @@
+{
+    "opts": {
+        "destination": "./ci/jsdoc/",
+        "recurse": true
+    },
+    "source": {
+        "include": ["./lib/"]
+    }
+}

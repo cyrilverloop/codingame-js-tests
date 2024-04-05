@@ -10,6 +10,7 @@
     "type": "module",
     "scripts": {
         "coverage": "c8 -c ./ci/c8.json npm run test",
+        "jsdoc": "jsdoc -c ./ci/jsdoc-conf.json",
         "test": "mocha --config ./ci/mocha.json"
     },
     "dependencies": {
@@ -18,5 +19,8 @@
         "mocha": "^10.4.0",
         "n-readlines": "^1.0.1",
         "sinon": "^17.0.1"
+    },
+    "devDependencies": {
+        "jsdoc": "^4.0.2"
     }
 }
