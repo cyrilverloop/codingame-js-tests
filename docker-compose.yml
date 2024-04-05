@@ -1,6 +1,6 @@
 services:
     app:
-        image: node:16.14.2-alpine
+        image: node:21-alpine
         volumes:
             - ./:/var/codingame/
             - ./.npm/:/root/.npm/
