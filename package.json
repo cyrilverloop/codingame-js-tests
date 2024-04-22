@@ -23,6 +23,7 @@
         "twig": "^1.17.1"
     },
     "devDependencies": {
+        "chai-files": "^1.4.0",
         "jsdoc": "^4.0.2"
     }
 }

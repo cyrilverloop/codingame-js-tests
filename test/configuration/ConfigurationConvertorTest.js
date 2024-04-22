@@ -1,6 +1,8 @@
 import { assert } from 'chai';
+import { file } from 'chai-files';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { readFile } from 'node:fs/promises';
 import ConfigurationConvertor from '../../lib/configuration/ConfigurationConvertor.js';
 import TestConfiguration from '../../lib/configuration/TestConfiguration.js';
 import ParsedConfiguration from '../../lib/parser/ParsedConfiguration.js';
@@ -146,17 +148,7 @@ suite("ConfigurationConvertor", function() {
 
             assert.strictEqual(
                 generatorCodeConfiguration.defaultCode,
-                `const L = parseInt(readline());
-const H = parseInt(readline());
-const T = readline();
-for (let i = 0; i < H; i++) {
-    const ROW = readline();
-}
-
-// Write an answer using console.log()
-// To debug: console.error('Debug messages...');
-
-console.log('answer');`
+                file(__dirname + '../generator/example/CGCodeIndented.dist').content
             );
         });
     });
