@@ -5,6 +5,12 @@ It only contains Mocha tests to let you code in your favorite IDE, outside of th
 
 [![License](https://img.shields.io/github/license/cyrilverloop/codingame-js-tests)](https://github.com/cyrilverloop/codingame-js-tests/blob/trunk/LICENSE)
 
+**This project now uses Node 21+.
+Unfortunaly, CodinGame is still on Node 16.14.2
+which is not [supported](https://nodejs.org/en/about/previous-releases#release-schedule) anymore.
+If you want to run your code on Node 16.14.2,
+you can use a version up to 1.x of this software which do not receive further update.**
+
 
 ## Installation
 
@@ -15,43 +21,49 @@ user@host projects$ git clone https://github.com/cyrilverloop/codingame-js-tests
 user@host projects$ cd codingame-js-tests
 ```
 
+Copy some configuration files for Docker :
+```shellsession
+user@host projects$ cp ./.env.dist ./.env
+user@host projects$ cp ./.ashrc.dist ./.ashrc
+```
+Edit the `./.env` to use your user UID and GID in the container if necessary.
+The `./.ashrc`, `./.env` and `./docker-compose.override.yml` files are ignored by git, you can modify them to your needs.
+The `./.ashrc` add some aliases to your container.
+
 Installing the dependencies :
 ```shellsession
 user@host codingame-js-tests$ docker compose run --rm app npm i
 ```
 
+Generate the code and test files :
+```shellsession
+user@host codingame-js-tests$ docker compose run --rm app npm run generate
+```
+
+**Existing code, test, input and output files will not be overwritten.
+To generate a file again, you must delete it first.**
+
 
 ## Add your code
 
-Every files in `./lib/**/*.dist` files have an `execute()` method with the default CodinGame code.
-To try a puzzle, copy the corresponding file and change the extension to `js` :
-```shellsession
-user@host codingame-js-tests$ cp ./lib/training/easy/unary/unary.dist ./ls/training/easy/unary/unary.js
-```
-Then, add your code to solve the puzzle.
-
-**If you do not have an `execute()` method in it, the tests will not be able to run.**
+Every files in `./lib/**/CGCode.js` files have an `execute()` method with the default CodinGame code.
+A test executes the `execute()` method. You can add your code in and arround it.
 
 
 ## Test your solution
 
-Executing tests for a specific puzzle :
+Executing tests for a specific code :
 ```shellsession
 user@host codingame-js-tests$ docker compose run --rm app npm test ./test/training/easy/unary/
-```
-
-Executing all the tests :
-```shellsession
-user@host codingame-js-tests$ docker compose run --rm app npm test ./test/**/*.js
 ```
 
 
 ## Add your test (optional)
 
 Every tests in `./test/**/CGTest.js` files include the tests from CodinGame.
-You can add your own tests in other `./test/**/*.js` files.
+You can add your own tests in `./test/**/*.js` files.
 
 
 ## Time limit
 
-The maximum time allowed for a puzzle may differ from CodinGame.
+The maximum time allowed may differ from CodinGame.
