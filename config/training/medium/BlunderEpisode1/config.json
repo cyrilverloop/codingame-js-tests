@@ -1,0 +1,55 @@
+{
+    "path": "training/medium/BlunderEpisode1",
+    "name": "Blunder - episode 1",
+    "link": "https://www.codingame.com/ide/puzzle/blunder-episode-1",
+    "tests": [
+        {
+            "name": "Simple moves",
+            "file": "01 - simple moves.txt"
+        },
+        {
+            "name": "Obstacles",
+            "file": "02 - obstacles.txt"
+        },
+        {
+            "name": "Priorities",
+            "file": "03 - priorities.txt"
+        },
+        {
+            "name": "Straight line",
+            "file": "04 - straight line.txt"
+        },
+        {
+            "name": "Path modifier",
+            "file": "05 - path modifier.txt"
+        },
+        {
+            "name": "Breaker mode",
+            "file": "06 - breaker mode.txt"
+        },
+        {
+            "name": "Inverter",
+            "file": "07 - inverter.txt"
+        },
+        {
+            "name": "Teleport",
+            "file": "08 - teleport.txt"
+        },
+        {
+            "name": "Broken wall?",
+            "file": "09 - broken wall.txt"
+        },
+        {
+            "name": "All together",
+            "file": "10 - all together.txt"
+        },
+        {
+            "name": "LOOP",
+            "file": "11 - LOOP.txt"
+        },
+        {
+            "name": "Multiple loops",
+            "file": "12 - multiple loops.txt"
+        }
+    ]
+}

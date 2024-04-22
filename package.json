@@ -10,6 +10,7 @@
     "type": "module",
     "scripts": {
         "coverage": "c8 -c ./ci/c8.json npm run test",
+        "generate": "node ./bin/generate.js",
         "jsdoc": "jsdoc -c ./ci/jsdoc-conf.json",
         "test": "mocha --config ./ci/mocha.json"
     },
@@ -18,7 +19,8 @@
         "chai": "^5.1.0",
         "mocha": "^10.4.0",
         "n-readlines": "^1.0.1",
-        "sinon": "^17.0.1"
+        "sinon": "^17.0.1",
+        "twig": "^1.17.1"
     },
     "devDependencies": {
         "jsdoc": "^4.0.2"

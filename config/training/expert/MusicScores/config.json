@@ -1,0 +1,55 @@
+{
+    "path": "training/expert/MusicScores",
+    "name": "MusicScores",
+    "link": "https://www.codingame.com/ide/puzzle/music-scores",
+    "tests": [
+        {
+            "name": "One quarter note between lines",
+            "file": "01 - one quarter note between lines.txt"
+        },
+        {
+            "name": "One quarter note on a line",
+            "file": "02 - one quarter note on a line.txt"
+        },
+        {
+            "name": "One half note between lines",
+            "file": "03 - one half note between lines.txt"
+        },
+        {
+            "name": "One half note on a line",
+            "file": "04 - one half note on a line.txt"
+        },
+        {
+            "name": "Only quarter notes without lower C",
+            "file": "05 - only quarter notes without lower C.txt"
+        },
+        {
+            "name": "Only half notes without lower C",
+            "file": "06 - only half notes without lower C.txt"
+        },
+        {
+            "name": "Scale half and quarter notes",
+            "file": "07 - scale half and quarter notes.txt"
+        },
+        {
+            "name": "Lower C",
+            "file": "08 - lower C.txt"
+        },
+        {
+            "name": "Very close",
+            "file": "09 - very close.txt"
+        },
+        {
+            "name": "Only 1 pixel wide",
+            "file": "10 - Only 1 pixel wide.txt"
+        },
+        {
+            "name": "Doctor Who theme",
+            "file": "11 - doctor Who theme.txt"
+        },
+        {
+            "name": "Random",
+            "file": "12 - random.txt"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "path": "training/easy/HorseRacingDuals",
+    "name": "Horse-racing Duals",
+    "link": "https://www.codingame.com/ide/puzzle/horse-racing-duals",
+    "tests": [
+        {
+            "name": "Simple case",
+            "file": "01 - simple case.txt"
+        },
+        {
+            "name": "Horses in any order",
+            "file": "02 - horses in any order.txt"
+        },
+        {
+            "name": "Many horses",
+            "file": "03 - many horses.txt"
+        }
+    ]
+}

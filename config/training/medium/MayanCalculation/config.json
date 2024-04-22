@@ -1,0 +1,55 @@
+{
+    "path": "training/medium/MayanCalculation",
+    "name": "MayanCalculation",
+    "link": "https://www.codingame.com/ide/puzzle/mayan-calculation",
+    "tests": [
+        {
+            "name": "Simple addition",
+            "file": "01 - simple addition.txt"
+        },
+        {
+            "name": "Addition with carry",
+            "file": "02 - addition with carry.txt"
+        },
+        {
+            "name": "Multiplication",
+            "file": "03 - multiplication.txt"
+        },
+        {
+            "name": "Simple subtraction",
+            "file": "04 - simple subtraction.txt"
+        },
+        {
+            "name": "Subtraction",
+            "file": "05 - subtraction.txt"
+        },
+        {
+            "name": "Simple division",
+            "file": "06 - simple division.txt"
+        },
+        {
+            "name": "Division",
+            "file": "07 - division.txt"
+        },
+        {
+            "name": "Great multiplication",
+            "file": "08 - great multiplication.txt"
+        },
+        {
+            "name": "Zero",
+            "file": "09 - zero.txt"
+        },
+        {
+            "name": "Missing power",
+            "file": "10 - missing power.txt"
+        },
+        {
+            "name": "Base 20",
+            "file": "11 - base 20.txt"
+        },
+        {
+            "name": "Other symbols",
+            "file": "12 - other symbols.txt"
+        }
+    ]
+}

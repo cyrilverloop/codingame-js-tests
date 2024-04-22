@@ -1,0 +1,27 @@
+{
+    "path": "training/medium/TelephoneNumbers",
+    "name": "Telephone numbers",
+    "link": "https://www.codingame.com/ide/puzzle/telephone-numbers",
+    "tests": [
+        {
+            "name": "A telephone number",
+            "file": "01 - a telephone number.txt"
+        },
+        {
+            "name": "Numbers with a different base",
+            "file": "02 - numbers with a different base.txt"
+        },
+        {
+            "name": "Number included in another",
+            "file": "03 - number included in another.txt"
+        },
+        {
+            "name": "Numbers with a common part",
+            "file": "04 - numbers with a common part.txt"
+        },
+        {
+            "name": "Long list of numbers",
+            "file": "05 - long list of numbers.txt"
+        }
+    ]
+}

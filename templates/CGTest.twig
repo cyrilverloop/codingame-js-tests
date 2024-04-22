@@ -1,0 +1,36 @@
+import { assert } from 'chai';
+import sinon from 'sinon';
+import File from '../../../File.js';
+import { assertOutputAnswer } from '../../../assertOutputAnswer.js';
+import { execute } from '../../../../lib/{{ configuration.path }}/CGCode.js';
+
+const __dirname = new URL('.', import.meta.url).pathname;
+
+/**
+ * Tests for "{{ configuration.name }}".
+ */
+suite("{{ configuration.name }}", function() {
+    const sandbox = sinon.createSandbox();
+
+    setup(function () {
+        sandbox.stub(console, "log");
+    });
+
+    teardown(function () {
+        sandbox.restore();
+    });
+
+{% for test in configuration.testConfigurations %}
+
+    /**
+     * Tests the code with "{{ test.name }}".
+     */
+    test("{{ test.name }}", function() {
+        const inputFile = new File(__dirname + 'input/{{ test.file }}');
+
+        execute(inputFile.readline.bind(inputFile));
+
+        assertOutputAnswer(__dirname + 'output/{{ test.file }}');
+    });
+{% endfor %}
+});

@@ -1,0 +1,23 @@
+{
+    "path": "training/easy/Unary",
+    "name": "Unary",
+    "link": "https://www.codingame.com/ide/puzzle/unary",
+    "tests": [
+        {
+            "name": "Character C",
+            "file": "01 - character C.txt"
+        },
+        {
+            "name": "Message CC",
+            "file": "02 - message CC.txt"
+        },
+        {
+            "name": "Character %",
+            "file": "03 - character %.txt"
+        },
+        {
+            "name": "Message from Chuck Norris",
+            "file": "04 - message from Chuck Norris.txt"
+        }
+    ]
+}

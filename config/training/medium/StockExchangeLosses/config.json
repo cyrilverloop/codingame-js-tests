@@ -1,0 +1,31 @@
+{
+    "path": "training/medium/StockExchangeLosses",
+    "name": "Stock Exchange Losses",
+    "link": "https://www.codingame.com/ide/puzzle/stock-exchange-losses",
+    "tests": [
+        {
+            "name": "First case",
+            "file": "01 - first case.txt"
+        },
+        {
+            "name": "Maximum loss between the first and last values",
+            "file": "02 - maximum loss.txt"
+        },
+        {
+            "name": "Profit",
+            "file": "03 - profit.txt"
+        },
+        {
+            "name": "Profit 2",
+            "file": "04 - profit 2.txt"
+        },
+        {
+            "name": "Large dataset",
+            "file": "05 - large dataset.txt"
+        },
+        {
+            "name": "Varied",
+            "file": "06 - varied.txt"
+        }
+    ]
+}

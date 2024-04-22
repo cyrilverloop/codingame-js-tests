@@ -1,0 +1,31 @@
+{
+    "path": "training/hard/TANNetwork",
+    "name": "TAN network",
+    "link": "https://www.codingame.com/ide/puzzle/tan-network",
+    "tests": [
+        {
+            "name": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "One single stop",
+            "file": "02 - one single stop.txt"
+        },
+        {
+            "name": "Same starting and end points",
+            "file": "03 - same starting and end points.txt"
+        },
+        {
+            "name": "Several stages",
+            "file": "04 - several stages.txt"
+        },
+        {
+            "name": "Large number of stages",
+            "file": "05 - large number of stages.txt"
+        },
+        {
+            "name": "Route impossible",
+            "file": "06 - route impossible.txt"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "path": "training/easy/ASCIIArt",
+    "name": "ASCII Art",
+    "link": "https://www.codingame.com/ide/puzzle/ascii-art",
+    "tests": [
+        {
+            "name": "Test only one letter: E",
+            "file": "01 - test only one letter E.txt"
+        },
+        {
+            "name": "Test MANHATTAN",
+            "file": "02 - test MANHATTAN.txt"
+        },
+        {
+            "name": "Test ManhAtTan",
+            "file": "03 - test ManhAtTan.txt"
+        },
+        {
+            "name": "Test M@NH@TT@N",
+            "file": "04 - test M@NH@TT@N.txt"
+        },
+        {
+            "name": "MANHATTAN with another ASCII representation",
+            "file": "05 - MANHATTAN with another ASCII representation.txt"
+        },
+        {
+            "name": "Test MAN HAT TAN",
+            "file": "06 - test MAN HAT TAN.txt"
+        }
+    ]
+}

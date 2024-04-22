@@ -1,0 +1,43 @@
+{
+    "path": "training/hard/BlunderEpisode2",
+    "name": "Blunder - episode 2",
+    "link": "https://www.codingame.com/ide/puzzle/blunder-episode-2",
+    "tests": [
+        {
+            "name": "One room",
+            "file": "01 - one room.txt"
+        },
+        {
+            "name": "3 rooms",
+            "file": "02 - 3 rooms.txt"
+        },
+        {
+            "name": "15 rooms, small range",
+            "file": "03 - 15 rooms small range.txt"
+        },
+        {
+            "name": "55 rooms",
+            "file": "04 - 55 rooms.txt"
+        },
+        {
+            "name": "1275 rooms",
+            "file": "05 - 1275 rooms.txt"
+        },
+        {
+            "name": "5050 rooms",
+            "file": "06 - 5050 rooms.txt"
+        },
+        {
+            "name": "9870 rooms",
+            "file": "07 - 9870 rooms.txt"
+        },
+        {
+            "name": "Square building",
+            "file": "08 - square building.txt"
+        },
+        {
+            "name": "Multiple entries",
+            "file": "09 - multiple entries.txt"
+        }
+    ]
+}

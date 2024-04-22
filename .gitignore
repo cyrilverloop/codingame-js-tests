@@ -2,7 +2,13 @@
 /ci/jsdoc/
 /node_modules/
 /lib/**/*.js
+!/lib/configuration/**/*.js
+!/lib/generator/**/*.js
+!/lib/parser/**/*.js
 /test/**/*.js
+!/test/configuration/**/*.*
+!/test/generator/**/*.*
+!/test/parser/**/*.*
 !/test/File.js
 !/test/assertOutputAnswer.js
 /.ashrc
