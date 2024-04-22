@@ -2,7 +2,7 @@ import { assert } from 'chai';
 import File from './File.js';
 
 function assertOutputAnswer(fileName) {
-    let outputFile = new File(fileName);
+    const outputFile = new File(fileName);
     let userAnswer = '';
     let line = outputFile.readline();
     let answer = "";
