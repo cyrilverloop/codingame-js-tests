@@ -5,7 +5,7 @@
 !/lib/configuration/**/*.js
 !/lib/generator/**/*.js
 !/lib/parser/**/*.js
-/test/**/*.js
+/test/**/*.*
 !/test/configuration/**/*.*
 !/test/generator/**/*.*
 !/test/parser/**/*.*
