@@ -1,15 +1,15 @@
 import { assert } from 'chai';
 import TestConfiguration from '../../lib/configuration/TestConfiguration.js';
-import GeneratorTestConfiguration from '../../lib/generator/GeneratorTestConfiguration.js';
+import TestGeneratorConfiguration from '../../lib/generator/TestGeneratorConfiguration.js';
 
-suite("GeneratorTestConfiguration", function() {
+suite("TestGeneratorConfiguration", function() {
 
     test("Has a path", function() {
         const testConfigurations = [
             new TestConfiguration('name', 'file')
         ];
 
-        const generatorTestConfiguration = new GeneratorTestConfiguration(
+        const generatorTestConfiguration = new TestGeneratorConfiguration(
             'test-path',
             'test-name',
             testConfigurations
@@ -23,7 +23,7 @@ suite("GeneratorTestConfiguration", function() {
             new TestConfiguration('name', 'file')
         ];
 
-        const generatorTestConfiguration = new GeneratorTestConfiguration(
+        const generatorTestConfiguration = new TestGeneratorConfiguration(
             'test-path',
             'test-name',
             testConfigurations
@@ -37,7 +37,7 @@ suite("GeneratorTestConfiguration", function() {
             new TestConfiguration('name', 'file')
         ];
 
-        const generatorTestConfiguration = new GeneratorTestConfiguration(
+        const generatorTestConfiguration = new TestGeneratorConfiguration(
             'test-path',
             'test-name',
             testConfigurations

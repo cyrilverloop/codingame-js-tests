@@ -1,15 +1,15 @@
 import { assert } from 'chai';
 import sinon from 'sinon';
-import File from '../../../File.js';
-import { assertOutputAnswer } from '../../../assertOutputAnswer.js';
-import { execute } from '../../../../lib/{{ configuration.path }}/CGCode.js';
+import File from '../../File.js';
+import { assertOutputAnswer } from '../../assertOutputAnswer.js';
+import { execute } from '../../../lib/{{ configuration.path }}/CGCode.js';
 
 const __dirname = new URL('.', import.meta.url).pathname;
 
 /**
- * Tests for "{{ configuration.name }}".
+ * Tests for "{{ configuration.name|raw }}".
  */
-suite("{{ configuration.name }}", function() {
+suite("{{ configuration.name|raw }}", function() {
     const sandbox = sinon.createSandbox();
 
     setup(function () {
@@ -23,9 +23,9 @@ suite("{{ configuration.name }}", function() {
 {% for test in configuration.testConfigurations %}
 
     /**
-     * Tests the code with "{{ test.name }}".
+     * Tests the code with "{{ test.name|raw }}".
      */
-    test("{{ test.name }}", function() {
+    test("{{ test.name|raw }}", function() {
         const inputFile = new File(__dirname + 'input/{{ test.file }}');
 
         execute(inputFile.readline.bind(inputFile));

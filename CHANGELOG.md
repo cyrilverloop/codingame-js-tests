@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - Node 21 => 22.
-- Configurations, inputs, outputs and default codes are now in a separate project.
+- Configurations, inputs, outputs and default codes are now in a separated project.
+- Default codes and tests are now generated in the `easy`, `medium`, `hard` and `expert` sub-directories
+of the `lib` and `test` directories.
 
 ## [2.0.0] - 2024-04-22
 ### Added

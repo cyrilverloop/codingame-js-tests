@@ -54,7 +54,7 @@ A test executes the `execute()` method. You can add your code in and arround it.
 
 Executing tests for a specific code :
 ```shellsession
-user@host codingame-js-tests$ docker compose run --rm app npm test ./test/training/easy/unary/
+user@host codingame-js-tests$ docker compose run --rm app npm test ./test/easy/ASCIIArt/
 ```
 
 

@@ -11,24 +11,24 @@ const __dirname = dirname(fileURLToPath(import.meta.url)) + "/";
 
 suite("ConfigurationConvertor", function() {
 
-    suite("The ParsedConfiguration converted to GeneratorCodeConfiguration", function() {
+    suite("The ParsedConfiguration converted to CodeGeneratorConfiguration", function() {
 
         test("Throws an Error when the parsed configuration file is not readable", function() {
             const defaultCodeFile = __dirname + '../generator/example/non-existant-CGCode.dist';
 
             const testConfigurations = [
-                new TestConfiguration('name', 'file')
+                new TestConfiguration('Test name', '01 - test file.txt')
             ];
 
             const parsedConfiguration = new ParsedConfiguration(
-                'test-path',
-                'test-name',
-                'test-link',
+                'easy/APuzzle',
+                'A name',
+                'https://a-link',
                 testConfigurations
             );
 
             try {
-                ConfigurationConvertor.getGeneratorCodeConfiguration(
+                ConfigurationConvertor.getCodeGeneratorConfiguration(
                     parsedConfiguration,
                     defaultCodeFile
                 );
@@ -40,18 +40,18 @@ suite("ConfigurationConvertor", function() {
 
         test("Throws an Error if the default code file is not a string", function() {
             const testConfigurations = [
-                new TestConfiguration('name', 'file')
+                new TestConfiguration('Test name', '01 - test file.txt')
             ];
 
             const parsedConfiguration = new ParsedConfiguration(
-                'test-path',
-                'test-name',
-                'test-link',
+                'easy/APuzzle',
+                'A name',
+                'https://a-link',
                 testConfigurations
             );
 
             try {
-                ConfigurationConvertor.getGeneratorCodeConfiguration(
+                ConfigurationConvertor.getCodeGeneratorConfiguration(
                     parsedConfiguration,
                     123
                 );
@@ -61,87 +61,65 @@ suite("ConfigurationConvertor", function() {
             }
         });
 
-        test("Has a path", async function() {
-            const defaultCodeFile = __dirname + '../generator/example/CGCode.dist';
-
-            const testConfigurations = [
-                new TestConfiguration('name', 'file')
-            ];
-
-            const parsedConfiguration = new ParsedConfiguration(
-                'test-path',
-                'test-name',
-                'test-link',
-                testConfigurations
-            );
-
-            const generatorCodeConfiguration = await ConfigurationConvertor.getGeneratorCodeConfiguration(
-                parsedConfiguration,
-                defaultCodeFile
-            );
-
-            assert.strictEqual(generatorCodeConfiguration.path, 'test-path');
-        });
-
         test("Has a name", async function() {
             const defaultCodeFile = __dirname + '../generator/example/CGCode.dist';
 
             const testConfigurations = [
-                new TestConfiguration('name', 'file')
+                new TestConfiguration('Test name', '01 - test file.txt')
             ];
 
             const parsedConfiguration = new ParsedConfiguration(
-                'test-path',
-                'test-name',
-                'test-link',
+                'easy/APuzzle',
+                'A name',
+                'https://a-link',
                 testConfigurations
             );
 
-            const generatorCodeConfiguration = await ConfigurationConvertor.getGeneratorCodeConfiguration(
+            const generatorCodeConfiguration = await ConfigurationConvertor.getCodeGeneratorConfiguration(
                 parsedConfiguration,
                 defaultCodeFile
             );
 
-            assert.strictEqual(generatorCodeConfiguration.name, 'test-name');
+            assert.strictEqual(generatorCodeConfiguration.name, 'A name');
         });
 
         test("Has a link", async function() {
             const defaultCodeFile = __dirname + '../generator/example/CGCode.dist';
 
             const testConfigurations = [
-                new TestConfiguration('name', 'file')
+                new TestConfiguration('Test name', '01 - test file.txt')
             ];
 
             const parsedConfiguration = new ParsedConfiguration(
-                'test-path',
-                'test-name',
-                'test-link',
+                'easy/APuzzle',
+                'A name',
+                'https://a-link',
                 testConfigurations
             );
 
-            const generatorCodeConfiguration = await ConfigurationConvertor.getGeneratorCodeConfiguration(
+            const generatorCodeConfiguration = await ConfigurationConvertor.getCodeGeneratorConfiguration(
                 parsedConfiguration,
                 defaultCodeFile
             );
 
-            assert.strictEqual(generatorCodeConfiguration.link, 'test-link');
+            assert.strictEqual(generatorCodeConfiguration.link, 'https://a-link');
         });
 
         test("Has a default code", async function() {
             const defaultCodeFile = __dirname + '../generator/example/CGCode.dist';
 
             const testConfigurations = [
-                new TestConfiguration('name', 'file')
+                new TestConfiguration('Test name', '01 - test file.txt')
             ];
 
             const parsedConfiguration = new ParsedConfiguration(
-                'test-path',
-                'test-name',
-                'test-link',
+                'easy/APuzzle',
+                'A name',
+                'https://a-link',
                 testConfigurations
             );
 
-            const generatorCodeConfiguration = await ConfigurationConvertor.getGeneratorCodeConfiguration(
+            const generatorCodeConfiguration = await ConfigurationConvertor.getCodeGeneratorConfiguration(
                 parsedConfiguration,
                 defaultCodeFile
             );
@@ -153,59 +131,59 @@ suite("ConfigurationConvertor", function() {
         });
     });
 
-    suite("The ParsedConfiguration converted to GeneratorTestConfiguration", function() {
+    suite("The ParsedConfiguration converted to TestGeneratorConfiguration", function() {
 
         test("Has a path", function() {
             const testConfigurations = [
-                new TestConfiguration('name', 'file')
+                new TestConfiguration('Test name', '01 - test file.txt')
             ];
 
             const parsedConfiguration = new ParsedConfiguration(
-                'test-path',
-                'test-name',
-                'test-link',
+                'easy/APuzzle',
+                'A name',
+                'https://a-link',
                 testConfigurations
             );
 
-            const generatorTestConfiguration = ConfigurationConvertor.getGeneratorTestConfiguration(parsedConfiguration);
+            const generatorTestConfiguration = ConfigurationConvertor.getTestGeneratorConfiguration(parsedConfiguration);
 
-            assert.strictEqual(generatorTestConfiguration.path, 'test-path');
+            assert.strictEqual(generatorTestConfiguration.path, 'easy/APuzzle');
         });
 
         test("Has a name", function() {
             const testConfigurations = [
-                new TestConfiguration('name', 'file')
+                new TestConfiguration('Test name', '01 - test file.txt')
             ];
 
             const parsedConfiguration = new ParsedConfiguration(
-                'test-path',
-                'test-name',
-                'test-link',
+                'easy/APuzzle',
+                'A name',
+                'https://a-link',
                 testConfigurations
             );
 
-            const generatorTestConfiguration = ConfigurationConvertor.getGeneratorTestConfiguration(parsedConfiguration);
+            const generatorTestConfiguration = ConfigurationConvertor.getTestGeneratorConfiguration(parsedConfiguration);
 
-            assert.strictEqual(generatorTestConfiguration.name, 'test-name');
+            assert.strictEqual(generatorTestConfiguration.name, 'A name');
         });
 
         test("Has test configurations", function() {
             const testConfigurations = [
-                new TestConfiguration('name', 'file')
+                new TestConfiguration('Test name', '01 - test file.txt')
             ];
 
             const parsedConfiguration = new ParsedConfiguration(
-                'test-path',
-                'test-name',
-                'test-link',
+                'easy/APuzzle',
+                'A name',
+                'https://a-link',
                 testConfigurations
             );
 
-            const generatorTestConfiguration = ConfigurationConvertor.getGeneratorTestConfiguration(parsedConfiguration);
+            const generatorTestConfiguration = ConfigurationConvertor.getTestGeneratorConfiguration(parsedConfiguration);
 
             for(const testConfiguration of generatorTestConfiguration.testConfigurations) {
-                assert.strictEqual(testConfiguration.name, 'name');
-                assert.strictEqual(testConfiguration.file, 'file');
+                assert.strictEqual(testConfiguration.name, 'Test name');
+                assert.strictEqual(testConfiguration.file, '01 - test file.txt');
             }
         });
     });

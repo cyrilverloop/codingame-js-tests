@@ -37,17 +37,17 @@ suite("ConfigurationParser", function() {
 
         const configuration = await parser.getConfigurationFromFile(file);
 
-        assert.strictEqual(configuration.path, "a/path");
+        assert.strictEqual(configuration.path, "easy/APuzzle");
         assert.strictEqual(configuration.name, "A name");
         assert.strictEqual(configuration.link, "https://a-link");
 
         assert.isArray(configuration.testConfigurations);
         assert.hasAllKeys(configuration.testConfigurations, ['0', '1']);
 
-        assert.strictEqual(configuration.testConfigurations[0].name, "test name");
+        assert.strictEqual(configuration.testConfigurations[0].name, "Test name");
         assert.strictEqual(configuration.testConfigurations[0].file, "01 - test file.txt");
 
-        assert.strictEqual(configuration.testConfigurations[1].name, "test name 2");
+        assert.strictEqual(configuration.testConfigurations[1].name, "Test name 2");
         assert.strictEqual(configuration.testConfigurations[1].file, "02 - test file 2.txt");
     });
 });
