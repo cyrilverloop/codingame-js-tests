@@ -9,7 +9,7 @@ async function generate() {
 
     const filesGenerator = new FilesGenerator(__dirname + '../templates/');
     await filesGenerator.generate(
-        __dirname + '../config/',
+        __dirname + '../node_modules/@cyrilverloop/codingame-configuration/config/',
         __dirname + '../lib/',
         __dirname + '../test/'
     );
