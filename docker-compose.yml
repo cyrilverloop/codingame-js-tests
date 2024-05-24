@@ -2,7 +2,7 @@ services:
     app:
         environment:
             - ENV=/home/node/codingame/.ashrc
-        image: node:21-alpine
+        image: node:22-alpine
         user: ${uid}:${gid}
         volumes:
             - ./:/home/node/codingame/

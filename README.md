@@ -5,7 +5,7 @@ It only contains Mocha tests to let you code in your favorite IDE, outside of th
 
 [![License](https://img.shields.io/github/license/cyrilverloop/codingame-js-tests)](https://github.com/cyrilverloop/codingame-js-tests/blob/trunk/LICENSE)
 
-**This project now uses Node 21+.
+**This project now uses Node 22+.
 Unfortunaly, CodinGame is still on Node 16.14.2
 which is not [supported](https://nodejs.org/en/about/previous-releases#release-schedule) anymore.
 If you want to run your code on Node 16.14.2,
