@@ -20,7 +20,7 @@
         "chai": "^5.1.0",
         "mocha": "^10.4.0",
         "n-readlines": "^1.0.1",
-        "sinon": "^17.0.1",
+        "sinon": "^18.0.0",
         "twig": "^1.17.1"
     },
     "devDependencies": {
