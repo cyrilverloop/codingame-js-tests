@@ -11,4 +11,4 @@
 /test/medium/
 /.ashrc
 /.env
-/docker-compose.override.yml
+/compose.override.yaml

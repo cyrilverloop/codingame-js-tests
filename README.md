@@ -27,7 +27,7 @@ user@host projects$ cp ./.env.dist ./.env
 user@host projects$ cp ./.ashrc.dist ./.ashrc
 ```
 Edit the `./.env` to use your user UID and GID in the container if necessary.
-The `./.ashrc`, `./.env` and `./docker-compose.override.yml` files are ignored by git, you can modify them to your needs.
+The `./.ashrc`, `./.env` and `./compose.override.yaml` files are ignored by git, you can modify them to your needs.
 The `./.ashrc` add some aliases to your container.
 
 Installing the dependencies :
