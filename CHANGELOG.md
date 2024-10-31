@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Renaming `docker-compose.yml` to `compose.yaml`.
 - Node 22 => 23.
+- cyril-verloop/codingame-configuration 1.7.0 => 1.8.0.
 
 ## [3.3.0] - 2024-09-30
 ### Changed
