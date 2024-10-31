@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renaming `docker-compose.yml` to `compose.yaml`.
 - Node 22 => 23.
 - cyril-verloop/codingame-configuration 1.7.0 => 1.8.0.
+- mocha 10.7.3 => 10.8.2.
 
 ## [3.3.0] - 2024-09-30
 ### Changed
@@ -40,7 +41,7 @@ of the `lib` and `test` directories.
 - Node 16.14.2 => 21.
 - c8 7.14.0 => 9.1.0.
 - chai 4.4.1 => 5.1.0.
-- mocha 10.3.0  10.4.0.
+- mocha 10.3.0 => 10.4.0.
 - sinon 15.2.0 => 17.0.1.
 - Generating code and test from configuration files.
 - Customised user in the container instead of root.
