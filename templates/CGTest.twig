@@ -23,7 +23,7 @@ suite("{{ configuration.name|raw }}", function() {
 {% for test in configuration.testConfigurations %}
 
     /**
-     * Tests the code with "{{ test.name|raw }}".
+     * Tests the code with "{{ test.name|replace({'*/': '* /'})|raw }}".
      */
     test("{{ test.name|raw }}", function() {
         const inputFile = new File(__dirname + 'input/{{ test.file }}');
