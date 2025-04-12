@@ -7,11 +7,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url)) + "/";
 async function generate() {
     console.log('Starting generation.');
 
-    const filesGenerator = new FilesGenerator(__dirname + '../templates/');
+    const filesGenerator = new FilesGenerator(__dirname + '../');
     await filesGenerator.generate(
-        __dirname + '../node_modules/@cyrilverloop/codingame-configuration/config/',
-        __dirname + '../lib/',
-        __dirname + '../test/'
+        __dirname + '../node_modules/@cyrilverloop/codingame-configuration/config/'
     );
 
     console.log('Generation complete.');
