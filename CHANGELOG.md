@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [3.9.0] - 2025-03-31
 ### Changed
 - sinon 19.0.2 => 20.0.0.
-- cyril-verloop/codingame-configuration 1.12.0 => 1.13.3.
+- cyril-verloop/codingame-configuration 1.12.0 => 1.13.2.
 
 ### Fixed
 - generation of tests files when the name of a test contains "*/".
