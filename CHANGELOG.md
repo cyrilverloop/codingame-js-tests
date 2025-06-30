@@ -7,11 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - cyril-verloop/codingame-configuration 1.15.0 => 1.16.0.
+- mocha 11.5.0 => 11.7.1.
 
 ## [3.11.0] - 2025-05-31
 ### Changed
 - cyril-verloop/codingame-configuration 1.14.0 => 1.15.0.
-- mocha 11.5.0 => 11.7.1.
 
 ## [3.10.0] - 2025-04-30
 ### Changed
