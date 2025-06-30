@@ -18,13 +18,13 @@
         "@cyrilverloop/codingame-configuration": "^1.1.2",
         "chai": "^5.1.0",
         "n-readlines": "^1.0.1",
+        "sinon": "^21.0.0",
         "twig": "^1.17.1"
     },
     "devDependencies": {
         "c8": "^10.1.1",
         "chai-files": "^1.4.0",
         "jsdoc": "^4.0.2",
-        "mocha": "^11.0.1",
-        "sinon": "^20.0.0"
+        "mocha": "^11.0.1"
     }
 }
