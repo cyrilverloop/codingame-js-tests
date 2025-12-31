@@ -11,7 +11,7 @@ function assertOutputAnswer(fileName) {
         userAnswer += consoleCall.args[0] + "\n";
     }
 
-    while(line !== "false") {
+    while(line !== null) {
         answer += line + "\n";
         line = outputFile.readline();
     }
