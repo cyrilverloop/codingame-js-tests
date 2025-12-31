@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - Node 24 => 25.
+- @cyrilverloop/codingame-configuration 1.21.0 => 1.22.0.
+- chai 6.2.1 => 6.2.2.
+- n-readlines 1.0.1 => 1.0.3.
+- sinon 21.0.0 => 21.0.1.
 
 ## [3.17.0] - 2025-11-30
 ### Changed
