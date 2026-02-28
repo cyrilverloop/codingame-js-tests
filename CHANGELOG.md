@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - c8 10.1.3 => 11.0.0.
+- @cyrilverloop/codingame-configuration 1.23.0 => 1.24.0.
 
 ## [3.19.0] - 2026-02-02
 ### Changed
