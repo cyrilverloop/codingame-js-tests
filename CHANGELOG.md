@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+### Changed
+- @cyrilverloop/codingame-configuration 1.24.0 => 1.25.0.
+- sinon 21.0.1 => 21.0.3.
+- twig 1.17.1 => 3.0.0.
+
 ## [3.20.0] - 2026-02-28
 ### Changed
 - c8 10.1.3 => 11.0.0.
