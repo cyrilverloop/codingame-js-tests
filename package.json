@@ -17,7 +17,7 @@
     "dependencies": {
         "@cyrilverloop/codingame-configuration": "^1.1.2",
         "n-readlines": "^3.4.0",
-        "sinon": "^21.0.0",
+        "sinon": "^22.0.0",
         "twig": "^3.0.0"
     },
     "devDependencies": {
