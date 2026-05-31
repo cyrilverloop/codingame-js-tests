@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - mocha 11.7.5 => 11.7.6.
 - sinon 21.1.2 => 22.0.0.
+- @cyrilverloop/codingame-configuration 1.26.0 => 1.27.0.
 
 ## [3.22.0] - 2026-04-30
 ### Changed
