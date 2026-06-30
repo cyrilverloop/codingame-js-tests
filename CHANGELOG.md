@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - Docker Node image from "25-alpine" to "26-alpine".
+- @cyrilverloop/codingame-configuration 1.27.0 => 1.28.0.
 
 ## [3.23.0] - 2026-05-30
 ### Changed
