@@ -5,7 +5,7 @@ It only contains Mocha tests to let you code in your favorite IDE, outside of th
 
 [![License](https://img.shields.io/github/license/cyrilverloop/codingame-js-tests)](https://github.com/cyrilverloop/codingame-js-tests/blob/trunk/LICENSE)
 
-**This project uses Node 25 and CodinGame uses Node 20.9.0.
+**This project uses Node 26 and CodinGame uses Node 20.9.0.
 If you want to run your code on Node 20.9.0, you can override the Node image in `./compose.override.yaml`.**
 
 
