@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- @cyrilverloop/codingame-configuration 1.28.0 => 1.29.0.
+- mocha 11.7.6  11.8.0.
+- sinon 22.0.0  22.1.0.
+
 ### Fixed
 - Node version in README.
 
